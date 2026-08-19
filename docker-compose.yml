@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  nexus-mongo:
+    image: mongo:7.0
+    container_name: nexus-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: supply_chain_db
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - nexus-network
+
+  nexus-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nexus-supply-platform
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - NODE_ENV=production
+      - MONGODB_URI=mongodb://nexus-mongo:27017/supply_chain_db
+      - PYTHON_BIN=python3
+      - MANAGER_EMAIL=supply-chain-manager@company.com
+    depends_on:
+      - nexus-mongo
+    networks:
+      - nexus-network
+
+volumes:
+  mongo_data:
+    driver: local
+
+networks:
+  nexus-network:
+    driver: bridge
