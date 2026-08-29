@@ -867,8 +867,7 @@ from scipy.cluster.hierarchy import linkage
 # 2. FILE PATHS
 # ============================================================
 
-SALES_HISTORY_PATH = rclear
-"D:\Development\Demand Forecasting Platform\New folder\server\uploads\sales_history_dummy_new.csv"
+SALES_HISTORY_PATH = r"D:\Development\Demand Forecasting Platform\New folder\server\uploads\sales_history_dummy_new.csv"
 MODEL_PATH = r"D:\Development\Demand Forecasting Platform\New folder\python_ml\hierarchical\hierarchical_model.pkl"
 
 print("=" * 70)

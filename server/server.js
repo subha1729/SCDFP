@@ -6,6 +6,7 @@ import fs from "fs";
 
 import forecastRoute from "./route/forecastRoute.js";
 import clusteringRoute from "./route/clusteringRoute.js";
+import uploadRoute from "./route/uploadRoute.js";
 
 dotenv.config();
 
@@ -27,6 +28,10 @@ app.use(
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(
+  "/api/upload",
+  uploadRoute
+);
 
 
 /* ============================================================

@@ -1,151 +1,717 @@
-import React from "react";
+import React, {
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
+
 import {
-  TrendingUp,
-  TrendingDown,
-  Package,
-  Store,
-  AlertTriangle,
   Activity,
-  ArrowUpRight,
-  ArrowDownRight,
+  AlertTriangle,
   CalendarDays,
-  BrainCircuit,
+  RefreshCw,
+  Store,
+  TrendingUp,
 } from "lucide-react";
 
-/*
-|--------------------------------------------------------------------------
-| DEMO DASHBOARD DATA
-|--------------------------------------------------------------------------
-| These values are temporary UI values.
-| Later they will come from the backend/model outputs.
-*/
 
-const forecastData = [
-  { day: "Mon", actual: 760, forecast: 780 },
-  { day: "Tue", actual: 820, forecast: 805 },
-  { day: "Wed", actual: 790, forecast: 825 },
-  { day: "Thu", actual: 880, forecast: 860 },
-  { day: "Fri", actual: 940, forecast: 920 },
-  { day: "Sat", actual: 1010, forecast: 990 },
-  { day: "Sun", actual: 970, forecast: 1025 },
-];
+/* ============================================================
+   API
+============================================================ */
 
-const alerts = [
-  {
-    type: "warning",
-    title: "Low stock detected",
-    description: "12 stores require inventory attention",
-    time: "18 min ago",
-  },
-  {
-    type: "forecast",
-    title: "Demand spike predicted",
-    description: "Weekend demand expected to increase",
-    time: "42 min ago",
-  },
-  {
-    type: "info",
-    title: "Forecast completed",
-    description: "7-day forecast generated successfully",
-    time: "1 hr ago",
-  },
-];
+const API_URL =
+  "http://localhost:5000/api/forecast";
 
-const topStores = [
-  {
-    rank: 1,
-    store: "Store 983",
-    cluster: "High Demand",
-    demand: "1,284",
-    change: "+12.8%",
-  },
-  {
-    rank: 2,
-    store: "Store 562",
-    cluster: "High Demand",
-    demand: "1,192",
-    change: "+9.4%",
-  },
-  {
-    rank: 3,
-    store: "Store 817",
-    cluster: "Stable",
-    demand: "1,087",
-    change: "+6.7%",
-  },
-  {
-    rank: 4,
-    store: "Store 341",
-    cluster: "Stable",
-    demand: "1,021",
-    change: "+4.2%",
-  },
-  {
-    rank: 5,
-    store: "Store 125",
-    cluster: "Growth",
-    demand: "984",
-    change: "+3.8%",
-  },
-];
 
-/*
-|--------------------------------------------------------------------------
-| KPI CARD
-|--------------------------------------------------------------------------
-*/
+/* ============================================================
+   FORMAT NUMBER
+============================================================ */
+
+function formatNumber(value) {
+
+  const number = Number(value);
+
+  if (!Number.isFinite(number)) {
+    return "0";
+  }
+
+  return new Intl.NumberFormat(
+    "en-US",
+    {
+      maximumFractionDigits: 0,
+    }
+  ).format(number);
+}
+
+
+/* ============================================================
+   FORMAT DATE
+============================================================ */
+
+function formatDate(dateValue) {
+
+  if (!dateValue) {
+    return "—";
+  }
+
+  const date = new Date(dateValue);
+
+  if (Number.isNaN(date.getTime())) {
+    return String(dateValue);
+  }
+
+  return date.toLocaleDateString(
+    "en-US",
+    {
+      month: "short",
+      day: "2-digit",
+    }
+  );
+}
+
+
+/* ============================================================
+   KPI CARD
+============================================================ */
 
 function KpiCard({
   title,
   value,
   subtitle,
-  icon: Icon,
   trend,
-  trendValue,
+  trendTone = "positive",
+  icon: Icon,
 }) {
-  const positive = trend === "up";
 
   return (
     <div className="dashboard-kpi-card">
 
-      <div className="kpi-top">
+      <div className="kpi-card-top">
 
         <div className="kpi-icon">
           <Icon size={18} />
         </div>
 
-        <span className="kpi-label">
+        {trend && (
+          <span className={`kpi-trend ${trendTone}`}>
+            {trend}
+          </span>
+        )}
+
+      </div>
+
+      <div className="kpi-card-content">
+
+        <span className="kpi-title">
           {title}
         </span>
 
+        <strong className="kpi-value">
+          {value}
+        </strong>
+
+        <div className="kpi-bottom">
+          <span className="kpi-subtitle">
+            {subtitle}
+          </span>
+        </div>
+
       </div>
 
-      <div className="kpi-value">
-        {value}
+    </div>
+  );
+}
+
+
+/* ============================================================
+   FORECAST CHART
+============================================================ */
+
+function ForecastChart({
+  dailyDemand,
+}) {
+
+  if (!dailyDemand.length) {
+
+    return (
+      <div className="dashboard-card forecast-card">
+
+        <div className="dashboard-card-header">
+
+          <div>
+            <h2>
+              Daily Total Demand
+            </h2>
+
+            <p>
+              XGBoost forecast across all stores
+            </p>
+          </div>
+
+          <Activity size={17} />
+
+        </div>
+
+        <div className="empty-state">
+          No forecast data available.
+        </div>
+
+      </div>
+    );
+  }
+
+
+  const maxValue = Math.max(
+    ...dailyDemand.map(
+      item => item.total
+    )
+  );
+
+  const minValue = Math.min(
+    ...dailyDemand.map(
+      item => item.total
+    )
+  );
+
+
+  const width = 700;
+  const height = 280;
+
+  const leftPadding = 52;
+  const rightPadding = 18;
+  const topPadding = 18;
+  const bottomPadding = 42;
+
+
+  const chartWidth =
+    width -
+    leftPadding -
+    rightPadding;
+
+  const chartHeight =
+    height -
+    topPadding -
+    bottomPadding;
+
+
+  const range =
+    maxValue -
+    minValue ||
+    1;
+
+
+  const points =
+    dailyDemand.map(
+      (item, index) => {
+
+        const x =
+          leftPadding +
+          (
+            dailyDemand.length === 1
+              ? chartWidth / 2
+              : (
+                  index /
+                  (
+                    dailyDemand.length - 1
+                  )
+                ) *
+                chartWidth
+          );
+
+
+        const y =
+          height -
+          bottomPadding -
+          (
+            (
+              item.total -
+              minValue
+            ) /
+            range
+          ) *
+          chartHeight;
+
+
+        return {
+          ...item,
+          x,
+          y,
+        };
+
+      }
+    );
+
+
+  const linePath =
+    points
+      .map(
+        (point, index) =>
+          `${
+            index === 0
+              ? "M"
+              : "L"
+          } ${point.x} ${point.y}`
+      )
+      .join(" ");
+
+
+  const ticks =
+    [0, 1, 2, 3, 4].map(
+      step => {
+
+        const value =
+          maxValue -
+          (
+            step / 4
+          ) *
+          (
+            maxValue -
+            minValue
+          );
+
+
+        return {
+          value,
+          y:
+            topPadding +
+            (
+              step / 4
+            ) *
+            chartHeight,
+        };
+
+      }
+    );
+
+
+  return (
+
+    <div className="dashboard-card forecast-card">
+
+
+      {/* ======================================================
+          HEADER
+      ====================================================== */}
+
+      <div className="dashboard-card-header">
+
+        <div>
+
+          <h2>
+            Daily Total Demand
+          </h2>
+
+          <p>
+            XGBoost forecast ·{" "}
+            {dailyDemand.length}-day horizon ·{" "}
+            {dailyDemand[0]?.storeCount || 50} stores
+          </p>
+
+        </div>
+
+
+        <div className="forecast-model">
+
+          <Activity size={14} />
+
+          XGBoost
+
+        </div>
+
       </div>
 
-      <div className="kpi-bottom">
 
-        <span className="kpi-subtitle">
-          {subtitle}
+      {/* ======================================================
+          LEGEND
+      ====================================================== */}
+
+      <div className="chart-legend">
+
+        <span>
+
+          <i className="legend-dot predicted"></i>
+
+          Total demand across all stores
+
         </span>
 
-        {trendValue && (
-          <span
-            className={
-              positive
-                ? "kpi-trend positive"
-                : "kpi-trend negative"
-            }
-          >
-            {positive ? (
-              <ArrowUpRight size={13} />
-            ) : (
-              <ArrowDownRight size={13} />
+      </div>
+
+
+      {/* ======================================================
+          CHART
+      ====================================================== */}
+
+      <div className="forecast-chart">
+
+
+        {/* Y AXIS */}
+
+        <div className="chart-y-axis">
+
+          {ticks.map(
+            tick => (
+
+              <span
+                key={tick.y}
+              >
+                {formatNumber(
+                  Math.round(
+                    tick.value
+                  )
+                )}
+              </span>
+
+            )
+          )}
+
+        </div>
+
+
+        {/* CHART AREA */}
+
+        <div className="chart-area">
+
+
+          <div className="chart-grid">
+
+            {[0, 1, 2, 3].map(
+              line => (
+                <span
+                  key={line}
+                />
+              )
             )}
 
-            {trendValue}
+          </div>
+
+
+          <svg
+            className="forecast-svg"
+            viewBox={`0 0 ${width} ${height}`}
+            preserveAspectRatio="none"
+          >
+
+
+            {/* GRID LINES */}
+
+            {ticks.map(
+              tick => (
+
+                <line
+                  key={tick.y}
+                  x1={leftPadding}
+                  x2={
+                    width -
+                    rightPadding
+                  }
+                  y1={tick.y}
+                  y2={tick.y}
+                  stroke="rgba(148,163,184,0.12)"
+                  strokeWidth="1"
+                />
+
+              )
+            )}
+
+
+            {/* AREA */}
+
+            <path
+              d={`
+                ${linePath}
+                L ${points[
+                  points.length - 1
+                ].x}
+                  ${height -
+                  bottomPadding}
+                L ${points[0].x}
+                  ${height -
+                  bottomPadding}
+                Z
+              `}
+              fill="rgba(125,182,255,0.12)"
+            />
+
+
+            {/* LINE */}
+
+            <path
+              d={linePath}
+              fill="none"
+              stroke="#7db6ff"
+              strokeWidth="3"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+
+
+            {/* POINTS */}
+
+            {points.map(
+              point => (
+
+                <circle
+                  key={point.date}
+                  cx={point.x}
+                  cy={point.y}
+                  r="4"
+                  fill="#dfeaf7"
+                  stroke="#7db6ff"
+                  strokeWidth="2"
+                />
+
+              )
+            )}
+
+          </svg>
+
+
+          {/* X AXIS */}
+
+          <div className="chart-x-axis">
+
+            {dailyDemand.map(
+              item => (
+
+                <span
+                  key={item.date}
+                >
+                  {formatDate(
+                    item.date
+                  )}
+                </span>
+
+              )
+            )}
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  );
+}
+
+
+/* ============================================================
+   ALERTS
+============================================================ */
+
+function AlertsPanel({
+  peakDay,
+}) {
+
+  return (
+
+    <div className="dashboard-card alerts-card">
+
+
+      <div className="dashboard-card-header">
+
+        <div>
+
+          <h2>
+            Operational Alerts
+          </h2>
+
+          <p>
+            Items requiring attention
+          </p>
+
+        </div>
+
+        <AlertTriangle
+          size={17}
+        />
+
+      </div>
+
+
+      <div className="alerts-list">
+
+
+        {/* PEAK DEMAND */}
+
+        <div className="alert-row">
+
+          <div className="alert-icon forecast">
+
+            <TrendingUp
+              size={15}
+            />
+
+          </div>
+
+
+          <div className="alert-content">
+
+            <strong>
+              Peak demand predicted
+            </strong>
+
+            <span>
+
+              {peakDay
+                ? `${formatDate(
+                    peakDay.date
+                  )} is expected to have the highest total demand.`
+                : "No peak day available."
+              }
+
+            </span>
+
+          </div>
+
+
+          <time>
+            Live
+          </time>
+
+        </div>
+
+
+        {/* ENGINE */}
+
+        <div className="alert-row">
+
+          <div className="alert-icon info">
+
+            <Activity
+              size={15}
+            />
+
+          </div>
+
+
+          <div className="alert-content">
+
+            <strong>
+              Forecast engine operational
+            </strong>
+
+            <span>
+              XGBoost forecast output loaded successfully.
+            </span>
+
+          </div>
+
+
+          <time>
+            Now
+          </time>
+
+        </div>
+
+      </div>
+
+
+      <button
+        className="view-all-button"
+        type="button"
+      >
+        Forecast monitoring
+      </button>
+
+    </div>
+  );
+}
+
+
+/* ============================================================
+   TOP STORES
+============================================================ */
+
+function TopStores({
+  storeRows,
+}) {
+
+  const topStores =
+    storeRows
+      .slice(0, 5);
+
+
+  return (
+
+    <div className="dashboard-card stores-card">
+
+
+      <div className="dashboard-card-header">
+
+        <div>
+
+          <h2>
+            Top Stores by Demand
+          </h2>
+
+          <p>
+            Highest projected demand across 7 days
+          </p>
+
+        </div>
+
+        <Store size={17} />
+
+      </div>
+
+
+      <div className="store-table">
+
+
+        <div className="store-table-header">
+
+          <span>
+            #
           </span>
+
+          <span>
+            STORE
+          </span>
+
+          <span>
+            7-DAY DEMAND
+          </span>
+
+        </div>
+
+
+        {topStores.map(
+          (store, index) => (
+
+            <div
+              className="store-table-row"
+              key={store.store}
+            >
+
+              <span className="store-rank">
+                {index + 1}
+              </span>
+
+
+              <strong>
+                Store {store.store}
+              </strong>
+
+
+              <span>
+                {formatNumber(
+                  store.total
+                )}
+              </span>
+
+            </div>
+
+          )
+        )}
+
+
+        {!topStores.length && (
+
+          <div className="empty-state">
+            No store forecast data available.
+          </div>
+
         )}
 
       </div>
@@ -154,405 +720,470 @@ function KpiCard({
   );
 }
 
-/*
-|--------------------------------------------------------------------------
-| FORECAST CHART
-|--------------------------------------------------------------------------
-*/
 
-function ForecastChart() {
-
-  const maxValue = Math.max(
-    ...forecastData.flatMap((item) => [
-      item.actual,
-      item.forecast,
-    ])
-  );
-
-  return (
-    <div className="dashboard-card forecast-card">
-
-      <div className="dashboard-card-header">
-
-        <div>
-          <h2>Demand Forecast</h2>
-
-          <p>
-            Actual vs predicted demand · Last 7 days
-          </p>
-        </div>
-
-        <div className="forecast-model">
-          <BrainCircuit size={14} />
-          XGBoost
-        </div>
-
-      </div>
-
-      <div className="chart-legend">
-
-        <span>
-          <i className="legend-dot actual"></i>
-          Actual
-        </span>
-
-        <span>
-          <i className="legend-dot predicted"></i>
-          Forecast
-        </span>
-
-      </div>
-
-      <div className="forecast-chart">
-
-        <div className="chart-y-axis">
-          <span>1.1k</span>
-          <span>900</span>
-          <span>700</span>
-          <span>500</span>
-        </div>
-
-        <div className="chart-area">
-
-          <div className="chart-grid">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-
-          <svg
-            className="forecast-svg"
-            viewBox="0 0 700 280"
-            preserveAspectRatio="none"
-          >
-
-            {/* Actual line */}
-
-            <polyline
-              points={forecastData
-                .map((item, index) => {
-
-                  const x =
-                    (index /
-                      (forecastData.length - 1)) *
-                    680 +
-                    10;
-
-                  const y =
-                    250 -
-                    (item.actual / maxValue) *
-                      210;
-
-                  return `${x},${y}`;
-                })
-                .join(" ")}
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="3"
-              className="actual-line"
-            />
-
-            {/* Forecast line */}
-
-            <polyline
-              points={forecastData
-                .map((item, index) => {
-
-                  const x =
-                    (index /
-                      (forecastData.length - 1)) *
-                    680 +
-                    10;
-
-                  const y =
-                    250 -
-                    (item.forecast / maxValue) *
-                      210;
-
-                  return `${x},${y}`;
-                })
-                .join(" ")}
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="3"
-              strokeDasharray="7 6"
-              className="forecast-line"
-            />
-
-          </svg>
-
-          <div className="chart-x-axis">
-
-            {forecastData.map((item) => (
-              <span key={item.day}>
-                {item.day}
-              </span>
-            ))}
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-  );
-}
-
-/*
-|--------------------------------------------------------------------------
-| MODEL PERFORMANCE
-|--------------------------------------------------------------------------
-*/
-
-function ModelPerformance() {
-
-  const models = [
-    {
-      name: "XGBoost",
-      score: "0.799",
-      metric: "R²",
-      width: "80%",
-    },
-    {
-      name: "LSTM",
-      score: "0.764",
-      metric: "R²",
-      width: "76%",
-    },
-    {
-      name: "Prophet",
-      score: "0.681",
-      metric: "R²",
-      width: "68%",
-    },
-  ];
-
-  return (
-    <div className="dashboard-card performance-card">
-
-      <div className="dashboard-card-header">
-
-        <div>
-          <h2>Model Performance</h2>
-
-          <p>
-            Current forecasting model comparison
-          </p>
-        </div>
-
-        <Activity size={17} />
-
-      </div>
-
-      <div className="model-list">
-
-        {models.map((model) => (
-          <div className="model-row" key={model.name}>
-
-            <div className="model-row-top">
-
-              <span>
-                {model.name}
-              </span>
-
-              <strong>
-                {model.score}
-              </strong>
-
-            </div>
-
-            <div className="model-progress">
-
-              <div
-                className="model-progress-value"
-                style={{
-                  width: model.width,
-                }}
-              />
-
-            </div>
-
-            <span className="model-metric">
-              {model.metric}
-            </span>
-
-          </div>
-        ))}
-
-      </div>
-
-      <div className="performance-footer">
-        Best performing model: <strong>XGBoost</strong>
-      </div>
-
-    </div>
-  );
-}
-
-/*
-|--------------------------------------------------------------------------
-| ALERTS
-|--------------------------------------------------------------------------
-*/
-
-function AlertsPanel() {
-
-  return (
-    <div className="dashboard-card alerts-card">
-
-      <div className="dashboard-card-header">
-
-        <div>
-          <h2>Operational Alerts</h2>
-
-          <p>
-            Items requiring attention
-          </p>
-        </div>
-
-        <AlertTriangle size={17} />
-
-      </div>
-
-      <div className="alerts-list">
-
-        {alerts.map((alert, index) => (
-
-          <div
-            className="alert-row"
-            key={index}
-          >
-
-            <div className={`alert-icon ${alert.type}`}>
-
-              {alert.type === "warning" ? (
-                <AlertTriangle size={15} />
-              ) : alert.type === "forecast" ? (
-                <TrendingUp size={15} />
-              ) : (
-                <Activity size={15} />
-              )}
-
-            </div>
-
-            <div className="alert-content">
-
-              <strong>
-                {alert.title}
-              </strong>
-
-              <span>
-                {alert.description}
-              </span>
-
-            </div>
-
-            <time>
-              {alert.time}
-            </time>
-
-          </div>
-
-        ))}
-
-      </div>
-
-      <button className="view-all-button">
-        View all alerts
-      </button>
-
-    </div>
-  );
-}
-
-/*
-|--------------------------------------------------------------------------
-| TOP STORES
-|--------------------------------------------------------------------------
-*/
-
-function TopStores() {
-
-  return (
-    <div className="dashboard-card stores-card">
-
-      <div className="dashboard-card-header">
-
-        <div>
-          <h2>Top Stores by Demand</h2>
-
-          <p>
-            Highest projected demand for next period
-          </p>
-        </div>
-
-        <Store size={17} />
-
-      </div>
-
-      <div className="store-table">
-
-        <div className="store-table-header">
-
-          <span>#</span>
-          <span>STORE</span>
-          <span>CLUSTER</span>
-          <span>DEMAND</span>
-          <span>CHANGE</span>
-
-        </div>
-
-        {topStores.map((store) => (
-
-          <div
-            className="store-table-row"
-            key={store.store}
-          >
-
-            <span className="store-rank">
-              {store.rank}
-            </span>
-
-            <strong>
-              {store.store}
-            </strong>
-
-            <span className="cluster-badge">
-              {store.cluster}
-            </span>
-
-            <span>
-              {store.demand}
-            </span>
-
-            <span className="store-change">
-              {store.change}
-            </span>
-
-          </div>
-
-        ))}
-
-      </div>
-
-    </div>
-  );
-}
-
-/*
-|--------------------------------------------------------------------------
-| MAIN DASHBOARD
-|--------------------------------------------------------------------------
-*/
+/* ============================================================
+   DASHBOARD
+============================================================ */
 
 export default function Dashboard() {
 
+
+  const [
+    forecastData,
+    setForecastData,
+  ] = useState(null);
+
+
+  const [
+    loading,
+    setLoading,
+  ] = useState(true);
+
+
+  const [
+    refreshing,
+    setRefreshing,
+  ] = useState(false);
+
+
+  const [
+    error,
+    setError,
+  ] = useState("");
+
+
+  /* ==========================================================
+     LOAD FORECAST
+  ========================================================== */
+
+  async function loadDashboardData(
+    showRefresh = false
+  ) {
+
+    try {
+
+      if (showRefresh) {
+        setRefreshing(true);
+      } else {
+        setLoading(true);
+      }
+
+
+      setError("");
+
+
+      const response =
+        await fetch(API_URL);
+
+
+      if (!response.ok) {
+
+        throw new Error(
+          `Forecast API returned ${response.status}`
+        );
+
+      }
+
+
+      const result =
+        await response.json();
+
+
+      if (!result.success) {
+
+        throw new Error(
+          result.message ||
+          "Unable to load forecast data."
+        );
+
+      }
+
+
+      setForecastData(
+        result.data
+      );
+
+    } catch (err) {
+
+      console.error(
+        "Unable to load dashboard forecast data:",
+        err
+      );
+
+
+      setError(
+        err.message ||
+        "Unable to load forecast data."
+      );
+
+    } finally {
+
+      setLoading(false);
+      setRefreshing(false);
+
+    }
+
+  }
+
+
+  /* ==========================================================
+     INITIAL LOAD
+  ========================================================== */
+
+  useEffect(() => {
+
+    loadDashboardData();
+
+  }, []);
+
+
+  /* ==========================================================
+     XGBOOST
+  ========================================================== */
+
+  const xgboostForecast =
+    forecastData?.xgboost ||
+    null;
+
+
+  /* ==========================================================
+     DAILY TOTAL DEMAND
+     
+     IMPORTANT:
+
+     forecastService.js normalizes XGBoost into:
+
+     {
+       store,
+       date,
+       forecastSales
+     }
+
+     Therefore:
+
+     DO NOT use day.stores.
+
+     We group all records by date and
+     SUM forecastSales.
+  ========================================================== */
+
+  const dailyDemand =
+    useMemo(() => {
+
+      if (
+        !xgboostForecast ||
+        !Array.isArray(
+          xgboostForecast.forecast
+        )
+      ) {
+
+        return [];
+
+      }
+
+
+      const dateMap = {};
+
+
+      xgboostForecast.forecast.forEach(
+        row => {
+
+          if (
+            !row ||
+            !row.date
+          ) {
+
+            return;
+
+          }
+
+
+          const demand =
+            Number(
+              row.forecastSales
+            );
+
+
+          if (
+            !Number.isFinite(
+              demand
+            )
+          ) {
+
+            return;
+
+          }
+
+
+          if (
+            !dateMap[row.date]
+          ) {
+
+            dateMap[row.date] = {
+              total: 0,
+              stores: new Set(),
+            };
+
+          }
+
+
+          dateMap[
+            row.date
+          ].total += demand;
+
+
+          const store =
+            Number(row.store);
+
+
+          if (
+            Number.isFinite(
+              store
+            )
+          ) {
+
+            dateMap[
+              row.date
+            ].stores.add(store);
+
+          }
+
+        }
+      );
+
+
+      return Object.entries(
+        dateMap
+      )
+        .map(
+          ([date, data]) => ({
+
+            date,
+
+            total:
+              data.total,
+
+            storeCount:
+              data.stores.size,
+
+          })
+        )
+        .sort(
+          (a, b) =>
+            new Date(a.date) -
+            new Date(b.date)
+        );
+
+    }, [
+      xgboostForecast,
+    ]);
+
+
+  /* ==========================================================
+     STORE TOTALS
+     
+     Sum each store's demand
+     across all 7 forecast days.
+  ========================================================== */
+
+  const storeRows =
+    useMemo(() => {
+
+      if (
+        !xgboostForecast ||
+        !Array.isArray(
+          xgboostForecast.forecast
+        )
+      ) {
+
+        return [];
+
+      }
+
+
+      const totals = {};
+
+
+      xgboostForecast.forecast.forEach(
+        row => {
+
+          const store =
+            Number(row.store);
+
+
+          const demand =
+            Number(
+              row.forecastSales
+            );
+
+
+          if (
+            !Number.isFinite(
+              store
+            )
+          ) {
+
+            return;
+
+          }
+
+
+          if (
+            !Number.isFinite(
+              demand
+            )
+          ) {
+
+            return;
+
+          }
+
+
+          totals[store] =
+            (
+              totals[store] ||
+              0
+            ) +
+            demand;
+
+        }
+      );
+
+
+      return Object.entries(
+        totals
+      )
+        .map(
+          ([store, total]) => ({
+
+            store:
+              Number(store),
+
+            total,
+
+          })
+        )
+        .sort(
+          (a, b) =>
+            b.total -
+            a.total
+        );
+
+    }, [
+      xgboostForecast,
+    ]);
+
+
+  /* ==========================================================
+     TOTAL FORECASTED DEMAND
+  ========================================================== */
+
+  const totalDemand =
+    dailyDemand.reduce(
+      (sum, item) =>
+        sum +
+        item.total,
+      0
+    );
+
+
+  /* ==========================================================
+     AVERAGE DAILY DEMAND
+  ========================================================== */
+
+  const averageDailyDemand =
+    dailyDemand.length
+      ? totalDemand /
+        dailyDemand.length
+      : 0;
+
+
+  /* ==========================================================
+     ACTIVE STORES
+  ========================================================== */
+
+  const activeStores =
+    xgboostForecast?.stores ||
+    storeRows.length;
+
+
+  /* ==========================================================
+     PEAK DAY
+  ========================================================== */
+
+  const peakDay =
+    dailyDemand.length
+      ? dailyDemand.reduce(
+          (max, item) =>
+            item.total >
+            max.total
+              ? item
+              : max,
+          dailyDemand[0]
+        )
+      : null;
+
+
+  /* ==========================================================
+     FORECAST HORIZON
+  ========================================================== */
+
+  const horizon =
+    xgboostForecast?.forecast_horizon_days ||
+    dailyDemand.length;
+
+
+  /* ==========================================================
+     DISPLAY VALUES
+  ========================================================== */
+
+  const forecastedDemandValue =
+    loading ||
+    !xgboostForecast
+      ? "—"
+      : formatNumber(
+          totalDemand
+        );
+
+
+  const storeCountValue =
+    loading ||
+    !xgboostForecast
+      ? "—"
+      : formatNumber(
+          activeStores
+        );
+
+
+  const peakDemandValue =
+    loading ||
+    !xgboostForecast ||
+    !peakDay
+      ? "—"
+      : formatNumber(
+          peakDay.total
+        );
+
+
+  const horizonValue =
+    loading ||
+    !xgboostForecast
+      ? "—"
+      : `${horizon} days`;
+
+
+  /* ==========================================================
+     RENDER
+  ========================================================== */
+
   return (
+
     <div className="dashboard">
 
-      {/* PAGE HEADER */}
+
+      {/* ======================================================
+          PAGE HEADER
+      ====================================================== */}
 
       <div className="dashboard-page-header">
 
@@ -567,22 +1198,26 @@ export default function Dashboard() {
           </h1>
 
           <p>
-            Real-time overview of demand, inventory,
-            forecasts and operational activity.
+            Real-time overview of demand and forecast activity.
           </p>
 
         </div>
 
+
         <div className="dashboard-date">
 
-          <CalendarDays size={15} />
+          <CalendarDays
+            size={15}
+          />
 
           <span>
             Forecast horizon
           </span>
 
           <strong>
-            Next 7 days
+            {dailyDemand.length
+              ? `${dailyDemand.length} days`
+              : "Live"}
           </strong>
 
         </div>
@@ -590,88 +1225,212 @@ export default function Dashboard() {
       </div>
 
 
-      {/* KPI CARDS */}
+      {/* ======================================================
+          ERROR
+      ====================================================== */}
+
+      {error && (
+
+        <div className="dashboard-error">
+
+          <AlertTriangle
+            size={17}
+          />
+
+          <span>
+            {error}
+          </span>
+
+          <button
+            type="button"
+            onClick={() =>
+              loadDashboardData(
+                true
+              )
+            }
+          >
+            Try again
+          </button>
+
+        </div>
+
+      )}
+
+
+      {/* ======================================================
+          KPI CARDS
+      ====================================================== */}
 
       <div className="dashboard-kpi-grid">
 
+
         <KpiCard
           title="Forecasted Demand"
-          value="48,392"
-          subtitle="Next 7 days"
+          value={
+            forecastedDemandValue
+          }
+          subtitle="XGBoost total forecast"
+          trend="+12.4%"
+          trendTone="positive"
           icon={TrendingUp}
-          trend="up"
-          trendValue="+8.4%"
         />
+
 
         <KpiCard
           title="Active Stores"
-          value="1,024"
+          value={
+            storeCountValue
+          }
           subtitle="Stores monitored"
+          trend="Live"
+          trendTone="positive"
           icon={Store}
-          trend="up"
-          trendValue="+2"
         />
 
-        <KpiCard
-          title="Inventory Risk"
-          value="137"
-          subtitle="Stores at risk"
-          icon={Package}
-          trend="down"
-          trendValue="-6.2%"
-        />
 
         <KpiCard
-          title="Model Accuracy"
-          value="79.9%"
-          subtitle="XGBoost R² score"
+          title="Peak Demand"
+          value={
+            peakDemandValue
+          }
+          subtitle={
+            peakDay
+              ? formatDate(
+                  peakDay.date
+                )
+              : "No peak day"
+          }
+          trend="Peak"
+          trendTone="neutral"
           icon={Activity}
-          trend="up"
-          trendValue="+3.1%"
+        />
+
+
+        <KpiCard
+          title="Forecast Horizon"
+          value={
+            horizonValue
+          }
+          subtitle="Days in forecast"
+          trend="7d"
+          trendTone="positive"
+          icon={CalendarDays}
         />
 
       </div>
 
 
-      {/* MAIN ANALYTICS ROW */}
+      {/* ======================================================
+          DAILY DEMAND GRAPH
+      ====================================================== */}
 
       <div className="dashboard-grid-main">
 
-        <ForecastChart />
-
-        <ModelPerformance />
+        <ForecastChart
+          dailyDemand={
+            dailyDemand
+          }
+        />
 
       </div>
 
 
-      {/* LOWER ROW */}
+      {/* ======================================================
+          LOWER DASHBOARD
+      ====================================================== */}
 
       <div className="dashboard-grid-lower">
 
-        <AlertsPanel />
 
-        <TopStores />
+        <AlertsPanel
+          peakDay={
+            peakDay
+          }
+        />
+
+
+        <TopStores
+          storeRows={
+            storeRows
+          }
+        />
 
       </div>
 
 
-      {/* FOOTER STATUS */}
+      {/* ======================================================
+          REFRESH / STATUS
+      ====================================================== */}
 
       <div className="dashboard-status">
 
+
         <div className="status-left">
 
-          <span className="status-live"></span>
+          <span
+            className={
+              xgboostForecast
+                ? "status-live"
+                : "status-live loading"
+            }
+          />
 
           <span>
-            Forecast engine operational
+
+            {xgboostForecast
+              ? "Forecast engine operational"
+              : loading
+                ? "Loading forecast data"
+                : "Waiting for forecast data"}
+
           </span>
 
         </div>
 
-        <span>
-          Last model run: Today, 06:30
-        </span>
+
+        <div className="dashboard-status-right">
+
+          {xgboostForecast && (
+            <span>
+              Average daily demand:{" "}
+              <strong>
+                {formatNumber(
+                  averageDailyDemand
+                )}
+              </strong>
+            </span>
+          )}
+
+
+          <button
+            className="dashboard-refresh"
+            type="button"
+            onClick={() =>
+              loadDashboardData(
+                true
+              )
+            }
+            disabled={
+              refreshing
+            }
+          >
+
+            <RefreshCw
+              size={14}
+              className={
+                refreshing
+                  ? "spin"
+                  : ""
+              }
+            />
+
+            {refreshing
+              ? "Refreshing..."
+              : "Refresh"}
+
+          </button>
+
+        </div>
 
       </div>
 

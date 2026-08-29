@@ -1,1752 +1,1752 @@
 [
     {
         "Store":1,
-        "Date":1767225600000,
-        "ForecastSales":5365.17
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":1,
-        "Date":1767312000000,
-        "ForecastSales":5857.62
+        "Date":1798848000000,
+        "ForecastSales":2729.62
     },
     {
         "Store":1,
-        "Date":1767398400000,
-        "ForecastSales":4683.03
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":1,
-        "Date":1767484800000,
-        "ForecastSales":3377.8
+        "Date":1799020800000,
+        "ForecastSales":3305.59
     },
     {
         "Store":1,
-        "Date":1767571200000,
-        "ForecastSales":5527.28
+        "Date":1799107200000,
+        "ForecastSales":3252.6
     },
     {
         "Store":1,
-        "Date":1767657600000,
-        "ForecastSales":5603.63
+        "Date":1799193600000,
+        "ForecastSales":3350.01
     },
     {
         "Store":1,
-        "Date":1767744000000,
-        "ForecastSales":5412.77
+        "Date":1799280000000,
+        "ForecastSales":3300.56
     },
     {
         "Store":2,
-        "Date":1767225600000,
-        "ForecastSales":6567.2
+        "Date":1798761600000,
+        "ForecastSales":34.47
     },
     {
         "Store":2,
-        "Date":1767312000000,
-        "ForecastSales":7507.96
+        "Date":1798848000000,
+        "ForecastSales":2868.15
     },
     {
         "Store":2,
-        "Date":1767398400000,
-        "ForecastSales":6024.4
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":2,
-        "Date":1767484800000,
-        "ForecastSales":4098.9
+        "Date":1799020800000,
+        "ForecastSales":3462.13
     },
     {
         "Store":2,
-        "Date":1767571200000,
-        "ForecastSales":7039.29
+        "Date":1799107200000,
+        "ForecastSales":3402.89
     },
     {
         "Store":2,
-        "Date":1767657600000,
-        "ForecastSales":7166.12
+        "Date":1799193600000,
+        "ForecastSales":3381.44
     },
     {
         "Store":2,
-        "Date":1767744000000,
-        "ForecastSales":6945.16
+        "Date":1799280000000,
+        "ForecastSales":3384.23
     },
     {
         "Store":3,
-        "Date":1767225600000,
-        "ForecastSales":5119.35
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":3,
-        "Date":1767312000000,
-        "ForecastSales":6134.74
+        "Date":1798848000000,
+        "ForecastSales":2873.2
     },
     {
         "Store":3,
-        "Date":1767398400000,
-        "ForecastSales":4885.67
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":3,
-        "Date":1767484800000,
-        "ForecastSales":3092.32
+        "Date":1799020800000,
+        "ForecastSales":3436.52
     },
     {
         "Store":3,
-        "Date":1767571200000,
-        "ForecastSales":5679.55
+        "Date":1799107200000,
+        "ForecastSales":3417.5
     },
     {
         "Store":3,
-        "Date":1767657600000,
-        "ForecastSales":5807.21
+        "Date":1799193600000,
+        "ForecastSales":3409.65
     },
     {
         "Store":3,
-        "Date":1767744000000,
-        "ForecastSales":5630.74
+        "Date":1799280000000,
+        "ForecastSales":3418.5
     },
     {
         "Store":4,
-        "Date":1767225600000,
-        "ForecastSales":10003.93
+        "Date":1798761600000,
+        "ForecastSales":17.7
     },
     {
         "Store":4,
-        "Date":1767312000000,
-        "ForecastSales":12511.2
+        "Date":1798848000000,
+        "ForecastSales":2900.13
     },
     {
         "Store":4,
-        "Date":1767398400000,
-        "ForecastSales":10064.32
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":4,
-        "Date":1767484800000,
-        "ForecastSales":7119.47
+        "Date":1799020800000,
+        "ForecastSales":3469.58
     },
     {
         "Store":4,
-        "Date":1767571200000,
-        "ForecastSales":11683.36
+        "Date":1799107200000,
+        "ForecastSales":3493.91
     },
     {
         "Store":4,
-        "Date":1767657600000,
-        "ForecastSales":11972.99
+        "Date":1799193600000,
+        "ForecastSales":3455.73
     },
     {
         "Store":4,
-        "Date":1767744000000,
-        "ForecastSales":11634.91
+        "Date":1799280000000,
+        "ForecastSales":3474.02
     },
     {
         "Store":5,
-        "Date":1767225600000,
-        "ForecastSales":6714.53
+        "Date":1798761600000,
+        "ForecastSales":3.72
     },
     {
         "Store":5,
-        "Date":1767312000000,
-        "ForecastSales":7967.21
+        "Date":1798848000000,
+        "ForecastSales":2980.98
     },
     {
         "Store":5,
-        "Date":1767398400000,
-        "ForecastSales":6336.96
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":5,
-        "Date":1767484800000,
-        "ForecastSales":3988.64
+        "Date":1799020800000,
+        "ForecastSales":3528.29
     },
     {
         "Store":5,
-        "Date":1767571200000,
-        "ForecastSales":7397.33
+        "Date":1799107200000,
+        "ForecastSales":3494.82
     },
     {
         "Store":5,
-        "Date":1767657600000,
-        "ForecastSales":7607.85
+        "Date":1799193600000,
+        "ForecastSales":3632.03
     },
     {
         "Store":5,
-        "Date":1767744000000,
-        "ForecastSales":7287.32
+        "Date":1799280000000,
+        "ForecastSales":3493.22
     },
     {
         "Store":6,
-        "Date":1767225600000,
-        "ForecastSales":3673.47
+        "Date":1798761600000,
+        "ForecastSales":22.23
     },
     {
         "Store":6,
-        "Date":1767312000000,
-        "ForecastSales":4303.14
+        "Date":1798848000000,
+        "ForecastSales":2986.15
     },
     {
         "Store":6,
-        "Date":1767398400000,
-        "ForecastSales":3461.4
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":6,
-        "Date":1767484800000,
-        "ForecastSales":2274.34
+        "Date":1799020800000,
+        "ForecastSales":3574.8
     },
     {
         "Store":6,
-        "Date":1767571200000,
-        "ForecastSales":4006.37
+        "Date":1799107200000,
+        "ForecastSales":3576.37
     },
     {
         "Store":6,
-        "Date":1767657600000,
-        "ForecastSales":4104.89
+        "Date":1799193600000,
+        "ForecastSales":3558.1
     },
     {
         "Store":6,
-        "Date":1767744000000,
-        "ForecastSales":4003.08
+        "Date":1799280000000,
+        "ForecastSales":3533.94
     },
     {
         "Store":7,
-        "Date":1767225600000,
-        "ForecastSales":9631.66
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":7,
-        "Date":1767312000000,
-        "ForecastSales":11312.73
+        "Date":1798848000000,
+        "ForecastSales":2996.14
     },
     {
         "Store":7,
-        "Date":1767398400000,
-        "ForecastSales":8977.87
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":7,
-        "Date":1767484800000,
-        "ForecastSales":5859.0
+        "Date":1799020800000,
+        "ForecastSales":3516.07
     },
     {
         "Store":7,
-        "Date":1767571200000,
-        "ForecastSales":10495.37
+        "Date":1799107200000,
+        "ForecastSales":3450.83
     },
     {
         "Store":7,
-        "Date":1767657600000,
-        "ForecastSales":10638.92
+        "Date":1799193600000,
+        "ForecastSales":3511.6
     },
     {
         "Store":7,
-        "Date":1767744000000,
-        "ForecastSales":10381.27
+        "Date":1799280000000,
+        "ForecastSales":3581.72
     },
     {
         "Store":8,
-        "Date":1767225600000,
-        "ForecastSales":8535.5
+        "Date":1798761600000,
+        "ForecastSales":48.72
     },
     {
         "Store":8,
-        "Date":1767312000000,
-        "ForecastSales":10034.19
+        "Date":1798848000000,
+        "ForecastSales":3080.3
     },
     {
         "Store":8,
-        "Date":1767398400000,
-        "ForecastSales":7954.25
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":8,
-        "Date":1767484800000,
-        "ForecastSales":5914.32
+        "Date":1799020800000,
+        "ForecastSales":3661.46
     },
     {
         "Store":8,
-        "Date":1767571200000,
-        "ForecastSales":9222.73
+        "Date":1799107200000,
+        "ForecastSales":3672.08
     },
     {
         "Store":8,
-        "Date":1767657600000,
-        "ForecastSales":9485.39
+        "Date":1799193600000,
+        "ForecastSales":3661.44
     },
     {
         "Store":8,
-        "Date":1767744000000,
-        "ForecastSales":9266.16
+        "Date":1799280000000,
+        "ForecastSales":3637.46
     },
     {
         "Store":9,
-        "Date":1767225600000,
-        "ForecastSales":7140.35
+        "Date":1798761600000,
+        "ForecastSales":7.45
     },
     {
         "Store":9,
-        "Date":1767312000000,
-        "ForecastSales":8367.12
+        "Date":1798848000000,
+        "ForecastSales":3080.72
     },
     {
         "Store":9,
-        "Date":1767398400000,
-        "ForecastSales":6758.12
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":9,
-        "Date":1767484800000,
-        "ForecastSales":4783.4
+        "Date":1799020800000,
+        "ForecastSales":3692.31
     },
     {
         "Store":9,
-        "Date":1767571200000,
-        "ForecastSales":7888.2
+        "Date":1799107200000,
+        "ForecastSales":3620.62
     },
     {
         "Store":9,
-        "Date":1767657600000,
-        "ForecastSales":7997.67
+        "Date":1799193600000,
+        "ForecastSales":3673.54
     },
     {
         "Store":9,
-        "Date":1767744000000,
-        "ForecastSales":7777.38
+        "Date":1799280000000,
+        "ForecastSales":3667.59
     },
     {
         "Store":10,
-        "Date":1767225600000,
-        "ForecastSales":10019.08
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":10,
-        "Date":1767312000000,
-        "ForecastSales":11406.62
+        "Date":1798848000000,
+        "ForecastSales":3153.79
     },
     {
         "Store":10,
-        "Date":1767398400000,
-        "ForecastSales":9144.63
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":10,
-        "Date":1767484800000,
-        "ForecastSales":5818.88
+        "Date":1799020800000,
+        "ForecastSales":3807.44
     },
     {
         "Store":10,
-        "Date":1767571200000,
-        "ForecastSales":10529.33
+        "Date":1799107200000,
+        "ForecastSales":3745.56
     },
     {
         "Store":10,
-        "Date":1767657600000,
-        "ForecastSales":10889.54
+        "Date":1799193600000,
+        "ForecastSales":3767.24
     },
     {
         "Store":10,
-        "Date":1767744000000,
-        "ForecastSales":10435.74
+        "Date":1799280000000,
+        "ForecastSales":3749.57
     },
     {
         "Store":11,
-        "Date":1767225600000,
-        "ForecastSales":9021.32
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":11,
-        "Date":1767312000000,
-        "ForecastSales":10769.55
+        "Date":1798848000000,
+        "ForecastSales":3219.12
     },
     {
         "Store":11,
-        "Date":1767398400000,
-        "ForecastSales":8644.19
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":11,
-        "Date":1767484800000,
-        "ForecastSales":6167.74
+        "Date":1799020800000,
+        "ForecastSales":3826.15
     },
     {
         "Store":11,
-        "Date":1767571200000,
-        "ForecastSales":10112.43
+        "Date":1799107200000,
+        "ForecastSales":3801.28
     },
     {
         "Store":11,
-        "Date":1767657600000,
-        "ForecastSales":10374.57
+        "Date":1799193600000,
+        "ForecastSales":3823.19
     },
     {
         "Store":11,
-        "Date":1767744000000,
-        "ForecastSales":10001.24
+        "Date":1799280000000,
+        "ForecastSales":3853.09
     },
     {
         "Store":12,
-        "Date":1767225600000,
-        "ForecastSales":6548.94
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":12,
-        "Date":1767312000000,
-        "ForecastSales":7570.66
+        "Date":1798848000000,
+        "ForecastSales":3186.28
     },
     {
         "Store":12,
-        "Date":1767398400000,
-        "ForecastSales":6019.88
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":12,
-        "Date":1767484800000,
-        "ForecastSales":3937.5
+        "Date":1799020800000,
+        "ForecastSales":3822.48
     },
     {
         "Store":12,
-        "Date":1767571200000,
-        "ForecastSales":6986.55
+        "Date":1799107200000,
+        "ForecastSales":3784.59
     },
     {
         "Store":12,
-        "Date":1767657600000,
-        "ForecastSales":7153.61
+        "Date":1799193600000,
+        "ForecastSales":3820.98
     },
     {
         "Store":12,
-        "Date":1767744000000,
-        "ForecastSales":6964.07
+        "Date":1799280000000,
+        "ForecastSales":3792.87
     },
     {
         "Store":13,
-        "Date":1767225600000,
-        "ForecastSales":6548.59
+        "Date":1798761600000,
+        "ForecastSales":6.1
     },
     {
         "Store":13,
-        "Date":1767312000000,
-        "ForecastSales":7457.75
+        "Date":1798848000000,
+        "ForecastSales":3220.76
     },
     {
         "Store":13,
-        "Date":1767398400000,
-        "ForecastSales":5934.89
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":13,
-        "Date":1767484800000,
-        "ForecastSales":4493.97
+        "Date":1799020800000,
+        "ForecastSales":3787.3
     },
     {
         "Store":13,
-        "Date":1767571200000,
-        "ForecastSales":6922.08
+        "Date":1799107200000,
+        "ForecastSales":3788.02
     },
     {
         "Store":13,
-        "Date":1767657600000,
-        "ForecastSales":7118.88
+        "Date":1799193600000,
+        "ForecastSales":3801.2
     },
     {
         "Store":13,
-        "Date":1767744000000,
-        "ForecastSales":6819.59
+        "Date":1799280000000,
+        "ForecastSales":3849.27
     },
     {
         "Store":14,
-        "Date":1767225600000,
-        "ForecastSales":8876.81
+        "Date":1798761600000,
+        "ForecastSales":39.17
     },
     {
         "Store":14,
-        "Date":1767312000000,
-        "ForecastSales":11078.44
+        "Date":1798848000000,
+        "ForecastSales":3279.25
     },
     {
         "Store":14,
-        "Date":1767398400000,
-        "ForecastSales":8809.45
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":14,
-        "Date":1767484800000,
-        "ForecastSales":6128.88
+        "Date":1799020800000,
+        "ForecastSales":3886.91
     },
     {
         "Store":14,
-        "Date":1767571200000,
-        "ForecastSales":10321.17
+        "Date":1799107200000,
+        "ForecastSales":3864.49
     },
     {
         "Store":14,
-        "Date":1767657600000,
-        "ForecastSales":10491.2
+        "Date":1799193600000,
+        "ForecastSales":3936.8
     },
     {
         "Store":14,
-        "Date":1767744000000,
-        "ForecastSales":10214.59
+        "Date":1799280000000,
+        "ForecastSales":3894.14
     },
     {
         "Store":15,
-        "Date":1767225600000,
-        "ForecastSales":7109.36
+        "Date":1798761600000,
+        "ForecastSales":46.12
     },
     {
         "Store":15,
-        "Date":1767312000000,
-        "ForecastSales":8181.75
+        "Date":1798848000000,
+        "ForecastSales":3357.86
     },
     {
         "Store":15,
-        "Date":1767398400000,
-        "ForecastSales":6531.53
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":15,
-        "Date":1767484800000,
-        "ForecastSales":4277.76
+        "Date":1799020800000,
+        "ForecastSales":3893.85
     },
     {
         "Store":15,
-        "Date":1767571200000,
-        "ForecastSales":7631.63
+        "Date":1799107200000,
+        "ForecastSales":3950.7
     },
     {
         "Store":15,
-        "Date":1767657600000,
-        "ForecastSales":7781.97
+        "Date":1799193600000,
+        "ForecastSales":3922.91
     },
     {
         "Store":15,
-        "Date":1767744000000,
-        "ForecastSales":7577.57
+        "Date":1799280000000,
+        "ForecastSales":3924.55
     },
     {
         "Store":16,
-        "Date":1767225600000,
-        "ForecastSales":8164.85
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":16,
-        "Date":1767312000000,
-        "ForecastSales":9777.69
+        "Date":1798848000000,
+        "ForecastSales":3346.64
     },
     {
         "Store":16,
-        "Date":1767398400000,
-        "ForecastSales":7844.33
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":16,
-        "Date":1767484800000,
-        "ForecastSales":5600.72
+        "Date":1799020800000,
+        "ForecastSales":4007.26
     },
     {
         "Store":16,
-        "Date":1767571200000,
-        "ForecastSales":9050.99
+        "Date":1799107200000,
+        "ForecastSales":3995.26
     },
     {
         "Store":16,
-        "Date":1767657600000,
-        "ForecastSales":9254.89
+        "Date":1799193600000,
+        "ForecastSales":4020.91
     },
     {
         "Store":16,
-        "Date":1767744000000,
-        "ForecastSales":9025.83
+        "Date":1799280000000,
+        "ForecastSales":4067.76
     },
     {
         "Store":17,
-        "Date":1767225600000,
-        "ForecastSales":5752.46
+        "Date":1798761600000,
+        "ForecastSales":78.26
     },
     {
         "Store":17,
-        "Date":1767312000000,
-        "ForecastSales":6901.32
+        "Date":1798848000000,
+        "ForecastSales":3379.33
     },
     {
         "Store":17,
-        "Date":1767398400000,
-        "ForecastSales":5492.92
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":17,
-        "Date":1767484800000,
-        "ForecastSales":3742.1
+        "Date":1799020800000,
+        "ForecastSales":4011.16
     },
     {
         "Store":17,
-        "Date":1767571200000,
-        "ForecastSales":6434.29
+        "Date":1799107200000,
+        "ForecastSales":4000.34
     },
     {
         "Store":17,
-        "Date":1767657600000,
-        "ForecastSales":6542.91
+        "Date":1799193600000,
+        "ForecastSales":4044.41
     },
     {
         "Store":17,
-        "Date":1767744000000,
-        "ForecastSales":6365.94
+        "Date":1799280000000,
+        "ForecastSales":3962.02
     },
     {
         "Store":18,
-        "Date":1767225600000,
-        "ForecastSales":9387.72
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":18,
-        "Date":1767312000000,
-        "ForecastSales":10608.53
+        "Date":1798848000000,
+        "ForecastSales":3387.59
     },
     {
         "Store":18,
-        "Date":1767398400000,
-        "ForecastSales":8494.56
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":18,
-        "Date":1767484800000,
-        "ForecastSales":6426.03
+        "Date":1799020800000,
+        "ForecastSales":4095.11
     },
     {
         "Store":18,
-        "Date":1767571200000,
-        "ForecastSales":9883.4
+        "Date":1799107200000,
+        "ForecastSales":4038.43
     },
     {
         "Store":18,
-        "Date":1767657600000,
-        "ForecastSales":10082.28
+        "Date":1799193600000,
+        "ForecastSales":4000.7
     },
     {
         "Store":18,
-        "Date":1767744000000,
-        "ForecastSales":9658.5
+        "Date":1799280000000,
+        "ForecastSales":4058.59
     },
     {
         "Store":19,
-        "Date":1767225600000,
-        "ForecastSales":6141.36
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":19,
-        "Date":1767312000000,
-        "ForecastSales":6913.55
+        "Date":1798848000000,
+        "ForecastSales":3543.25
     },
     {
         "Store":19,
-        "Date":1767398400000,
-        "ForecastSales":5495.57
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":19,
-        "Date":1767484800000,
-        "ForecastSales":3909.5
+        "Date":1799020800000,
+        "ForecastSales":4137.51
     },
     {
         "Store":19,
-        "Date":1767571200000,
-        "ForecastSales":6415.68
+        "Date":1799107200000,
+        "ForecastSales":4139.2
     },
     {
         "Store":19,
-        "Date":1767657600000,
-        "ForecastSales":6647.88
+        "Date":1799193600000,
+        "ForecastSales":4116.09
     },
     {
         "Store":19,
-        "Date":1767744000000,
-        "ForecastSales":6416.35
+        "Date":1799280000000,
+        "ForecastSales":4181.45
     },
     {
         "Store":20,
-        "Date":1767225600000,
-        "ForecastSales":3426.5
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":20,
-        "Date":1767312000000,
-        "ForecastSales":4153.53
+        "Date":1798848000000,
+        "ForecastSales":3573.78
     },
     {
         "Store":20,
-        "Date":1767398400000,
-        "ForecastSales":3331.18
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":20,
-        "Date":1767484800000,
-        "ForecastSales":2307.0
+        "Date":1799020800000,
+        "ForecastSales":4194.88
     },
     {
         "Store":20,
-        "Date":1767571200000,
-        "ForecastSales":3834.25
+        "Date":1799107200000,
+        "ForecastSales":4187.17
     },
     {
         "Store":20,
-        "Date":1767657600000,
-        "ForecastSales":3933.32
+        "Date":1799193600000,
+        "ForecastSales":4210.51
     },
     {
         "Store":20,
-        "Date":1767744000000,
-        "ForecastSales":3810.11
+        "Date":1799280000000,
+        "ForecastSales":4201.96
     },
     {
         "Store":21,
-        "Date":1767225600000,
-        "ForecastSales":8719.03
+        "Date":1798761600000,
+        "ForecastSales":28.39
     },
     {
         "Store":21,
-        "Date":1767312000000,
-        "ForecastSales":10366.21
+        "Date":1798848000000,
+        "ForecastSales":3508.59
     },
     {
         "Store":21,
-        "Date":1767398400000,
-        "ForecastSales":8312.89
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":21,
-        "Date":1767484800000,
-        "ForecastSales":4744.81
+        "Date":1799020800000,
+        "ForecastSales":4224.18
     },
     {
         "Store":21,
-        "Date":1767571200000,
-        "ForecastSales":9618.29
+        "Date":1799107200000,
+        "ForecastSales":4161.86
     },
     {
         "Store":21,
-        "Date":1767657600000,
-        "ForecastSales":9825.95
+        "Date":1799193600000,
+        "ForecastSales":4185.14
     },
     {
         "Store":21,
-        "Date":1767744000000,
-        "ForecastSales":9472.13
+        "Date":1799280000000,
+        "ForecastSales":4173.48
     },
     {
         "Store":22,
-        "Date":1767225600000,
-        "ForecastSales":9330.12
+        "Date":1798761600000,
+        "ForecastSales":52.03
     },
     {
         "Store":22,
-        "Date":1767312000000,
-        "ForecastSales":11562.14
+        "Date":1798848000000,
+        "ForecastSales":3636.77
     },
     {
         "Store":22,
-        "Date":1767398400000,
-        "ForecastSales":9190.98
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":22,
-        "Date":1767484800000,
-        "ForecastSales":5990.77
+        "Date":1799020800000,
+        "ForecastSales":4367.12
     },
     {
         "Store":22,
-        "Date":1767571200000,
-        "ForecastSales":10696.27
+        "Date":1799107200000,
+        "ForecastSales":4300.35
     },
     {
         "Store":22,
-        "Date":1767657600000,
-        "ForecastSales":10990.45
+        "Date":1799193600000,
+        "ForecastSales":4245.07
     },
     {
         "Store":22,
-        "Date":1767744000000,
-        "ForecastSales":10656.34
+        "Date":1799280000000,
+        "ForecastSales":4271.06
     },
     {
         "Store":23,
-        "Date":1767225600000,
-        "ForecastSales":8459.17
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":23,
-        "Date":1767312000000,
-        "ForecastSales":10354.08
+        "Date":1798848000000,
+        "ForecastSales":3610.17
     },
     {
         "Store":23,
-        "Date":1767398400000,
-        "ForecastSales":8359.1
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":23,
-        "Date":1767484800000,
-        "ForecastSales":5608.35
+        "Date":1799020800000,
+        "ForecastSales":4306.76
     },
     {
         "Store":23,
-        "Date":1767571200000,
-        "ForecastSales":9714.15
+        "Date":1799107200000,
+        "ForecastSales":4270.51
     },
     {
         "Store":23,
-        "Date":1767657600000,
-        "ForecastSales":9997.34
+        "Date":1799193600000,
+        "ForecastSales":4298.54
     },
     {
         "Store":23,
-        "Date":1767744000000,
-        "ForecastSales":9726.65
+        "Date":1799280000000,
+        "ForecastSales":4265.91
     },
     {
         "Store":24,
-        "Date":1767225600000,
-        "ForecastSales":8177.71
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":24,
-        "Date":1767312000000,
-        "ForecastSales":9701.67
+        "Date":1798848000000,
+        "ForecastSales":3688.94
     },
     {
         "Store":24,
-        "Date":1767398400000,
-        "ForecastSales":7727.14
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":24,
-        "Date":1767484800000,
-        "ForecastSales":5068.36
+        "Date":1799020800000,
+        "ForecastSales":4343.04
     },
     {
         "Store":24,
-        "Date":1767571200000,
-        "ForecastSales":9003.45
+        "Date":1799107200000,
+        "ForecastSales":4335.58
     },
     {
         "Store":24,
-        "Date":1767657600000,
-        "ForecastSales":9262.51
+        "Date":1799193600000,
+        "ForecastSales":4426.46
     },
     {
         "Store":24,
-        "Date":1767744000000,
-        "ForecastSales":8994.89
+        "Date":1799280000000,
+        "ForecastSales":4319.09
     },
     {
         "Store":25,
-        "Date":1767225600000,
-        "ForecastSales":4093.79
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":25,
-        "Date":1767312000000,
-        "ForecastSales":4597.22
+        "Date":1798848000000,
+        "ForecastSales":3744.29
     },
     {
         "Store":25,
-        "Date":1767398400000,
-        "ForecastSales":3683.36
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":25,
-        "Date":1767484800000,
-        "ForecastSales":2508.89
+        "Date":1799020800000,
+        "ForecastSales":4360.24
     },
     {
         "Store":25,
-        "Date":1767571200000,
-        "ForecastSales":4267.09
+        "Date":1799107200000,
+        "ForecastSales":4344.43
     },
     {
         "Store":25,
-        "Date":1767657600000,
-        "ForecastSales":4321.96
+        "Date":1799193600000,
+        "ForecastSales":4346.72
     },
     {
         "Store":25,
-        "Date":1767744000000,
-        "ForecastSales":4222.69
+        "Date":1799280000000,
+        "ForecastSales":4396.29
     },
     {
         "Store":26,
-        "Date":1767225600000,
-        "ForecastSales":4783.56
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":26,
-        "Date":1767312000000,
-        "ForecastSales":5832.07
+        "Date":1798848000000,
+        "ForecastSales":3727.32
     },
     {
         "Store":26,
-        "Date":1767398400000,
-        "ForecastSales":4666.12
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":26,
-        "Date":1767484800000,
-        "ForecastSales":3325.28
+        "Date":1799020800000,
+        "ForecastSales":4357.63
     },
     {
         "Store":26,
-        "Date":1767571200000,
-        "ForecastSales":5446.2
+        "Date":1799107200000,
+        "ForecastSales":4418.36
     },
     {
         "Store":26,
-        "Date":1767657600000,
-        "ForecastSales":5547.92
+        "Date":1799193600000,
+        "ForecastSales":4468.01
     },
     {
         "Store":26,
-        "Date":1767744000000,
-        "ForecastSales":5401.61
+        "Date":1799280000000,
+        "ForecastSales":4424.0
     },
     {
         "Store":27,
-        "Date":1767225600000,
-        "ForecastSales":8001.91
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":27,
-        "Date":1767312000000,
-        "ForecastSales":10407.85
+        "Date":1798848000000,
+        "ForecastSales":3733.67
     },
     {
         "Store":27,
-        "Date":1767398400000,
-        "ForecastSales":8370.4
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":27,
-        "Date":1767484800000,
-        "ForecastSales":5681.59
+        "Date":1799020800000,
+        "ForecastSales":4415.16
     },
     {
         "Store":27,
-        "Date":1767571200000,
-        "ForecastSales":9745.33
+        "Date":1799107200000,
+        "ForecastSales":4437.4
     },
     {
         "Store":27,
-        "Date":1767657600000,
-        "ForecastSales":9893.79
+        "Date":1799193600000,
+        "ForecastSales":4458.83
     },
     {
         "Store":27,
-        "Date":1767744000000,
-        "ForecastSales":9617.05
+        "Date":1799280000000,
+        "ForecastSales":4453.44
     },
     {
         "Store":28,
-        "Date":1767225600000,
-        "ForecastSales":6500.33
+        "Date":1798761600000,
+        "ForecastSales":42.46
     },
     {
         "Store":28,
-        "Date":1767312000000,
-        "ForecastSales":7798.99
+        "Date":1798848000000,
+        "ForecastSales":3828.14
     },
     {
         "Store":28,
-        "Date":1767398400000,
-        "ForecastSales":6193.43
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":28,
-        "Date":1767484800000,
-        "ForecastSales":4028.85
+        "Date":1799020800000,
+        "ForecastSales":4557.2
     },
     {
         "Store":28,
-        "Date":1767571200000,
-        "ForecastSales":7243.6
+        "Date":1799107200000,
+        "ForecastSales":4501.15
     },
     {
         "Store":28,
-        "Date":1767657600000,
-        "ForecastSales":7349.19
+        "Date":1799193600000,
+        "ForecastSales":4542.11
     },
     {
         "Store":28,
-        "Date":1767744000000,
-        "ForecastSales":7163.33
+        "Date":1799280000000,
+        "ForecastSales":4466.59
     },
     {
         "Store":29,
-        "Date":1767225600000,
-        "ForecastSales":5172.95
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":29,
-        "Date":1767312000000,
-        "ForecastSales":6446.36
+        "Date":1798848000000,
+        "ForecastSales":3972.99
     },
     {
         "Store":29,
-        "Date":1767398400000,
-        "ForecastSales":5079.01
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":29,
-        "Date":1767484800000,
-        "ForecastSales":3272.97
+        "Date":1799020800000,
+        "ForecastSales":4635.78
     },
     {
         "Store":29,
-        "Date":1767571200000,
-        "ForecastSales":5968.69
+        "Date":1799107200000,
+        "ForecastSales":4658.26
     },
     {
         "Store":29,
-        "Date":1767657600000,
-        "ForecastSales":6108.21
+        "Date":1799193600000,
+        "ForecastSales":4649.49
     },
     {
         "Store":29,
-        "Date":1767744000000,
-        "ForecastSales":5897.92
+        "Date":1799280000000,
+        "ForecastSales":4674.53
     },
     {
         "Store":30,
-        "Date":1767225600000,
-        "ForecastSales":3684.1
+        "Date":1798761600000,
+        "ForecastSales":3.69
     },
     {
         "Store":30,
-        "Date":1767312000000,
-        "ForecastSales":4239.53
+        "Date":1798848000000,
+        "ForecastSales":3812.6
     },
     {
         "Store":30,
-        "Date":1767398400000,
-        "ForecastSales":3414.13
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":30,
-        "Date":1767484800000,
-        "ForecastSales":2152.95
+        "Date":1799020800000,
+        "ForecastSales":4578.76
     },
     {
         "Store":30,
-        "Date":1767571200000,
-        "ForecastSales":3934.63
+        "Date":1799107200000,
+        "ForecastSales":4650.64
     },
     {
         "Store":30,
-        "Date":1767657600000,
-        "ForecastSales":4064.2
+        "Date":1799193600000,
+        "ForecastSales":4674.85
     },
     {
         "Store":30,
-        "Date":1767744000000,
-        "ForecastSales":3909.97
+        "Date":1799280000000,
+        "ForecastSales":4614.21
     },
     {
         "Store":31,
-        "Date":1767225600000,
-        "ForecastSales":5956.22
+        "Date":1798761600000,
+        "ForecastSales":155.1
     },
     {
         "Store":31,
-        "Date":1767312000000,
-        "ForecastSales":6877.58
+        "Date":1798848000000,
+        "ForecastSales":4001.1
     },
     {
         "Store":31,
-        "Date":1767398400000,
-        "ForecastSales":5601.44
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":31,
-        "Date":1767484800000,
-        "ForecastSales":3470.88
+        "Date":1799020800000,
+        "ForecastSales":4791.44
     },
     {
         "Store":31,
-        "Date":1767571200000,
-        "ForecastSales":6450.39
+        "Date":1799107200000,
+        "ForecastSales":4742.51
     },
     {
         "Store":31,
-        "Date":1767657600000,
-        "ForecastSales":6564.83
+        "Date":1799193600000,
+        "ForecastSales":4757.69
     },
     {
         "Store":31,
-        "Date":1767744000000,
-        "ForecastSales":6373.72
+        "Date":1799280000000,
+        "ForecastSales":4689.93
     },
     {
         "Store":32,
-        "Date":1767225600000,
-        "ForecastSales":8131.75
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":32,
-        "Date":1767312000000,
-        "ForecastSales":9382.39
+        "Date":1798848000000,
+        "ForecastSales":4018.4
     },
     {
         "Store":32,
-        "Date":1767398400000,
-        "ForecastSales":7518.29
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":32,
-        "Date":1767484800000,
-        "ForecastSales":5933.17
+        "Date":1799020800000,
+        "ForecastSales":4726.14
     },
     {
         "Store":32,
-        "Date":1767571200000,
-        "ForecastSales":8763.3
+        "Date":1799107200000,
+        "ForecastSales":4894.0
     },
     {
         "Store":32,
-        "Date":1767657600000,
-        "ForecastSales":9055.01
+        "Date":1799193600000,
+        "ForecastSales":4788.01
     },
     {
         "Store":32,
-        "Date":1767744000000,
-        "ForecastSales":8746.17
+        "Date":1799280000000,
+        "ForecastSales":4840.84
     },
     {
         "Store":33,
-        "Date":1767225600000,
-        "ForecastSales":7488.01
+        "Date":1798761600000,
+        "ForecastSales":9.69
     },
     {
         "Store":33,
-        "Date":1767312000000,
-        "ForecastSales":9621.44
+        "Date":1798848000000,
+        "ForecastSales":3944.1
     },
     {
         "Store":33,
-        "Date":1767398400000,
-        "ForecastSales":7661.2
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":33,
-        "Date":1767484800000,
-        "ForecastSales":4919.04
+        "Date":1799020800000,
+        "ForecastSales":4800.29
     },
     {
         "Store":33,
-        "Date":1767571200000,
-        "ForecastSales":8876.32
+        "Date":1799107200000,
+        "ForecastSales":4678.73
     },
     {
         "Store":33,
-        "Date":1767657600000,
-        "ForecastSales":9050.34
+        "Date":1799193600000,
+        "ForecastSales":4713.73
     },
     {
         "Store":33,
-        "Date":1767744000000,
-        "ForecastSales":8784.19
+        "Date":1799280000000,
+        "ForecastSales":4718.13
     },
     {
         "Store":34,
-        "Date":1767225600000,
-        "ForecastSales":8777.98
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":34,
-        "Date":1767312000000,
-        "ForecastSales":11285.8
+        "Date":1798848000000,
+        "ForecastSales":4082.01
     },
     {
         "Store":34,
-        "Date":1767398400000,
-        "ForecastSales":9006.09
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":34,
-        "Date":1767484800000,
-        "ForecastSales":6432.09
+        "Date":1799020800000,
+        "ForecastSales":4820.56
     },
     {
         "Store":34,
-        "Date":1767571200000,
-        "ForecastSales":10471.37
+        "Date":1799107200000,
+        "ForecastSales":4859.21
     },
     {
         "Store":34,
-        "Date":1767657600000,
-        "ForecastSales":10608.83
+        "Date":1799193600000,
+        "ForecastSales":4768.86
     },
     {
         "Store":34,
-        "Date":1767744000000,
-        "ForecastSales":10344.66
+        "Date":1799280000000,
+        "ForecastSales":4803.67
     },
     {
         "Store":35,
-        "Date":1767225600000,
-        "ForecastSales":5352.68
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":35,
-        "Date":1767312000000,
-        "ForecastSales":5938.37
+        "Date":1798848000000,
+        "ForecastSales":4141.98
     },
     {
         "Store":35,
-        "Date":1767398400000,
-        "ForecastSales":4732.81
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":35,
-        "Date":1767484800000,
-        "ForecastSales":3639.43
+        "Date":1799020800000,
+        "ForecastSales":4832.65
     },
     {
         "Store":35,
-        "Date":1767571200000,
-        "ForecastSales":5556.79
+        "Date":1799107200000,
+        "ForecastSales":4888.15
     },
     {
         "Store":35,
-        "Date":1767657600000,
-        "ForecastSales":5580.98
+        "Date":1799193600000,
+        "ForecastSales":4878.8
     },
     {
         "Store":35,
-        "Date":1767744000000,
-        "ForecastSales":5446.01
+        "Date":1799280000000,
+        "ForecastSales":4910.78
     },
     {
         "Store":36,
-        "Date":1767225600000,
-        "ForecastSales":5678.28
+        "Date":1798761600000,
+        "ForecastSales":6.78
     },
     {
         "Store":36,
-        "Date":1767312000000,
-        "ForecastSales":6832.42
+        "Date":1798848000000,
+        "ForecastSales":4122.18
     },
     {
         "Store":36,
-        "Date":1767398400000,
-        "ForecastSales":5447.03
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":36,
-        "Date":1767484800000,
-        "ForecastSales":3914.46
+        "Date":1799020800000,
+        "ForecastSales":4810.62
     },
     {
         "Store":36,
-        "Date":1767571200000,
-        "ForecastSales":6357.44
+        "Date":1799107200000,
+        "ForecastSales":4828.7
     },
     {
         "Store":36,
-        "Date":1767657600000,
-        "ForecastSales":6535.45
+        "Date":1799193600000,
+        "ForecastSales":4866.33
     },
     {
         "Store":36,
-        "Date":1767744000000,
-        "ForecastSales":6362.88
+        "Date":1799280000000,
+        "ForecastSales":4843.17
     },
     {
         "Store":37,
-        "Date":1767225600000,
-        "ForecastSales":4520.05
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":37,
-        "Date":1767312000000,
-        "ForecastSales":5702.46
+        "Date":1798848000000,
+        "ForecastSales":4216.13
     },
     {
         "Store":37,
-        "Date":1767398400000,
-        "ForecastSales":4571.26
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":37,
-        "Date":1767484800000,
-        "ForecastSales":3353.86
+        "Date":1799020800000,
+        "ForecastSales":4971.7
     },
     {
         "Store":37,
-        "Date":1767571200000,
-        "ForecastSales":5350.1
+        "Date":1799107200000,
+        "ForecastSales":4977.18
     },
     {
         "Store":37,
-        "Date":1767657600000,
-        "ForecastSales":5482.54
+        "Date":1799193600000,
+        "ForecastSales":5002.44
     },
     {
         "Store":37,
-        "Date":1767744000000,
-        "ForecastSales":5275.86
+        "Date":1799280000000,
+        "ForecastSales":4988.99
     },
     {
         "Store":38,
-        "Date":1767225600000,
-        "ForecastSales":6032.03
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":38,
-        "Date":1767312000000,
-        "ForecastSales":7326.96
+        "Date":1798848000000,
+        "ForecastSales":4179.69
     },
     {
         "Store":38,
-        "Date":1767398400000,
-        "ForecastSales":5798.32
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":38,
-        "Date":1767484800000,
-        "ForecastSales":4195.09
+        "Date":1799020800000,
+        "ForecastSales":4919.2
     },
     {
         "Store":38,
-        "Date":1767571200000,
-        "ForecastSales":6759.17
+        "Date":1799107200000,
+        "ForecastSales":4936.36
     },
     {
         "Store":38,
-        "Date":1767657600000,
-        "ForecastSales":6956.73
+        "Date":1799193600000,
+        "ForecastSales":4938.67
     },
     {
         "Store":38,
-        "Date":1767744000000,
-        "ForecastSales":6784.77
+        "Date":1799280000000,
+        "ForecastSales":4941.73
     },
     {
         "Store":39,
-        "Date":1767225600000,
-        "ForecastSales":8718.66
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":39,
-        "Date":1767312000000,
-        "ForecastSales":9972.93
+        "Date":1798848000000,
+        "ForecastSales":4208.94
     },
     {
         "Store":39,
-        "Date":1767398400000,
-        "ForecastSales":7970.44
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":39,
-        "Date":1767484800000,
-        "ForecastSales":4996.62
+        "Date":1799020800000,
+        "ForecastSales":5023.38
     },
     {
         "Store":39,
-        "Date":1767571200000,
-        "ForecastSales":9243.85
+        "Date":1799107200000,
+        "ForecastSales":4985.71
     },
     {
         "Store":39,
-        "Date":1767657600000,
-        "ForecastSales":9393.45
+        "Date":1799193600000,
+        "ForecastSales":5034.94
     },
     {
         "Store":39,
-        "Date":1767744000000,
-        "ForecastSales":9139.13
+        "Date":1799280000000,
+        "ForecastSales":5055.79
     },
     {
         "Store":40,
-        "Date":1767225600000,
-        "ForecastSales":4104.19
+        "Date":1798761600000,
+        "ForecastSales":3.01
     },
     {
         "Store":40,
-        "Date":1767312000000,
-        "ForecastSales":4761.91
+        "Date":1798848000000,
+        "ForecastSales":4246.72
     },
     {
         "Store":40,
-        "Date":1767398400000,
-        "ForecastSales":3793.25
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":40,
-        "Date":1767484800000,
-        "ForecastSales":2688.4
+        "Date":1799020800000,
+        "ForecastSales":4999.39
     },
     {
         "Store":40,
-        "Date":1767571200000,
-        "ForecastSales":4395.1
+        "Date":1799107200000,
+        "ForecastSales":4991.87
     },
     {
         "Store":40,
-        "Date":1767657600000,
-        "ForecastSales":4495.51
+        "Date":1799193600000,
+        "ForecastSales":5025.96
     },
     {
         "Store":40,
-        "Date":1767744000000,
-        "ForecastSales":4335.38
+        "Date":1799280000000,
+        "ForecastSales":5005.53
     },
     {
         "Store":41,
-        "Date":1767225600000,
-        "ForecastSales":3609.83
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":41,
-        "Date":1767312000000,
-        "ForecastSales":4188.9
+        "Date":1798848000000,
+        "ForecastSales":4314.72
     },
     {
         "Store":41,
-        "Date":1767398400000,
-        "ForecastSales":3349.26
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":41,
-        "Date":1767484800000,
-        "ForecastSales":2385.95
+        "Date":1799020800000,
+        "ForecastSales":5072.96
     },
     {
         "Store":41,
-        "Date":1767571200000,
-        "ForecastSales":3893.0
+        "Date":1799107200000,
+        "ForecastSales":5121.82
     },
     {
         "Store":41,
-        "Date":1767657600000,
-        "ForecastSales":3978.57
+        "Date":1799193600000,
+        "ForecastSales":5085.28
     },
     {
         "Store":41,
-        "Date":1767744000000,
-        "ForecastSales":3862.03
+        "Date":1799280000000,
+        "ForecastSales":5117.68
     },
     {
         "Store":42,
-        "Date":1767225600000,
-        "ForecastSales":10238.06
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":42,
-        "Date":1767312000000,
-        "ForecastSales":11819.93
+        "Date":1798848000000,
+        "ForecastSales":4371.57
     },
     {
         "Store":42,
-        "Date":1767398400000,
-        "ForecastSales":9507.22
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":42,
-        "Date":1767484800000,
-        "ForecastSales":5973.06
+        "Date":1799020800000,
+        "ForecastSales":5138.41
     },
     {
         "Store":42,
-        "Date":1767571200000,
-        "ForecastSales":11048.36
+        "Date":1799107200000,
+        "ForecastSales":5197.03
     },
     {
         "Store":42,
-        "Date":1767657600000,
-        "ForecastSales":11300.13
+        "Date":1799193600000,
+        "ForecastSales":5175.5
     },
     {
         "Store":42,
-        "Date":1767744000000,
-        "ForecastSales":10956.83
+        "Date":1799280000000,
+        "ForecastSales":5237.76
     },
     {
         "Store":43,
-        "Date":1767225600000,
-        "ForecastSales":9351.12
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":43,
-        "Date":1767312000000,
-        "ForecastSales":10920.9
+        "Date":1798848000000,
+        "ForecastSales":4375.6
     },
     {
         "Store":43,
-        "Date":1767398400000,
-        "ForecastSales":8721.89
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":43,
-        "Date":1767484800000,
-        "ForecastSales":5779.28
+        "Date":1799020800000,
+        "ForecastSales":5147.78
     },
     {
         "Store":43,
-        "Date":1767571200000,
-        "ForecastSales":10284.59
+        "Date":1799107200000,
+        "ForecastSales":5151.28
     },
     {
         "Store":43,
-        "Date":1767657600000,
-        "ForecastSales":10411.67
+        "Date":1799193600000,
+        "ForecastSales":5252.03
     },
     {
         "Store":43,
-        "Date":1767744000000,
-        "ForecastSales":10054.87
+        "Date":1799280000000,
+        "ForecastSales":5193.92
     },
     {
         "Store":44,
-        "Date":1767225600000,
-        "ForecastSales":6247.3
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":44,
-        "Date":1767312000000,
-        "ForecastSales":7200.75
+        "Date":1798848000000,
+        "ForecastSales":4435.39
     },
     {
         "Store":44,
-        "Date":1767398400000,
-        "ForecastSales":5762.53
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":44,
-        "Date":1767484800000,
-        "ForecastSales":3950.44
+        "Date":1799020800000,
+        "ForecastSales":5238.81
     },
     {
         "Store":44,
-        "Date":1767571200000,
-        "ForecastSales":6656.78
+        "Date":1799107200000,
+        "ForecastSales":5286.94
     },
     {
         "Store":44,
-        "Date":1767657600000,
-        "ForecastSales":6842.21
+        "Date":1799193600000,
+        "ForecastSales":5348.93
     },
     {
         "Store":44,
-        "Date":1767744000000,
-        "ForecastSales":6649.76
+        "Date":1799280000000,
+        "ForecastSales":5308.39
     },
     {
         "Store":45,
-        "Date":1767225600000,
-        "ForecastSales":7436.41
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":45,
-        "Date":1767312000000,
-        "ForecastSales":9492.44
+        "Date":1798848000000,
+        "ForecastSales":4351.74
     },
     {
         "Store":45,
-        "Date":1767398400000,
-        "ForecastSales":7589.95
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":45,
-        "Date":1767484800000,
-        "ForecastSales":5257.02
+        "Date":1799020800000,
+        "ForecastSales":5204.54
     },
     {
         "Store":45,
-        "Date":1767571200000,
-        "ForecastSales":8767.83
+        "Date":1799107200000,
+        "ForecastSales":5212.9
     },
     {
         "Store":45,
-        "Date":1767657600000,
-        "ForecastSales":8889.95
+        "Date":1799193600000,
+        "ForecastSales":5250.41
     },
     {
         "Store":45,
-        "Date":1767744000000,
-        "ForecastSales":8682.43
+        "Date":1799280000000,
+        "ForecastSales":5264.95
     },
     {
         "Store":46,
-        "Date":1767225600000,
-        "ForecastSales":3203.01
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":46,
-        "Date":1767312000000,
-        "ForecastSales":4018.55
+        "Date":1798848000000,
+        "ForecastSales":4474.58
     },
     {
         "Store":46,
-        "Date":1767398400000,
-        "ForecastSales":3198.46
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":46,
-        "Date":1767484800000,
-        "ForecastSales":2239.15
+        "Date":1799020800000,
+        "ForecastSales":5318.01
     },
     {
         "Store":46,
-        "Date":1767571200000,
-        "ForecastSales":3738.1
+        "Date":1799107200000,
+        "ForecastSales":5316.97
     },
     {
         "Store":46,
-        "Date":1767657600000,
-        "ForecastSales":3794.69
+        "Date":1799193600000,
+        "ForecastSales":5371.37
     },
     {
         "Store":46,
-        "Date":1767744000000,
-        "ForecastSales":3698.78
+        "Date":1799280000000,
+        "ForecastSales":5363.21
     },
     {
         "Store":47,
-        "Date":1767225600000,
-        "ForecastSales":8080.17
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":47,
-        "Date":1767312000000,
-        "ForecastSales":9549.72
+        "Date":1798848000000,
+        "ForecastSales":4534.95
     },
     {
         "Store":47,
-        "Date":1767398400000,
-        "ForecastSales":7661.22
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":47,
-        "Date":1767484800000,
-        "ForecastSales":5217.8
+        "Date":1799020800000,
+        "ForecastSales":5284.23
     },
     {
         "Store":47,
-        "Date":1767571200000,
-        "ForecastSales":8842.78
+        "Date":1799107200000,
+        "ForecastSales":5366.05
     },
     {
         "Store":47,
-        "Date":1767657600000,
-        "ForecastSales":9117.36
+        "Date":1799193600000,
+        "ForecastSales":5310.84
     },
     {
         "Store":47,
-        "Date":1767744000000,
-        "ForecastSales":8834.23
+        "Date":1799280000000,
+        "ForecastSales":5376.79
     },
     {
         "Store":48,
-        "Date":1767225600000,
-        "ForecastSales":5852.88
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":48,
-        "Date":1767312000000,
-        "ForecastSales":6642.85
+        "Date":1798848000000,
+        "ForecastSales":4521.72
     },
     {
         "Store":48,
-        "Date":1767398400000,
-        "ForecastSales":5357.9
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":48,
-        "Date":1767484800000,
-        "ForecastSales":3688.05
+        "Date":1799020800000,
+        "ForecastSales":5359.23
     },
     {
         "Store":48,
-        "Date":1767571200000,
-        "ForecastSales":6223.71
+        "Date":1799107200000,
+        "ForecastSales":5363.0
     },
     {
         "Store":48,
-        "Date":1767657600000,
-        "ForecastSales":6304.79
+        "Date":1799193600000,
+        "ForecastSales":5412.09
     },
     {
         "Store":48,
-        "Date":1767744000000,
-        "ForecastSales":6144.85
+        "Date":1799280000000,
+        "ForecastSales":5378.46
     },
     {
         "Store":49,
-        "Date":1767225600000,
-        "ForecastSales":4247.22
+        "Date":1798761600000,
+        "ForecastSales":0.0
     },
     {
         "Store":49,
-        "Date":1767312000000,
-        "ForecastSales":4920.68
+        "Date":1798848000000,
+        "ForecastSales":4516.32
     },
     {
         "Store":49,
-        "Date":1767398400000,
-        "ForecastSales":3928.23
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":49,
-        "Date":1767484800000,
-        "ForecastSales":2674.09
+        "Date":1799020800000,
+        "ForecastSales":5339.62
     },
     {
         "Store":49,
-        "Date":1767571200000,
-        "ForecastSales":4624.01
+        "Date":1799107200000,
+        "ForecastSales":5381.4
     },
     {
         "Store":49,
-        "Date":1767657600000,
-        "ForecastSales":4665.57
+        "Date":1799193600000,
+        "ForecastSales":5366.51
     },
     {
         "Store":49,
-        "Date":1767744000000,
-        "ForecastSales":4560.12
+        "Date":1799280000000,
+        "ForecastSales":5365.03
     },
     {
         "Store":50,
-        "Date":1767225600000,
-        "ForecastSales":9847.97
+        "Date":1798761600000,
+        "ForecastSales":66.38
     },
     {
         "Store":50,
-        "Date":1767312000000,
-        "ForecastSales":11615.82
+        "Date":1798848000000,
+        "ForecastSales":4538.23
     },
     {
         "Store":50,
-        "Date":1767398400000,
-        "ForecastSales":9221.81
+        "Date":1798934400000,
+        "ForecastSales":0.0
     },
     {
         "Store":50,
-        "Date":1767484800000,
-        "ForecastSales":6453.97
+        "Date":1799020800000,
+        "ForecastSales":5378.59
     },
     {
         "Store":50,
-        "Date":1767571200000,
-        "ForecastSales":10873.63
+        "Date":1799107200000,
+        "ForecastSales":5337.25
     },
     {
         "Store":50,
-        "Date":1767657600000,
-        "ForecastSales":11168.2
+        "Date":1799193600000,
+        "ForecastSales":5336.39
     },
     {
         "Store":50,
-        "Date":1767744000000,
-        "ForecastSales":10786.02
+        "Date":1799280000000,
+        "ForecastSales":5314.96
     }
 ]

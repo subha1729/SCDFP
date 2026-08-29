@@ -717,26 +717,19 @@ function Dendrogram({ dendrogram }) {
   const labels =
     dendrogram.labels || [];
 
-
-  /*
-   * For a readable dashboard we use the final
-   * merge structure and render each linkage row
-   * as a horizontal branch.
-   */
+  if (!labels.length) {
+    return null;
+  }
 
   const width = 900;
+  const leftPad = 60;
+  const rightPad = 50;
+  const topPad = 26;
+  const bottomPad = 20;
+  const rowGap = 18;
 
-  const rowHeight = 24;
-
-  const visibleRows =
-    Math.min(matrix.length, 30);
-
-  const height =
-    Math.max(
-      260,
-      visibleRows * rowHeight + 70
-    );
-
+  const plotWidth =
+    width - leftPad - rightPad;
 
   const maxDistance =
     Math.max(
@@ -746,6 +739,59 @@ function Dendrogram({ dendrogram }) {
       1
     );
 
+  const positions = {};
+
+  labels.forEach((label, index) => {
+    positions[label] = {
+      x: leftPad +
+        (index / Math.max(labels.length - 1, 1)) *
+          plotWidth,
+      y: topPad + index * rowGap,
+    };
+  });
+
+  const mergeRows =
+    matrix.map((row, index) => {
+      const leftId = Number(row[0]);
+      const rightId = Number(row[1]);
+      const distance = Number(row[2]) || 0;
+
+      const leftNode = positions[leftId];
+      const rightNode = positions[rightId];
+
+      if (!leftNode || !rightNode) {
+        return null;
+      }
+
+      const mergedId = labels.length + index;
+      const x =
+        (leftNode.x + rightNode.x) / 2;
+
+      const y =
+        topPad +
+        (labels.length + index) * rowGap;
+
+      positions[mergedId] = { x, y };
+
+      return {
+        leftId,
+        rightId,
+        leftNode,
+        rightNode,
+        x,
+        y,
+        distance,
+        mergedId,
+      };
+    });
+
+  const height =
+    Math.max(
+      260,
+      topPad +
+        (labels.length + matrix.length + 2) * rowGap +
+        bottomPad
+    );
 
   return (
     <div className="dashboard-card dendrogram-card">
@@ -776,59 +822,101 @@ function Dendrogram({ dendrogram }) {
         <svg
           viewBox={`0 0 ${width} ${height}`}
           className="dendrogram-svg"
-          preserveAspectRatio="none"
+          preserveAspectRatio="xMidYMid meet"
         >
 
-          {matrix
-            .slice(0, visibleRows)
-            .map((row, index) => {
+          {mergeRows.map((merge, index) => {
+            if (!merge) {
+              return null;
+            }
 
-              const distance =
-                Number(row[2]) || 0;
+            const distanceRatio =
+              (merge.distance / maxDistance) || 0;
 
-              const x =
-                40 +
-                (distance / maxDistance) *
-                  (width - 100);
+            const distanceX =
+              leftPad +
+              distanceRatio * plotWidth;
 
-              const y =
-                35 +
-                index * rowHeight;
+            const leftStemX = merge.leftNode.x;
+            const rightStemX = merge.rightNode.x;
 
+            return (
+              <g
+                key={`merge-${index}`}
+                className="dendrogram-row"
+              >
+                <line
+                  x1={leftStemX}
+                  x2={leftStemX}
+                  y1={merge.leftNode.y}
+                  y2={merge.y}
+                  className="dendrogram-stem"
+                />
 
-              return (
-                <g
-                  key={index}
-                  className="dendrogram-row"
+                <line
+                  x1={rightStemX}
+                  x2={rightStemX}
+                  y1={merge.rightNode.y}
+                  y2={merge.y}
+                  className="dendrogram-stem"
+                />
+
+                <line
+                  x1={Math.min(leftStemX, rightStemX)}
+                  x2={Math.max(leftStemX, rightStemX)}
+                  y1={merge.y}
+                  y2={merge.y}
+                  className="dendrogram-branch"
+                />
+
+                <line
+                  x1={distanceX}
+                  x2={distanceX}
+                  y1={merge.y - 4}
+                  y2={merge.y + 4}
+                  className="dendrogram-distance-line"
+                />
+
+                <circle
+                  cx={merge.x}
+                  cy={merge.y}
+                  r="3.4"
+                  className="dendrogram-node"
+                />
+
+                <text
+                  x={distanceX + 8}
+                  y={merge.y + 3}
+                  className="dendrogram-distance"
                 >
+                  {merge.distance.toFixed(2)}
+                </text>
+              </g>
+            );
+          })}
 
-                  <line
-                    x1="40"
-                    x2={x}
-                    y1={y}
-                    y2={y}
-                    className="dendrogram-line"
-                  />
+          {labels.map((label, index) => {
+            const point = positions[label];
 
-                  <circle
-                    cx={x}
-                    cy={y}
-                    r="3"
-                    className="dendrogram-node"
-                  />
+            return (
+              <g key={`label-${label}`}>
+                <circle
+                  cx={point.x}
+                  cy={point.y}
+                  r="3.2"
+                  className="dendrogram-leaf"
+                />
 
-                  <text
-                    x={x + 8}
-                    y={y + 4}
-                    className="dendrogram-distance"
-                  >
-                    {distance.toFixed(2)}
-                  </text>
-
-                </g>
-              );
-
-            })}
+                <text
+                  x={point.x - 6}
+                  y={point.y - 11}
+                  className="dendrogram-label"
+                >
+                  {label}
+                </text>
+              </g>
+            );
+          })}
 
         </svg>
 

@@ -1,11 +1,18 @@
-import sys
 import tensorflow as tf
 import keras
+import sys
 
 print("Python:", sys.version)
 print("Executable:", sys.executable)
 print("TensorFlow:", tf.__version__)
 print("Keras:", keras.__version__)
+
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except AttributeError:
+    pass
 
 
 

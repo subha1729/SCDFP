@@ -4,1446 +4,1446 @@
     "stores": 50,
     "forecast": [
         {
-            "date": "2026-01-01",
+            "date": "2027-01-01",
             "stores": [
                 {
                     "store": 1,
-                    "forecast_sales": 5490.63
+                    "forecast_sales": 3556.89
                 },
                 {
                     "store": 2,
-                    "forecast_sales": 7045.34
+                    "forecast_sales": 3657.49
                 },
                 {
                     "store": 3,
-                    "forecast_sales": 6001.71
+                    "forecast_sales": 3737.23
                 },
                 {
                     "store": 4,
-                    "forecast_sales": 9357.79
+                    "forecast_sales": 3318.73
                 },
                 {
                     "store": 5,
-                    "forecast_sales": 6518.33
+                    "forecast_sales": 3288.11
                 },
                 {
                     "store": 6,
-                    "forecast_sales": 4242.26
+                    "forecast_sales": 3380.51
                 },
                 {
                     "store": 7,
-                    "forecast_sales": 11778.71
+                    "forecast_sales": 3565.43
                 },
                 {
                     "store": 8,
-                    "forecast_sales": 10156.32
+                    "forecast_sales": 3950.96
                 },
                 {
                     "store": 9,
-                    "forecast_sales": 7958.34
+                    "forecast_sales": 3879.79
                 },
                 {
                     "store": 10,
-                    "forecast_sales": 11216.45
+                    "forecast_sales": 4467.47
                 },
                 {
                     "store": 11,
-                    "forecast_sales": 9945.1
+                    "forecast_sales": 4542.64
                 },
                 {
                     "store": 12,
-                    "forecast_sales": 8087.77
+                    "forecast_sales": 3523.63
                 },
                 {
                     "store": 13,
-                    "forecast_sales": 6446.3
+                    "forecast_sales": 3384.1
                 },
                 {
                     "store": 14,
-                    "forecast_sales": 10739.88
+                    "forecast_sales": 4469.82
                 },
                 {
                     "store": 15,
-                    "forecast_sales": 8116.1
+                    "forecast_sales": 4130.09
                 },
                 {
                     "store": 16,
-                    "forecast_sales": 7450.63
+                    "forecast_sales": 3776.19
                 },
                 {
                     "store": 17,
-                    "forecast_sales": 6831.02
+                    "forecast_sales": 3990.87
                 },
                 {
                     "store": 18,
-                    "forecast_sales": 9297.66
+                    "forecast_sales": 4076.12
                 },
                 {
                     "store": 19,
-                    "forecast_sales": 6411.35
+                    "forecast_sales": 3056.28
                 },
                 {
                     "store": 20,
-                    "forecast_sales": 3765.02
+                    "forecast_sales": 3746.97
                 },
                 {
                     "store": 21,
-                    "forecast_sales": 10122.28
+                    "forecast_sales": 3903.67
                 },
                 {
                     "store": 22,
-                    "forecast_sales": 10532.7
+                    "forecast_sales": 5213.03
                 },
                 {
                     "store": 23,
-                    "forecast_sales": 10852.01
+                    "forecast_sales": 3619.39
                 },
                 {
                     "store": 24,
-                    "forecast_sales": 8726.97
+                    "forecast_sales": 4266.36
                 },
                 {
                     "store": 25,
-                    "forecast_sales": 4739.63
+                    "forecast_sales": 4469.89
                 },
                 {
                     "store": 26,
-                    "forecast_sales": 4623.0
+                    "forecast_sales": 3732.09
                 },
                 {
                     "store": 27,
-                    "forecast_sales": 9626.1
+                    "forecast_sales": 4519.3
                 },
                 {
                     "store": 28,
-                    "forecast_sales": 7865.21
+                    "forecast_sales": 3602.94
                 },
                 {
                     "store": 29,
-                    "forecast_sales": 6010.87
+                    "forecast_sales": 4166.69
                 },
                 {
                     "store": 30,
-                    "forecast_sales": 4179.67
+                    "forecast_sales": 4214.98
                 },
                 {
                     "store": 31,
-                    "forecast_sales": 6301.33
+                    "forecast_sales": 5540.84
                 },
                 {
                     "store": 32,
-                    "forecast_sales": 8619.81
+                    "forecast_sales": 4854.15
                 },
                 {
                     "store": 33,
-                    "forecast_sales": 8478.91
+                    "forecast_sales": 4214.19
                 },
                 {
                     "store": 34,
-                    "forecast_sales": 10350.86
+                    "forecast_sales": 4848.74
                 },
                 {
                     "store": 35,
-                    "forecast_sales": 6009.38
+                    "forecast_sales": 4226.08
                 },
                 {
                     "store": 36,
-                    "forecast_sales": 6722.1
+                    "forecast_sales": 4574.91
                 },
                 {
                     "store": 37,
-                    "forecast_sales": 4842.27
+                    "forecast_sales": 4665.93
                 },
                 {
                     "store": 38,
-                    "forecast_sales": 7682.01
+                    "forecast_sales": 4844.05
                 },
                 {
                     "store": 39,
-                    "forecast_sales": 8992.95
+                    "forecast_sales": 4468.03
                 },
                 {
                     "store": 40,
-                    "forecast_sales": 4916.26
+                    "forecast_sales": 3902.13
                 },
                 {
                     "store": 41,
-                    "forecast_sales": 3382.51
+                    "forecast_sales": 4659.66
                 },
                 {
                     "store": 42,
-                    "forecast_sales": 8607.09
+                    "forecast_sales": 4740.45
                 },
                 {
                     "store": 43,
-                    "forecast_sales": 11947.57
+                    "forecast_sales": 4967.14
                 },
                 {
                     "store": 44,
-                    "forecast_sales": 7264.02
+                    "forecast_sales": 7381.17
                 },
                 {
                     "store": 45,
-                    "forecast_sales": 8002.61
+                    "forecast_sales": 5752.54
                 },
                 {
                     "store": 46,
-                    "forecast_sales": 4387.25
+                    "forecast_sales": 5817.99
                 },
                 {
                     "store": 47,
-                    "forecast_sales": 8308.77
+                    "forecast_sales": 5277.35
                 },
                 {
                     "store": 48,
-                    "forecast_sales": 6321.94
+                    "forecast_sales": 5505.85
                 },
                 {
                     "store": 49,
-                    "forecast_sales": 4634.63
+                    "forecast_sales": 5989.88
                 },
                 {
                     "store": 50,
-                    "forecast_sales": 10638.25
+                    "forecast_sales": 5073.34
                 }
             ],
-            "overall_forecast_sales": 380545.67
+            "overall_forecast_sales": 218512.08
         },
         {
-            "date": "2026-01-02",
+            "date": "2027-01-02",
             "stores": [
                 {
                     "store": 1,
-                    "forecast_sales": 5474.97
+                    "forecast_sales": 3191.79
                 },
                 {
                     "store": 2,
-                    "forecast_sales": 7252.8
+                    "forecast_sales": 3227.5
                 },
                 {
                     "store": 3,
-                    "forecast_sales": 6388.82
+                    "forecast_sales": 3790.45
                 },
                 {
                     "store": 4,
-                    "forecast_sales": 9835.82
+                    "forecast_sales": 3062.12
                 },
                 {
                     "store": 5,
-                    "forecast_sales": 6553.24
+                    "forecast_sales": 2917.74
                 },
                 {
                     "store": 6,
-                    "forecast_sales": 4213.28
+                    "forecast_sales": 3463.55
                 },
                 {
                     "store": 7,
-                    "forecast_sales": 11803.23
+                    "forecast_sales": 3377.58
                 },
                 {
                     "store": 8,
-                    "forecast_sales": 10305.68
+                    "forecast_sales": 3632.13
                 },
                 {
                     "store": 9,
-                    "forecast_sales": 7904.57
+                    "forecast_sales": 3626.61
                 },
                 {
                     "store": 10,
-                    "forecast_sales": 11204.1
+                    "forecast_sales": 4345.05
                 },
                 {
                     "store": 11,
-                    "forecast_sales": 9807.77
+                    "forecast_sales": 4198.45
                 },
                 {
                     "store": 12,
-                    "forecast_sales": 8001.35
+                    "forecast_sales": 3242.26
                 },
                 {
                     "store": 13,
-                    "forecast_sales": 6660.06
+                    "forecast_sales": 3301.73
                 },
                 {
                     "store": 14,
-                    "forecast_sales": 10965.94
+                    "forecast_sales": 4558.28
                 },
                 {
                     "store": 15,
-                    "forecast_sales": 8246.93
+                    "forecast_sales": 3774.57
                 },
                 {
                     "store": 16,
-                    "forecast_sales": 7143.9
+                    "forecast_sales": 3410.21
                 },
                 {
                     "store": 17,
-                    "forecast_sales": 6782.77
+                    "forecast_sales": 3954.19
                 },
                 {
                     "store": 18,
-                    "forecast_sales": 9588.66
+                    "forecast_sales": 4105.19
                 },
                 {
                     "store": 19,
-                    "forecast_sales": 6700.4
+                    "forecast_sales": 2743.18
                 },
                 {
                     "store": 20,
-                    "forecast_sales": 3979.67
+                    "forecast_sales": 3773.56
                 },
                 {
                     "store": 21,
-                    "forecast_sales": 10207.2
+                    "forecast_sales": 3726.78
                 },
                 {
                     "store": 22,
-                    "forecast_sales": 10380.33
+                    "forecast_sales": 5335.73
                 },
                 {
                     "store": 23,
-                    "forecast_sales": 10814.5
+                    "forecast_sales": 3335.86
                 },
                 {
                     "store": 24,
-                    "forecast_sales": 8898.55
+                    "forecast_sales": 4251.19
                 },
                 {
                     "store": 25,
-                    "forecast_sales": 4654.8
+                    "forecast_sales": 4334.57
                 },
                 {
                     "store": 26,
-                    "forecast_sales": 5195.38
+                    "forecast_sales": 3542.26
                 },
                 {
                     "store": 27,
-                    "forecast_sales": 9995.82
+                    "forecast_sales": 4425.67
                 },
                 {
                     "store": 28,
-                    "forecast_sales": 7411.27
+                    "forecast_sales": 3281.17
                 },
                 {
                     "store": 29,
-                    "forecast_sales": 6159.83
+                    "forecast_sales": 3847.85
                 },
                 {
                     "store": 30,
-                    "forecast_sales": 4345.72
+                    "forecast_sales": 4057.7
                 },
                 {
                     "store": 31,
-                    "forecast_sales": 6468.36
+                    "forecast_sales": 5668.4
                 },
                 {
                     "store": 32,
-                    "forecast_sales": 8723.38
+                    "forecast_sales": 4525.62
                 },
                 {
                     "store": 33,
-                    "forecast_sales": 8586.23
+                    "forecast_sales": 3902.14
                 },
                 {
                     "store": 34,
-                    "forecast_sales": 10415.07
+                    "forecast_sales": 4476.33
                 },
                 {
                     "store": 35,
-                    "forecast_sales": 6126.06
+                    "forecast_sales": 3974.52
                 },
                 {
                     "store": 36,
-                    "forecast_sales": 7370.17
+                    "forecast_sales": 4412.67
                 },
                 {
                     "store": 37,
-                    "forecast_sales": 4892.46
+                    "forecast_sales": 4362.0
                 },
                 {
                     "store": 38,
-                    "forecast_sales": 7956.0
+                    "forecast_sales": 4743.15
                 },
                 {
                     "store": 39,
-                    "forecast_sales": 9196.61
+                    "forecast_sales": 4325.75
                 },
                 {
                     "store": 40,
-                    "forecast_sales": 4696.49
+                    "forecast_sales": 3469.75
                 },
                 {
                     "store": 41,
-                    "forecast_sales": 3625.95
+                    "forecast_sales": 4192.13
                 },
                 {
                     "store": 42,
-                    "forecast_sales": 8317.29
+                    "forecast_sales": 4562.8
                 },
                 {
                     "store": 43,
-                    "forecast_sales": 12409.68
+                    "forecast_sales": 4682.88
                 },
                 {
                     "store": 44,
-                    "forecast_sales": 7157.54
+                    "forecast_sales": 6974.76
                 },
                 {
                     "store": 45,
-                    "forecast_sales": 8184.18
+                    "forecast_sales": 5508.12
                 },
                 {
                     "store": 46,
-                    "forecast_sales": 4417.24
+                    "forecast_sales": 5383.19
                 },
                 {
                     "store": 47,
-                    "forecast_sales": 8048.56
+                    "forecast_sales": 5205.64
                 },
                 {
                     "store": 48,
-                    "forecast_sales": 6576.78
+                    "forecast_sales": 5157.07
                 },
                 {
                     "store": 49,
-                    "forecast_sales": 5065.22
+                    "forecast_sales": 5597.36
                 },
                 {
                     "store": 50,
-                    "forecast_sales": 10692.78
+                    "forecast_sales": 4610.23
                 }
             ],
-            "overall_forecast_sales": 385803.41
+            "overall_forecast_sales": 207569.43
         },
         {
-            "date": "2026-01-03",
+            "date": "2027-01-03",
             "stores": [
                 {
                     "store": 1,
-                    "forecast_sales": 5397.86
+                    "forecast_sales": 2948.75
                 },
                 {
                     "store": 2,
-                    "forecast_sales": 7355.22
+                    "forecast_sales": 2994.52
                 },
                 {
                     "store": 3,
-                    "forecast_sales": 6238.14
+                    "forecast_sales": 3653.32
                 },
                 {
                     "store": 4,
-                    "forecast_sales": 9735.68
+                    "forecast_sales": 2957.62
                 },
                 {
                     "store": 5,
-                    "forecast_sales": 6469.68
+                    "forecast_sales": 2676.24
                 },
                 {
                     "store": 6,
-                    "forecast_sales": 3822.48
+                    "forecast_sales": 3277.88
                 },
                 {
                     "store": 7,
-                    "forecast_sales": 11545.46
+                    "forecast_sales": 3150.67
                 },
                 {
                     "store": 8,
-                    "forecast_sales": 10448.78
+                    "forecast_sales": 3496.09
                 },
                 {
                     "store": 9,
-                    "forecast_sales": 8481.01
+                    "forecast_sales": 3643.51
                 },
                 {
                     "store": 10,
-                    "forecast_sales": 11315.18
+                    "forecast_sales": 4094.09
                 },
                 {
                     "store": 11,
-                    "forecast_sales": 9426.65
+                    "forecast_sales": 4064.33
                 },
                 {
                     "store": 12,
-                    "forecast_sales": 8080.33
+                    "forecast_sales": 3037.63
                 },
                 {
                     "store": 13,
-                    "forecast_sales": 6526.22
+                    "forecast_sales": 3140.1
                 },
                 {
                     "store": 14,
-                    "forecast_sales": 10641.9
+                    "forecast_sales": 4466.99
                 },
                 {
                     "store": 15,
-                    "forecast_sales": 8069.28
+                    "forecast_sales": 3519.54
                 },
                 {
                     "store": 16,
-                    "forecast_sales": 6881.95
+                    "forecast_sales": 3139.49
                 },
                 {
                     "store": 17,
-                    "forecast_sales": 6746.06
+                    "forecast_sales": 3772.67
                 },
                 {
                     "store": 18,
-                    "forecast_sales": 9713.26
+                    "forecast_sales": 3903.16
                 },
                 {
                     "store": 19,
-                    "forecast_sales": 6425.74
+                    "forecast_sales": 2610.01
                 },
                 {
                     "store": 20,
-                    "forecast_sales": 4393.27
+                    "forecast_sales": 3629.57
                 },
                 {
                     "store": 21,
-                    "forecast_sales": 9893.84
+                    "forecast_sales": 3498.58
                 },
                 {
                     "store": 22,
-                    "forecast_sales": 10287.13
+                    "forecast_sales": 5251.89
                 },
                 {
                     "store": 23,
-                    "forecast_sales": 10664.86
+                    "forecast_sales": 3246.56
                 },
                 {
                     "store": 24,
-                    "forecast_sales": 8713.49
+                    "forecast_sales": 4160.76
                 },
                 {
                     "store": 25,
-                    "forecast_sales": 4779.01
+                    "forecast_sales": 4122.73
                 },
                 {
                     "store": 26,
-                    "forecast_sales": 4361.56
+                    "forecast_sales": 3539.74
                 },
                 {
                     "store": 27,
-                    "forecast_sales": 10065.29
+                    "forecast_sales": 4150.31
                 },
                 {
                     "store": 28,
-                    "forecast_sales": 7373.06
+                    "forecast_sales": 3146.38
                 },
                 {
                     "store": 29,
-                    "forecast_sales": 5973.16
+                    "forecast_sales": 3580.48
                 },
                 {
                     "store": 30,
-                    "forecast_sales": 4657.18
+                    "forecast_sales": 3841.17
                 },
                 {
                     "store": 31,
-                    "forecast_sales": 6325.73
+                    "forecast_sales": 5658.83
                 },
                 {
                     "store": 32,
-                    "forecast_sales": 8602.93
+                    "forecast_sales": 4400.63
                 },
                 {
                     "store": 33,
-                    "forecast_sales": 8524.1
+                    "forecast_sales": 3669.34
                 },
                 {
                     "store": 34,
-                    "forecast_sales": 10253.06
+                    "forecast_sales": 4375.21
                 },
                 {
                     "store": 35,
-                    "forecast_sales": 6056.58
+                    "forecast_sales": 3715.37
                 },
                 {
                     "store": 36,
-                    "forecast_sales": 7104.94
+                    "forecast_sales": 4362.0
                 },
                 {
                     "store": 37,
-                    "forecast_sales": 4820.71
+                    "forecast_sales": 4149.8
                 },
                 {
                     "store": 38,
-                    "forecast_sales": 7964.56
+                    "forecast_sales": 4623.8
                 },
                 {
                     "store": 39,
-                    "forecast_sales": 9041.08
+                    "forecast_sales": 4099.68
                 },
                 {
                     "store": 40,
-                    "forecast_sales": 4387.51
+                    "forecast_sales": 3234.03
                 },
                 {
                     "store": 41,
-                    "forecast_sales": 3232.81
+                    "forecast_sales": 3981.15
                 },
                 {
                     "store": 42,
-                    "forecast_sales": 8146.11
+                    "forecast_sales": 4442.0
                 },
                 {
                     "store": 43,
-                    "forecast_sales": 12521.84
+                    "forecast_sales": 4533.28
                 },
                 {
                     "store": 44,
-                    "forecast_sales": 7205.8
+                    "forecast_sales": 6802.44
                 },
                 {
                     "store": 45,
-                    "forecast_sales": 8094.07
+                    "forecast_sales": 5082.57
                 },
                 {
                     "store": 46,
-                    "forecast_sales": 4479.15
+                    "forecast_sales": 5045.06
                 },
                 {
                     "store": 47,
-                    "forecast_sales": 8032.75
+                    "forecast_sales": 5190.62
                 },
                 {
                     "store": 48,
-                    "forecast_sales": 6395.45
+                    "forecast_sales": 5009.07
                 },
                 {
                     "store": 49,
-                    "forecast_sales": 4526.47
+                    "forecast_sales": 5481.29
                 },
                 {
                     "store": 50,
-                    "forecast_sales": 10687.52
+                    "forecast_sales": 4337.55
                 }
             ],
-            "overall_forecast_sales": 380885.9
+            "overall_forecast_sales": 198908.5
         },
         {
-            "date": "2026-01-04",
+            "date": "2027-01-04",
             "stores": [
                 {
                     "store": 1,
-                    "forecast_sales": 5249.09
+                    "forecast_sales": 2870.33
                 },
                 {
                     "store": 2,
-                    "forecast_sales": 7177.42
+                    "forecast_sales": 2789.62
                 },
                 {
                     "store": 3,
-                    "forecast_sales": 6265.96
+                    "forecast_sales": 3492.18
                 },
                 {
                     "store": 4,
-                    "forecast_sales": 9867.52
+                    "forecast_sales": 2670.43
                 },
                 {
                     "store": 5,
-                    "forecast_sales": 6476.7
+                    "forecast_sales": 2613.73
                 },
                 {
                     "store": 6,
-                    "forecast_sales": 3661.68
+                    "forecast_sales": 3226.7
                 },
                 {
                     "store": 7,
-                    "forecast_sales": 11483.47
+                    "forecast_sales": 2937.55
                 },
                 {
                     "store": 8,
-                    "forecast_sales": 10278.3
+                    "forecast_sales": 3595.73
                 },
                 {
                     "store": 9,
-                    "forecast_sales": 8422.12
+                    "forecast_sales": 3320.54
                 },
                 {
                     "store": 10,
-                    "forecast_sales": 11401.59
+                    "forecast_sales": 3843.07
                 },
                 {
                     "store": 11,
-                    "forecast_sales": 9256.04
+                    "forecast_sales": 3810.37
                 },
                 {
                     "store": 12,
-                    "forecast_sales": 8008.68
+                    "forecast_sales": 2689.82
                 },
                 {
                     "store": 13,
-                    "forecast_sales": 6407.69
+                    "forecast_sales": 2951.03
                 },
                 {
                     "store": 14,
-                    "forecast_sales": 10504.25
+                    "forecast_sales": 4110.79
                 },
                 {
                     "store": 15,
-                    "forecast_sales": 7950.06
+                    "forecast_sales": 3297.01
                 },
                 {
                     "store": 16,
-                    "forecast_sales": 6653.28
+                    "forecast_sales": 3034.62
                 },
                 {
                     "store": 17,
-                    "forecast_sales": 6561.77
+                    "forecast_sales": 3584.4
                 },
                 {
                     "store": 18,
-                    "forecast_sales": 9507.93
+                    "forecast_sales": 3627.3
                 },
                 {
                     "store": 19,
-                    "forecast_sales": 6292.94
+                    "forecast_sales": 2439.2
                 },
                 {
                     "store": 20,
-                    "forecast_sales": 4567.67
+                    "forecast_sales": 3310.35
                 },
                 {
                     "store": 21,
-                    "forecast_sales": 9683.09
+                    "forecast_sales": 3030.9
                 },
                 {
                     "store": 22,
-                    "forecast_sales": 10262.21
+                    "forecast_sales": 4539.1
                 },
                 {
                     "store": 23,
-                    "forecast_sales": 10450.03
+                    "forecast_sales": 2966.05
                 },
                 {
                     "store": 24,
-                    "forecast_sales": 8537.13
+                    "forecast_sales": 3851.32
                 },
                 {
                     "store": 25,
-                    "forecast_sales": 4798.87
+                    "forecast_sales": 3891.27
                 },
                 {
                     "store": 26,
-                    "forecast_sales": 4671.17
+                    "forecast_sales": 3303.68
                 },
                 {
                     "store": 27,
-                    "forecast_sales": 10016.16
+                    "forecast_sales": 4008.08
                 },
                 {
                     "store": 28,
-                    "forecast_sales": 7303.61
+                    "forecast_sales": 2810.23
                 },
                 {
                     "store": 29,
-                    "forecast_sales": 5860.41
+                    "forecast_sales": 3320.04
                 },
                 {
                     "store": 30,
-                    "forecast_sales": 4841.35
+                    "forecast_sales": 3631.19
                 },
                 {
                     "store": 31,
-                    "forecast_sales": 6164.69
+                    "forecast_sales": 5919.29
                 },
                 {
                     "store": 32,
-                    "forecast_sales": 8419.73
+                    "forecast_sales": 4055.58
                 },
                 {
                     "store": 33,
-                    "forecast_sales": 8320.07
+                    "forecast_sales": 3433.41
                 },
                 {
                     "store": 34,
-                    "forecast_sales": 10061.36
+                    "forecast_sales": 4476.36
                 },
                 {
                     "store": 35,
-                    "forecast_sales": 5925.12
+                    "forecast_sales": 3455.48
                 },
                 {
                     "store": 36,
-                    "forecast_sales": 7206.22
+                    "forecast_sales": 4100.59
                 },
                 {
                     "store": 37,
-                    "forecast_sales": 4639.57
+                    "forecast_sales": 3900.88
                 },
                 {
                     "store": 38,
-                    "forecast_sales": 7791.0
+                    "forecast_sales": 4305.93
                 },
                 {
                     "store": 39,
-                    "forecast_sales": 8856.79
+                    "forecast_sales": 3877.34
                 },
                 {
                     "store": 40,
-                    "forecast_sales": 4147.68
+                    "forecast_sales": 2958.32
                 },
                 {
                     "store": 41,
-                    "forecast_sales": 3218.78
+                    "forecast_sales": 3653.71
                 },
                 {
                     "store": 42,
-                    "forecast_sales": 7345.29
+                    "forecast_sales": 4038.88
                 },
                 {
                     "store": 43,
-                    "forecast_sales": 12782.88
+                    "forecast_sales": 4185.17
                 },
                 {
                     "store": 44,
-                    "forecast_sales": 6992.62
+                    "forecast_sales": 7014.73
                 },
                 {
                     "store": 45,
-                    "forecast_sales": 7817.31
+                    "forecast_sales": 4833.8
                 },
                 {
                     "store": 46,
-                    "forecast_sales": 4393.44
+                    "forecast_sales": 4684.91
                 },
                 {
                     "store": 47,
-                    "forecast_sales": 8707.51
+                    "forecast_sales": 4565.51
                 },
                 {
                     "store": 48,
-                    "forecast_sales": 6312.11
+                    "forecast_sales": 4734.43
                 },
                 {
                     "store": 49,
-                    "forecast_sales": 4909.96
+                    "forecast_sales": 5949.49
                 },
                 {
                     "store": 50,
-                    "forecast_sales": 10484.21
+                    "forecast_sales": 4202.7
                 }
             ],
-            "overall_forecast_sales": 376914.53
+            "overall_forecast_sales": 187913.14
         },
         {
-            "date": "2026-01-05",
+            "date": "2027-01-05",
             "stores": [
                 {
                     "store": 1,
-                    "forecast_sales": 5024.48
+                    "forecast_sales": 2986.54
                 },
                 {
                     "store": 2,
-                    "forecast_sales": 6603.79
+                    "forecast_sales": 2999.89
                 },
                 {
                     "store": 3,
-                    "forecast_sales": 5782.56
+                    "forecast_sales": 3584.42
                 },
                 {
                     "store": 4,
-                    "forecast_sales": 10331.32
+                    "forecast_sales": 2817.21
                 },
                 {
                     "store": 5,
-                    "forecast_sales": 5866.64
+                    "forecast_sales": 2688.62
                 },
                 {
                     "store": 6,
-                    "forecast_sales": 3814.05
+                    "forecast_sales": 3335.7
                 },
                 {
                     "store": 7,
-                    "forecast_sales": 11309.26
+                    "forecast_sales": 3071.25
                 },
                 {
                     "store": 8,
-                    "forecast_sales": 10338.47
+                    "forecast_sales": 3671.33
                 },
                 {
                     "store": 9,
-                    "forecast_sales": 7479.74
+                    "forecast_sales": 3289.04
                 },
                 {
                     "store": 10,
-                    "forecast_sales": 11813.88
+                    "forecast_sales": 3862.02
                 },
                 {
                     "store": 11,
-                    "forecast_sales": 8808.22
+                    "forecast_sales": 3737.49
                 },
                 {
                     "store": 12,
-                    "forecast_sales": 8181.11
+                    "forecast_sales": 2835.33
                 },
                 {
                     "store": 13,
-                    "forecast_sales": 5870.21
+                    "forecast_sales": 2968.03
                 },
                 {
                     "store": 14,
-                    "forecast_sales": 9991.23
+                    "forecast_sales": 4101.76
                 },
                 {
                     "store": 15,
-                    "forecast_sales": 7229.94
+                    "forecast_sales": 3331.09
                 },
                 {
                     "store": 16,
-                    "forecast_sales": 6527.66
+                    "forecast_sales": 3040.91
                 },
                 {
                     "store": 17,
-                    "forecast_sales": 6945.24
+                    "forecast_sales": 3633.48
                 },
                 {
                     "store": 18,
-                    "forecast_sales": 8886.85
+                    "forecast_sales": 3674.23
                 },
                 {
                     "store": 19,
-                    "forecast_sales": 5910.43
+                    "forecast_sales": 2582.1
                 },
                 {
                     "store": 20,
-                    "forecast_sales": 3927.8
+                    "forecast_sales": 3179.88
                 },
                 {
                     "store": 21,
-                    "forecast_sales": 8776.57
+                    "forecast_sales": 2971.37
                 },
                 {
                     "store": 22,
-                    "forecast_sales": 9728.22
+                    "forecast_sales": 4596.59
                 },
                 {
                     "store": 23,
-                    "forecast_sales": 10893.52
+                    "forecast_sales": 3086.61
                 },
                 {
                     "store": 24,
-                    "forecast_sales": 8346.81
+                    "forecast_sales": 3885.43
                 },
                 {
                     "store": 25,
-                    "forecast_sales": 5012.36
+                    "forecast_sales": 3845.83
                 },
                 {
                     "store": 26,
-                    "forecast_sales": 4482.81
+                    "forecast_sales": 3495.92
                 },
                 {
                     "store": 27,
-                    "forecast_sales": 9273.31
+                    "forecast_sales": 3999.94
                 },
                 {
                     "store": 28,
-                    "forecast_sales": 8314.13
+                    "forecast_sales": 2837.81
                 },
                 {
                     "store": 29,
-                    "forecast_sales": 5427.44
+                    "forecast_sales": 3496.61
                 },
                 {
                     "store": 30,
-                    "forecast_sales": 4688.03
+                    "forecast_sales": 3648.21
                 },
                 {
                     "store": 31,
-                    "forecast_sales": 5686.19
+                    "forecast_sales": 5712.39
                 },
                 {
                     "store": 32,
-                    "forecast_sales": 7925.21
+                    "forecast_sales": 4028.68
                 },
                 {
                     "store": 33,
-                    "forecast_sales": 8029.56
+                    "forecast_sales": 3441.4
                 },
                 {
                     "store": 34,
-                    "forecast_sales": 9332.53
+                    "forecast_sales": 4526.69
                 },
                 {
                     "store": 35,
-                    "forecast_sales": 6490.99
+                    "forecast_sales": 3684.89
                 },
                 {
                     "store": 36,
-                    "forecast_sales": 6850.37
+                    "forecast_sales": 4094.07
                 },
                 {
                     "store": 37,
-                    "forecast_sales": 4403.03
+                    "forecast_sales": 3956.71
                 },
                 {
                     "store": 38,
-                    "forecast_sales": 7845.13
+                    "forecast_sales": 4361.95
                 },
                 {
                     "store": 39,
-                    "forecast_sales": 8342.65
+                    "forecast_sales": 3866.53
                 },
                 {
                     "store": 40,
-                    "forecast_sales": 5042.66
+                    "forecast_sales": 3141.87
                 },
                 {
                     "store": 41,
-                    "forecast_sales": 3123.74
+                    "forecast_sales": 3892.31
                 },
                 {
                     "store": 42,
-                    "forecast_sales": 6275.93
+                    "forecast_sales": 4146.65
                 },
                 {
                     "store": 43,
-                    "forecast_sales": 13286.62
+                    "forecast_sales": 4207.14
                 },
                 {
                     "store": 44,
-                    "forecast_sales": 7673.7
+                    "forecast_sales": 6711.8
                 },
                 {
                     "store": 45,
-                    "forecast_sales": 7620.11
+                    "forecast_sales": 5036.47
                 },
                 {
                     "store": 46,
-                    "forecast_sales": 4473.88
+                    "forecast_sales": 4836.97
                 },
                 {
                     "store": 47,
-                    "forecast_sales": 8466.44
+                    "forecast_sales": 4673.41
                 },
                 {
                     "store": 48,
-                    "forecast_sales": 5924.48
+                    "forecast_sales": 5003.17
                 },
                 {
                     "store": 49,
-                    "forecast_sales": 4562.82
+                    "forecast_sales": 5795.08
                 },
                 {
                     "store": 50,
-                    "forecast_sales": 10188.41
+                    "forecast_sales": 4264.52
                 }
             ],
-            "overall_forecast_sales": 367130.53
+            "overall_forecast_sales": 190637.34
         },
         {
-            "date": "2026-01-06",
+            "date": "2027-01-06",
             "stores": [
                 {
                     "store": 1,
-                    "forecast_sales": 5060.69
+                    "forecast_sales": 2938.11
                 },
                 {
                     "store": 2,
-                    "forecast_sales": 6838.99
+                    "forecast_sales": 3012.58
                 },
                 {
                     "store": 3,
-                    "forecast_sales": 6239.48
+                    "forecast_sales": 3480.33
                 },
                 {
                     "store": 4,
-                    "forecast_sales": 11624.01
+                    "forecast_sales": 2785.35
                 },
                 {
                     "store": 5,
-                    "forecast_sales": 6350.78
+                    "forecast_sales": 2794.31
                 },
                 {
                     "store": 6,
-                    "forecast_sales": 4107.98
+                    "forecast_sales": 3198.72
                 },
                 {
                     "store": 7,
-                    "forecast_sales": 11142.53
+                    "forecast_sales": 3040.77
                 },
                 {
                     "store": 8,
-                    "forecast_sales": 10189.91
+                    "forecast_sales": 3540.65
                 },
                 {
                     "store": 9,
-                    "forecast_sales": 7411.57
+                    "forecast_sales": 3108.51
                 },
                 {
                     "store": 10,
-                    "forecast_sales": 11241.03
+                    "forecast_sales": 3798.97
                 },
                 {
                     "store": 11,
-                    "forecast_sales": 8779.76
+                    "forecast_sales": 3685.54
                 },
                 {
                     "store": 12,
-                    "forecast_sales": 7896.69
+                    "forecast_sales": 2865.45
                 },
                 {
                     "store": 13,
-                    "forecast_sales": 6066.34
+                    "forecast_sales": 2935.81
                 },
                 {
                     "store": 14,
-                    "forecast_sales": 9783.71
+                    "forecast_sales": 3958.01
                 },
                 {
                     "store": 15,
-                    "forecast_sales": 7319.39
+                    "forecast_sales": 3312.35
                 },
                 {
                     "store": 16,
-                    "forecast_sales": 6547.8
+                    "forecast_sales": 2941.35
                 },
                 {
                     "store": 17,
-                    "forecast_sales": 6976.8
+                    "forecast_sales": 3547.95
                 },
                 {
                     "store": 18,
-                    "forecast_sales": 8624.26
+                    "forecast_sales": 3579.37
                 },
                 {
                     "store": 19,
-                    "forecast_sales": 6068.53
+                    "forecast_sales": 2516.5
                 },
                 {
                     "store": 20,
-                    "forecast_sales": 4137.96
+                    "forecast_sales": 3184.98
                 },
                 {
                     "store": 21,
-                    "forecast_sales": 8823.78
+                    "forecast_sales": 2992.47
                 },
                 {
                     "store": 22,
-                    "forecast_sales": 9515.31
+                    "forecast_sales": 4597.1
                 },
                 {
                     "store": 23,
-                    "forecast_sales": 10802.16
+                    "forecast_sales": 2999.07
                 },
                 {
                     "store": 24,
-                    "forecast_sales": 8373.19
+                    "forecast_sales": 3727.25
                 },
                 {
                     "store": 25,
-                    "forecast_sales": 4894.14
+                    "forecast_sales": 3723.05
                 },
                 {
                     "store": 26,
-                    "forecast_sales": 5006.72
+                    "forecast_sales": 3461.04
                 },
                 {
                     "store": 27,
-                    "forecast_sales": 9612.2
+                    "forecast_sales": 3895.26
                 },
                 {
                     "store": 28,
-                    "forecast_sales": 8117.48
+                    "forecast_sales": 2763.73
                 },
                 {
                     "store": 29,
-                    "forecast_sales": 5501.57
+                    "forecast_sales": 3524.33
                 },
                 {
                     "store": 30,
-                    "forecast_sales": 4654.07
+                    "forecast_sales": 3595.06
                 },
                 {
                     "store": 31,
-                    "forecast_sales": 5806.69
+                    "forecast_sales": 5443.72
                 },
                 {
                     "store": 32,
-                    "forecast_sales": 7787.07
+                    "forecast_sales": 3971.85
                 },
                 {
                     "store": 33,
-                    "forecast_sales": 8054.97
+                    "forecast_sales": 3441.78
                 },
                 {
                     "store": 34,
-                    "forecast_sales": 9129.5
+                    "forecast_sales": 4451.16
                 },
                 {
                     "store": 35,
-                    "forecast_sales": 6189.01
+                    "forecast_sales": 3797.03
                 },
                 {
                     "store": 36,
-                    "forecast_sales": 6992.55
+                    "forecast_sales": 3902.12
                 },
                 {
                     "store": 37,
-                    "forecast_sales": 4421.09
+                    "forecast_sales": 3827.25
                 },
                 {
                     "store": 38,
-                    "forecast_sales": 7696.05
+                    "forecast_sales": 4391.71
                 },
                 {
                     "store": 39,
-                    "forecast_sales": 8135.0
+                    "forecast_sales": 3798.89
                 },
                 {
                     "store": 40,
-                    "forecast_sales": 4909.89
+                    "forecast_sales": 3147.58
                 },
                 {
                     "store": 41,
-                    "forecast_sales": 3254.06
+                    "forecast_sales": 3789.91
                 },
                 {
                     "store": 42,
-                    "forecast_sales": 6627.15
+                    "forecast_sales": 4108.39
                 },
                 {
                     "store": 43,
-                    "forecast_sales": 12844.52
+                    "forecast_sales": 4127.8
                 },
                 {
                     "store": 44,
-                    "forecast_sales": 7490.85
+                    "forecast_sales": 6556.55
                 },
                 {
                     "store": 45,
-                    "forecast_sales": 7834.26
+                    "forecast_sales": 5095.18
                 },
                 {
                     "store": 46,
-                    "forecast_sales": 4453.27
+                    "forecast_sales": 4815.75
                 },
                 {
                     "store": 47,
-                    "forecast_sales": 8364.66
+                    "forecast_sales": 4615.17
                 },
                 {
                     "store": 48,
-                    "forecast_sales": 5999.94
+                    "forecast_sales": 4839.28
                 },
                 {
                     "store": 49,
-                    "forecast_sales": 4913.61
+                    "forecast_sales": 5647.59
                 },
                 {
                     "store": 50,
-                    "forecast_sales": 10047.72
+                    "forecast_sales": 4271.72
                 }
             ],
-            "overall_forecast_sales": 368660.69
+            "overall_forecast_sales": 187544.4
         },
         {
-            "date": "2026-01-07",
+            "date": "2027-01-07",
             "stores": [
                 {
                     "store": 1,
-                    "forecast_sales": 4902.38
+                    "forecast_sales": 2829.8
                 },
                 {
                     "store": 2,
-                    "forecast_sales": 6712.88
+                    "forecast_sales": 3005.4
                 },
                 {
                     "store": 3,
-                    "forecast_sales": 6079.23
+                    "forecast_sales": 3441.59
                 },
                 {
                     "store": 4,
-                    "forecast_sales": 10429.39
+                    "forecast_sales": 2795.98
                 },
                 {
                     "store": 5,
-                    "forecast_sales": 6464.57
+                    "forecast_sales": 2744.9
                 },
                 {
                     "store": 6,
-                    "forecast_sales": 4052.23
+                    "forecast_sales": 3296.87
                 },
                 {
                     "store": 7,
-                    "forecast_sales": 11071.62
+                    "forecast_sales": 2904.0
                 },
                 {
                     "store": 8,
-                    "forecast_sales": 9980.18
+                    "forecast_sales": 3445.51
                 },
                 {
                     "store": 9,
-                    "forecast_sales": 7198.23
+                    "forecast_sales": 3212.5
                 },
                 {
                     "store": 10,
-                    "forecast_sales": 10899.15
+                    "forecast_sales": 3717.42
                 },
                 {
                     "store": 11,
-                    "forecast_sales": 8671.21
+                    "forecast_sales": 3679.0
                 },
                 {
                     "store": 12,
-                    "forecast_sales": 7669.61
+                    "forecast_sales": 2839.57
                 },
                 {
                     "store": 13,
-                    "forecast_sales": 5935.55
+                    "forecast_sales": 2996.41
                 },
                 {
                     "store": 14,
-                    "forecast_sales": 9490.62
+                    "forecast_sales": 3888.17
                 },
                 {
                     "store": 15,
-                    "forecast_sales": 7308.77
+                    "forecast_sales": 3249.17
                 },
                 {
                     "store": 16,
-                    "forecast_sales": 6187.92
+                    "forecast_sales": 2943.41
                 },
                 {
                     "store": 17,
-                    "forecast_sales": 6920.92
+                    "forecast_sales": 3499.44
                 },
                 {
                     "store": 18,
-                    "forecast_sales": 8646.48
+                    "forecast_sales": 3579.29
                 },
                 {
                     "store": 19,
-                    "forecast_sales": 5992.2
+                    "forecast_sales": 2644.5
                 },
                 {
                     "store": 20,
-                    "forecast_sales": 4018.53
+                    "forecast_sales": 3229.13
                 },
                 {
                     "store": 21,
-                    "forecast_sales": 8702.23
+                    "forecast_sales": 3032.21
                 },
                 {
                     "store": 22,
-                    "forecast_sales": 9285.31
+                    "forecast_sales": 4524.07
                 },
                 {
                     "store": 23,
-                    "forecast_sales": 10518.13
+                    "forecast_sales": 2961.13
                 },
                 {
                     "store": 24,
-                    "forecast_sales": 8143.49
+                    "forecast_sales": 3685.11
                 },
                 {
                     "store": 25,
-                    "forecast_sales": 4780.61
+                    "forecast_sales": 3629.74
                 },
                 {
                     "store": 26,
-                    "forecast_sales": 4810.7
+                    "forecast_sales": 3469.77
                 },
                 {
                     "store": 27,
-                    "forecast_sales": 9493.96
+                    "forecast_sales": 3843.61
                 },
                 {
                     "store": 28,
-                    "forecast_sales": 7720.12
+                    "forecast_sales": 2879.77
                 },
                 {
                     "store": 29,
-                    "forecast_sales": 5428.65
+                    "forecast_sales": 3618.81
                 },
                 {
                     "store": 30,
-                    "forecast_sales": 4631.91
+                    "forecast_sales": 3596.71
                 },
                 {
                     "store": 31,
-                    "forecast_sales": 5756.21
+                    "forecast_sales": 5333.89
                 },
                 {
                     "store": 32,
-                    "forecast_sales": 7607.54
+                    "forecast_sales": 3935.8
                 },
                 {
                     "store": 33,
-                    "forecast_sales": 7939.21
+                    "forecast_sales": 3429.38
                 },
                 {
                     "store": 34,
-                    "forecast_sales": 8884.09
+                    "forecast_sales": 4477.12
                 },
                 {
                     "store": 35,
-                    "forecast_sales": 6034.04
+                    "forecast_sales": 3722.22
                 },
                 {
                     "store": 36,
-                    "forecast_sales": 6878.35
+                    "forecast_sales": 3930.44
                 },
                 {
                     "store": 37,
-                    "forecast_sales": 4410.87
+                    "forecast_sales": 3861.45
                 },
                 {
                     "store": 38,
-                    "forecast_sales": 7554.11
+                    "forecast_sales": 4287.28
                 },
                 {
                     "store": 39,
-                    "forecast_sales": 7950.59
+                    "forecast_sales": 3753.8
                 },
                 {
                     "store": 40,
-                    "forecast_sales": 4715.88
+                    "forecast_sales": 3182.43
                 },
                 {
                     "store": 41,
-                    "forecast_sales": 3183.19
+                    "forecast_sales": 3759.41
                 },
                 {
                     "store": 42,
-                    "forecast_sales": 6848.31
+                    "forecast_sales": 4087.38
                 },
                 {
                     "store": 43,
-                    "forecast_sales": 12808.31
+                    "forecast_sales": 4239.94
                 },
                 {
                     "store": 44,
-                    "forecast_sales": 7215.89
+                    "forecast_sales": 6475.24
                 },
                 {
                     "store": 45,
-                    "forecast_sales": 7520.95
+                    "forecast_sales": 4934.09
                 },
                 {
                     "store": 46,
-                    "forecast_sales": 4389.63
+                    "forecast_sales": 4689.64
                 },
                 {
                     "store": 47,
-                    "forecast_sales": 7949.81
+                    "forecast_sales": 4538.61
                 },
                 {
                     "store": 48,
-                    "forecast_sales": 5845.94
+                    "forecast_sales": 4824.77
                 },
                 {
                     "store": 49,
-                    "forecast_sales": 4850.9
+                    "forecast_sales": 5421.39
                 },
                 {
                     "store": 50,
-                    "forecast_sales": 9795.43
+                    "forecast_sales": 4181.98
                 }
             ],
-            "overall_forecast_sales": 360286.03
+            "overall_forecast_sales": 186249.25
         }
     ]
 }

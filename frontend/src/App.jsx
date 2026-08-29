@@ -3,6 +3,9 @@ import React, { useState } from "react";
 import Dashboard from "./pages/Dashboard";
 import AIInsights from "./pages/AIInsights";
 import Clustering from "./pages/Clustering";
+import DemandForecasting from "./pages/DemandForecasting";
+import DataInput from "./pages/DataInput";
+
 import Sidebar from "./components/Sidebar";
 
 import {
@@ -15,43 +18,34 @@ import {
 
 /* ============================================================
    PAGE LABELS
-   ============================================================ */
+============================================================ */
 
 const pageLabels = {
   dashboard: "Dashboard",
 
-  forecasting:
-    "Demand Forecasting",
+  forecasting: "Demand Forecasting",
 
-  clustering:
-    "Store Clustering",
+  clustering: "Store Clustering",
 
-  "ai-insights":
-    "AI Forecast Assistant",
+  "ai-insights": "AI Forecast Assistant",
 
-  stores:
-    "Store Management",
+  stores: "Store Management",
 
-  inventory:
-    "Inventory Dashboard",
+  inventory: "Inventory Dashboard",
 
-  orders:
-    "PO Recommendations",
+  orders: "PO Recommendations",
 
-  reports:
-    "Reports",
+  reports: "Reports",
 
-  notifications:
-    "Notifications",
+  notifications: "Notifications",
 
-  upload:
-    "Data Input",
+  upload: "Data Input",
 };
 
 
 /* ============================================================
    MAIN APP
-   ============================================================ */
+============================================================ */
 
 function App() {
 
@@ -64,22 +58,23 @@ function App() {
 
   /* ==========================================================
      CURRENT PAGE
-     ========================================================== */
+  ========================================================== */
 
-  const currentPage = {
-    label:
-      pageLabels[activePage] ||
-      "Dashboard",
-  };
+  const currentPage =
+    pageLabels[activePage] || "Dashboard";
 
+
+  /* ==========================================================
+     RENDER
+  ========================================================== */
 
   return (
     <div className="app">
 
 
-      {/* =====================================================
+      {/* ======================================================
           SIDEBAR
-      ===================================================== */}
+      ====================================================== */}
 
       <Sidebar
         activePage={activePage}
@@ -89,23 +84,23 @@ function App() {
       />
 
 
-      {/* =====================================================
+      {/* ======================================================
           MAIN AREA
-      ===================================================== */}
+      ====================================================== */}
 
       <div className="main">
 
 
-        {/* =================================================
+        {/* ====================================================
             HEADER
-        ================================================= */}
+        ==================================================== */}
 
         <header className="header">
 
 
-          {/* =================================================
+          {/* ==================================================
               MOBILE MENU
-          ================================================= */}
+          ================================================== */}
 
           <button
             className="mobile-menu"
@@ -119,9 +114,9 @@ function App() {
           </button>
 
 
-          {/* =================================================
+          {/* ==================================================
               BREADCRUMB
-          ================================================= */}
+          ================================================== */}
 
           <div className="breadcrumb">
 
@@ -132,24 +127,22 @@ function App() {
             <ChevronDown size={13} />
 
             <strong>
-              {activePage === "upload"
-                ? "Data Input"
-                : currentPage.label}
+              {currentPage}
             </strong>
 
           </div>
 
 
-          {/* =================================================
+          {/* ==================================================
               HEADER ACTIONS
-          ================================================= */}
+          ================================================== */}
 
           <div className="header-actions">
 
 
-            {/* -----------------------------------------------
+            {/* =================================================
                 SEARCH
-            ------------------------------------------------ */}
+            ================================================= */}
 
             <button
               className="header-icon"
@@ -160,9 +153,9 @@ function App() {
             </button>
 
 
-            {/* -----------------------------------------------
-                NOTIFICATION
-            ------------------------------------------------ */}
+            {/* =================================================
+                NOTIFICATIONS
+            ================================================= */}
 
             <button
               className="header-icon notification-button"
@@ -175,9 +168,9 @@ function App() {
             </button>
 
 
-            {/* -----------------------------------------------
-                USER AVATAR
-            ------------------------------------------------ */}
+            {/* =================================================
+                USER
+            ================================================= */}
 
             <div className="user-avatar">
               S
@@ -188,51 +181,73 @@ function App() {
         </header>
 
 
-        {/* =================================================
+        {/* ====================================================
             PAGE CONTENT
-        ================================================= */}
+        ==================================================== */}
 
         <main className="page-content">
 
 
-          {/* =================================================
+          {/* ==================================================
               DASHBOARD
-          ================================================= */}
+          ================================================== */}
 
           {activePage === "dashboard" && (
             <Dashboard />
           )}
 
 
-          {/* =================================================
-              AI FORECAST ASSISTANT
-          ================================================= */}
+          {/* ==================================================
+              DEMAND FORECASTING
+          ================================================== */}
 
-          {activePage === "ai-insights" && (
-            <AIInsights />
+          {activePage === "forecasting" && (
+            <DemandForecasting />
           )}
 
 
-          {/* =================================================
+          {/* ==================================================
               STORE CLUSTERING
-          ================================================= */}
+          ================================================== */}
 
           {activePage === "clustering" && (
             <Clustering />
           )}
 
 
-          {/* =================================================
+          {/* ==================================================
+              AI FORECAST ASSISTANT
+          ================================================== */}
+
+          {activePage === "ai-insights" && (
+            <AIInsights />
+          )}
+
+
+          {/* ==================================================
+              DATA INPUT
+          ================================================== */}
+
+          {activePage === "upload" && (
+            <DataInput />
+          )}
+
+
+          {/* ==================================================
               OTHER PAGES
-          ================================================= */}
+          ================================================== */}
 
           {activePage !== "dashboard" &&
-            activePage !== "ai-insights" &&
-            activePage !== "clustering" && (
-              <PagePlaceholder
-                activePage={activePage}
-              />
-            )}
+           activePage !== "forecasting" &&
+           activePage !== "clustering" &&
+           activePage !== "ai-insights" &&
+           activePage !== "upload" && (
+
+            <PagePlaceholder
+              activePage={activePage}
+            />
+
+          )}
 
         </main>
 
@@ -244,23 +259,8 @@ function App() {
 
 
 /* ============================================================
-   TEMPORARY PAGE PLACEHOLDER
-   ============================================================
-
-   These pages will be implemented separately:
-
-   forecasting
-   stores
-   inventory
-   orders
-   reports
-   notifications
-   upload
-
-   Dashboard, AI Insights and Clustering
-   are already connected.
-
-   ============================================================ */
+   PAGE PLACEHOLDER
+============================================================ */
 
 function PagePlaceholder({
   activePage,
@@ -269,12 +269,9 @@ function PagePlaceholder({
 
   /* ==========================================================
      PAGE TITLES
-     ========================================================== */
+  ========================================================== */
 
   const titles = {
-
-    forecasting:
-      "Demand Forecasting",
 
     stores:
       "Store Management",
@@ -291,20 +288,14 @@ function PagePlaceholder({
     notifications:
       "Notifications",
 
-    upload:
-      "Data Input",
-
   };
 
 
   /* ==========================================================
      PAGE DESCRIPTIONS
-     ========================================================== */
+  ========================================================== */
 
   const descriptions = {
-
-    forecasting:
-      "Generate and analyze seven-day demand forecasts.",
 
     stores:
       "Manage and inspect store-level information.",
@@ -321,20 +312,21 @@ function PagePlaceholder({
     notifications:
       "View system and forecasting notifications.",
 
-    upload:
-      "Upload the data required for forecasting and analysis.",
-
   };
 
+
+  /* ==========================================================
+     RETURN
+  ========================================================== */
 
   return (
 
     <div className="page-placeholder">
 
 
-      {/* =====================================================
+      {/* ====================================================
           PAGE TITLE
-      ===================================================== */}
+      ==================================================== */}
 
       <div className="page-title">
 
@@ -351,11 +343,12 @@ function PagePlaceholder({
       </div>
 
 
-      {/* =====================================================
+      {/* ====================================================
           PLACEHOLDER CARD
-      ===================================================== */}
+      ==================================================== */}
 
       <div className="placeholder-card">
+
 
         <div className="placeholder-icon">
 
@@ -377,6 +370,7 @@ function PagePlaceholder({
           inventory, and procurement outputs.
         </p>
 
+
       </div>
 
     </div>
@@ -384,5 +378,9 @@ function PagePlaceholder({
   );
 }
 
+
+/* ============================================================
+   EXPORT
+============================================================ */
 
 export default App;

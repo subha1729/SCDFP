@@ -18,6 +18,7 @@ import {
 const navigation = [
   {
     section: "OVERVIEW",
+
     items: [
       {
         id: "dashboard",
@@ -27,14 +28,17 @@ const navigation = [
     ],
   },
 
+
   {
     section: "ANALYTICS",
+
     items: [
       {
         id: "forecasting",
         label: "Demand Forecasting",
         icon: TrendingUp,
       },
+
       {
         id: "clustering",
         label: "Store Clustering",
@@ -43,8 +47,10 @@ const navigation = [
     ],
   },
 
+
   {
     section: "AI INSIGHTS",
+
     items: [
       {
         id: "ai-insights",
@@ -54,19 +60,23 @@ const navigation = [
     ],
   },
 
+
   {
     section: "OPERATIONS",
+
     items: [
       {
         id: "stores",
         label: "Store Management",
         icon: Store,
       },
+
       {
         id: "inventory",
         label: "Inventory Dashboard",
         icon: Boxes,
       },
+
       {
         id: "orders",
         label: "PO Recommendations",
@@ -75,18 +85,38 @@ const navigation = [
     ],
   },
 
+
   {
     section: "INSIGHTS",
+
     items: [
       {
         id: "reports",
         label: "Reports",
         icon: FileText,
       },
+
       {
         id: "notifications",
         label: "Notifications",
         icon: Bell,
+      },
+    ],
+  },
+
+
+  /* ==========================================================
+     DATA
+  ========================================================== */
+
+  {
+    section: "DATA",
+
+    items: [
+      {
+        id: "upload",
+        label: "Data Input",
+        icon: Upload,
       },
     ],
   },
@@ -101,11 +131,13 @@ export default function Sidebar({
 }) {
 
   return (
+
     <aside
       className={`sidebar ${
         sidebarOpen ? "open" : ""
       }`}
     >
+
 
       {/* =====================================================
           BRAND
@@ -118,8 +150,15 @@ export default function Sidebar({
         </div>
 
         <div className="brand-text">
-          <strong>NEXUS AI</strong>
-          <span>Supply Intelligence</span>
+
+          <strong>
+            NEXUS AI
+          </strong>
+
+          <span>
+            Supply Intelligence
+          </span>
+
         </div>
 
       </div>
@@ -175,8 +214,11 @@ export default function Sidebar({
               const Icon = item.icon;
 
               return (
+
                 <button
                   key={item.id}
+
+                  type="button"
 
                   className={
                     activePage === item.id
@@ -186,9 +228,13 @@ export default function Sidebar({
 
                   onClick={() => {
 
-                    setActivePage(item.id);
+                    setActivePage(
+                      item.id
+                    );
 
-                    setSidebarOpen(false);
+                    setSidebarOpen(
+                      false
+                    );
 
                   }}
                 >
@@ -201,12 +247,15 @@ export default function Sidebar({
 
 
                   {item.id === "notifications" && (
+
                     <span className="notification-count">
                       2
                     </span>
+
                   )}
 
                 </button>
+
               );
 
             })}
@@ -223,13 +272,20 @@ export default function Sidebar({
       ===================================================== */}
 
       <button
+
+        type="button"
+
         className="new-analysis-button"
 
         onClick={() => {
 
-          setActivePage("upload");
+          setActivePage(
+            "upload"
+          );
 
-          setSidebarOpen(false);
+          setSidebarOpen(
+            false
+          );
 
         }}
       >
@@ -240,6 +296,8 @@ export default function Sidebar({
 
       </button>
 
+
     </aside>
+
   );
 }

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "multer": "^2.3.0",
     "plotly.js": "^4.0.0",
     "react-plotly.js": "^4.1.0",
     "recharts": "^3.10.1"
