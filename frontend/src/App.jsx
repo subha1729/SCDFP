@@ -5,6 +5,7 @@ import AIInsights from "./pages/AIInsights";
 import Clustering from "./pages/Clustering";
 import DemandForecasting from "./pages/DemandForecasting";
 import DataInput from "./pages/DataInput";
+import PORecommendations from "./pages/PORecommendations";
 
 import Sidebar from "./components/Sidebar";
 
@@ -104,13 +105,18 @@ function App() {
 
           <button
             className="mobile-menu"
+
             onClick={() =>
               setSidebarOpen(!sidebarOpen)
             }
+
             type="button"
+
             aria-label="Open menu"
           >
+
             <Menu size={19} />
+
           </button>
 
 
@@ -146,10 +152,14 @@ function App() {
 
             <button
               className="header-icon"
+
               type="button"
+
               aria-label="Search"
             >
+
               <Search size={17} />
+
             </button>
 
 
@@ -159,12 +169,16 @@ function App() {
 
             <button
               className="header-icon notification-button"
+
               type="button"
+
               aria-label="Notifications"
             >
+
               <Bell size={17} />
 
               <span></span>
+
             </button>
 
 
@@ -175,6 +189,7 @@ function App() {
             <div className="user-avatar">
               S
             </div>
+
 
           </div>
 
@@ -234,6 +249,15 @@ function App() {
 
 
           {/* ==================================================
+              PURCHASE ORDER RECOMMENDATIONS
+          ================================================== */}
+
+          {activePage === "orders" && (
+            <PORecommendations />
+          )}
+
+
+          {/* ==================================================
               OTHER PAGES
           ================================================== */}
 
@@ -241,7 +265,8 @@ function App() {
            activePage !== "forecasting" &&
            activePage !== "clustering" &&
            activePage !== "ai-insights" &&
-           activePage !== "upload" && (
+           activePage !== "upload" &&
+           activePage !== "orders" && (
 
             <PagePlaceholder
               activePage={activePage}
@@ -374,7 +399,6 @@ function PagePlaceholder({
       </div>
 
     </div>
-
   );
 }
 

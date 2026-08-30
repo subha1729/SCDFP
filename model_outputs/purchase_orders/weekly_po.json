@@ -1,0 +1,902 @@
+[
+  {
+    "Store_ID": "1",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 97603.26,
+    "Safety_Stock": 271,
+    "Available_Stock": 1516,
+    "Recommended_PO": 96359
+  },
+  {
+    "Store_ID": "2",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 39753.08,
+    "Safety_Stock": 819,
+    "Available_Stock": 440,
+    "Recommended_PO": 40133
+  },
+  {
+    "Store_ID": "3",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 35560.64,
+    "Safety_Stock": 724,
+    "Available_Stock": 1469,
+    "Recommended_PO": 34816
+  },
+  {
+    "Store_ID": "4",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 103475.1,
+    "Safety_Stock": 551,
+    "Available_Stock": 112,
+    "Recommended_PO": 103915
+  },
+  {
+    "Store_ID": "5",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 92019.3,
+    "Safety_Stock": 546,
+    "Available_Stock": 1455,
+    "Recommended_PO": 91111
+  },
+  {
+    "Store_ID": "6",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 72107.41,
+    "Safety_Stock": 887,
+    "Available_Stock": 1438,
+    "Recommended_PO": 71557
+  },
+  {
+    "Store_ID": "7",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 43944.06,
+    "Safety_Stock": 268,
+    "Available_Stock": 1427,
+    "Recommended_PO": 42786
+  },
+  {
+    "Store_ID": "8",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 20544.02,
+    "Safety_Stock": 758,
+    "Available_Stock": 1230,
+    "Recommended_PO": 20073
+  },
+  {
+    "Store_ID": "9",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 32788.26,
+    "Safety_Stock": 361,
+    "Available_Stock": 902,
+    "Recommended_PO": 32248
+  },
+  {
+    "Store_ID": "10",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 4417.7,
+    "Safety_Stock": 275,
+    "Available_Stock": 1299,
+    "Recommended_PO": 3394
+  },
+  {
+    "Store_ID": "11",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 14084.43,
+    "Safety_Stock": 621,
+    "Available_Stock": 571,
+    "Recommended_PO": 14135
+  },
+  {
+    "Store_ID": "12",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 57636.58,
+    "Safety_Stock": 981,
+    "Available_Stock": 1428,
+    "Recommended_PO": 57190
+  },
+  {
+    "Store_ID": "13",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 145456.82,
+    "Safety_Stock": 789,
+    "Available_Stock": 1045,
+    "Recommended_PO": 145201
+  },
+  {
+    "Store_ID": "14",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 54626.17,
+    "Safety_Stock": 809,
+    "Available_Stock": 880,
+    "Recommended_PO": 54556
+  },
+  {
+    "Store_ID": "15",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 110408.97,
+    "Safety_Stock": 774,
+    "Available_Stock": 960,
+    "Recommended_PO": 110223
+  },
+  {
+    "Store_ID": "16",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 32068.28,
+    "Safety_Stock": 829,
+    "Available_Stock": 1067,
+    "Recommended_PO": 31831
+  },
+  {
+    "Store_ID": "17",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 90500.45,
+    "Safety_Stock": 611,
+    "Available_Stock": 163,
+    "Recommended_PO": 90949
+  },
+  {
+    "Store_ID": "18",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 148723.49,
+    "Safety_Stock": 302,
+    "Available_Stock": 337,
+    "Recommended_PO": 148689
+  },
+  {
+    "Store_ID": "19",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 90401.9,
+    "Safety_Stock": 872,
+    "Available_Stock": 517,
+    "Recommended_PO": 90757
+  },
+  {
+    "Store_ID": "20",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 108780.16,
+    "Safety_Stock": 560,
+    "Available_Stock": 294,
+    "Recommended_PO": 109047
+  },
+  {
+    "Store_ID": "21",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 26138.34,
+    "Safety_Stock": 600,
+    "Available_Stock": 847,
+    "Recommended_PO": 25892
+  },
+  {
+    "Store_ID": "22",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 95124.74,
+    "Safety_Stock": 497,
+    "Available_Stock": 1236,
+    "Recommended_PO": 94386
+  },
+  {
+    "Store_ID": "23",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 22996.51,
+    "Safety_Stock": 346,
+    "Available_Stock": 1213,
+    "Recommended_PO": 22130
+  },
+  {
+    "Store_ID": "24",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 77336.57,
+    "Safety_Stock": 942,
+    "Available_Stock": 901,
+    "Recommended_PO": 77378
+  },
+  {
+    "Store_ID": "25",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 127018.41,
+    "Safety_Stock": 826,
+    "Available_Stock": 1554,
+    "Recommended_PO": 126291
+  },
+  {
+    "Store_ID": "26",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 69571,
+    "Safety_Stock": 715,
+    "Available_Stock": 1061,
+    "Recommended_PO": 69226
+  },
+  {
+    "Store_ID": "27",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 72468.97,
+    "Safety_Stock": 522,
+    "Available_Stock": 234,
+    "Recommended_PO": 72757
+  },
+  {
+    "Store_ID": "28",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 112939.89,
+    "Safety_Stock": 859,
+    "Available_Stock": 1401,
+    "Recommended_PO": 112398
+  },
+  {
+    "Store_ID": "29",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 125166.58,
+    "Safety_Stock": 636,
+    "Available_Stock": 1077,
+    "Recommended_PO": 124726
+  },
+  {
+    "Store_ID": "30",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 43202.28,
+    "Safety_Stock": 555,
+    "Available_Stock": 1179,
+    "Recommended_PO": 42579
+  },
+  {
+    "Store_ID": "31",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 73288.88,
+    "Safety_Stock": 560,
+    "Available_Stock": 1061,
+    "Recommended_PO": 72788
+  },
+  {
+    "Store_ID": "32",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 111511.19,
+    "Safety_Stock": 382,
+    "Available_Stock": 1041,
+    "Recommended_PO": 110853
+  },
+  {
+    "Store_ID": "33",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 140472.21,
+    "Safety_Stock": 273,
+    "Available_Stock": 254,
+    "Recommended_PO": 140492
+  },
+  {
+    "Store_ID": "34",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 31914.09,
+    "Safety_Stock": 644,
+    "Available_Stock": 1051,
+    "Recommended_PO": 31508
+  },
+  {
+    "Store_ID": "35",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 33066.37,
+    "Safety_Stock": 911,
+    "Available_Stock": 1452,
+    "Recommended_PO": 32526
+  },
+  {
+    "Store_ID": "36",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 89732.3,
+    "Safety_Stock": 251,
+    "Available_Stock": 617,
+    "Recommended_PO": 89367
+  },
+  {
+    "Store_ID": "37",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 86009.66,
+    "Safety_Stock": 887,
+    "Available_Stock": 1125,
+    "Recommended_PO": 85772
+  },
+  {
+    "Store_ID": "38",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 61156.2,
+    "Safety_Stock": 862,
+    "Available_Stock": 152,
+    "Recommended_PO": 61867
+  },
+  {
+    "Store_ID": "39",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 80551.74,
+    "Safety_Stock": 421,
+    "Available_Stock": 691,
+    "Recommended_PO": 80282
+  },
+  {
+    "Store_ID": "40",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 28746.81,
+    "Safety_Stock": 705,
+    "Available_Stock": 842,
+    "Recommended_PO": 28610
+  },
+  {
+    "Store_ID": "41",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 79964.93,
+    "Safety_Stock": 332,
+    "Available_Stock": 1771,
+    "Recommended_PO": 78526
+  },
+  {
+    "Store_ID": "42",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 23392.12,
+    "Safety_Stock": 807,
+    "Available_Stock": 465,
+    "Recommended_PO": 23735
+  },
+  {
+    "Store_ID": "43",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 24991.69,
+    "Safety_Stock": 761,
+    "Available_Stock": 570,
+    "Recommended_PO": 25183
+  },
+  {
+    "Store_ID": "44",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 44425.49,
+    "Safety_Stock": 483,
+    "Available_Stock": 794,
+    "Recommended_PO": 44115
+  },
+  {
+    "Store_ID": "45",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 108380.24,
+    "Safety_Stock": 254,
+    "Available_Stock": 1788,
+    "Recommended_PO": 106847
+  },
+  {
+    "Store_ID": "46",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 79497.84,
+    "Safety_Stock": 977,
+    "Available_Stock": 1551,
+    "Recommended_PO": 78924
+  },
+  {
+    "Store_ID": "47",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 81627.82,
+    "Safety_Stock": 556,
+    "Available_Stock": 159,
+    "Recommended_PO": 82025
+  },
+  {
+    "Store_ID": "48",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 91505.12,
+    "Safety_Stock": 915,
+    "Available_Stock": 497,
+    "Recommended_PO": 91924
+  },
+  {
+    "Store_ID": "49",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 39387.39,
+    "Safety_Stock": 743,
+    "Available_Stock": 1497,
+    "Recommended_PO": 38634
+  },
+  {
+    "Store_ID": "50",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 50990.01,
+    "Safety_Stock": 823,
+    "Available_Stock": 199,
+    "Recommended_PO": 51615
+  },
+  {
+    "Store_ID": "51",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 118174.79,
+    "Safety_Stock": 808,
+    "Available_Stock": 1555,
+    "Recommended_PO": 117428
+  },
+  {
+    "Store_ID": "52",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 88130.56,
+    "Safety_Stock": 355,
+    "Available_Stock": 578,
+    "Recommended_PO": 87908
+  },
+  {
+    "Store_ID": "53",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 127459.47,
+    "Safety_Stock": 491,
+    "Available_Stock": 1660,
+    "Recommended_PO": 126291
+  },
+  {
+    "Store_ID": "54",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 41802.36,
+    "Safety_Stock": 573,
+    "Available_Stock": 599,
+    "Recommended_PO": 41777
+  },
+  {
+    "Store_ID": "55",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 73893.07,
+    "Safety_Stock": 598,
+    "Available_Stock": 838,
+    "Recommended_PO": 73654
+  },
+  {
+    "Store_ID": "56",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 44786.09,
+    "Safety_Stock": 235,
+    "Available_Stock": 1225,
+    "Recommended_PO": 43797
+  },
+  {
+    "Store_ID": "57",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 16922.47,
+    "Safety_Stock": 637,
+    "Available_Stock": 314,
+    "Recommended_PO": 17246
+  },
+  {
+    "Store_ID": "58",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 71591.22,
+    "Safety_Stock": 323,
+    "Available_Stock": 1047,
+    "Recommended_PO": 70868
+  },
+  {
+    "Store_ID": "59",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 24646.33,
+    "Safety_Stock": 795,
+    "Available_Stock": 959,
+    "Recommended_PO": 24483
+  },
+  {
+    "Store_ID": "60",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 137503.3,
+    "Safety_Stock": 747,
+    "Available_Stock": 1433,
+    "Recommended_PO": 136818
+  },
+  {
+    "Store_ID": "61",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 22637.75,
+    "Safety_Stock": 938,
+    "Available_Stock": 1794,
+    "Recommended_PO": 21782
+  },
+  {
+    "Store_ID": "62",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 23286.88,
+    "Safety_Stock": 796,
+    "Available_Stock": 1229,
+    "Recommended_PO": 22854
+  },
+  {
+    "Store_ID": "63",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 54025.16,
+    "Safety_Stock": 493,
+    "Available_Stock": 796,
+    "Recommended_PO": 53723
+  },
+  {
+    "Store_ID": "64",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 89531,
+    "Safety_Stock": 974,
+    "Available_Stock": 791,
+    "Recommended_PO": 89714
+  },
+  {
+    "Store_ID": "65",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 116811.21,
+    "Safety_Stock": 529,
+    "Available_Stock": 810,
+    "Recommended_PO": 116531
+  },
+  {
+    "Store_ID": "66",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 44158.67,
+    "Safety_Stock": 460,
+    "Available_Stock": 1484,
+    "Recommended_PO": 43135
+  },
+  {
+    "Store_ID": "67",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 54109.28,
+    "Safety_Stock": 925,
+    "Available_Stock": 646,
+    "Recommended_PO": 54389
+  },
+  {
+    "Store_ID": "68",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 52347.33,
+    "Safety_Stock": 496,
+    "Available_Stock": 384,
+    "Recommended_PO": 52460
+  },
+  {
+    "Store_ID": "69",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 22143.68,
+    "Safety_Stock": 261,
+    "Available_Stock": 668,
+    "Recommended_PO": 21737
+  },
+  {
+    "Store_ID": "70",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 68467.37,
+    "Safety_Stock": 576,
+    "Available_Stock": 138,
+    "Recommended_PO": 68906
+  },
+  {
+    "Store_ID": "71",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 39378.01,
+    "Safety_Stock": 837,
+    "Available_Stock": 280,
+    "Recommended_PO": 39936
+  },
+  {
+    "Store_ID": "72",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 38819.55,
+    "Safety_Stock": 351,
+    "Available_Stock": 253,
+    "Recommended_PO": 38918
+  },
+  {
+    "Store_ID": "73",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 107993.11,
+    "Safety_Stock": 570,
+    "Available_Stock": 1412,
+    "Recommended_PO": 107152
+  },
+  {
+    "Store_ID": "74",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 105125.54,
+    "Safety_Stock": 304,
+    "Available_Stock": 1328,
+    "Recommended_PO": 104102
+  },
+  {
+    "Store_ID": "75",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 85826.03,
+    "Safety_Stock": 749,
+    "Available_Stock": 1285,
+    "Recommended_PO": 85291
+  },
+  {
+    "Store_ID": "76",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 55199.72,
+    "Safety_Stock": 581,
+    "Available_Stock": 885,
+    "Recommended_PO": 54896
+  },
+  {
+    "Store_ID": "77",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 43468.05,
+    "Safety_Stock": 464,
+    "Available_Stock": 1319,
+    "Recommended_PO": 42614
+  },
+  {
+    "Store_ID": "78",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 124373.95,
+    "Safety_Stock": 381,
+    "Available_Stock": 374,
+    "Recommended_PO": 124381
+  },
+  {
+    "Store_ID": "79",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 70631.4,
+    "Safety_Stock": 652,
+    "Available_Stock": 1631,
+    "Recommended_PO": 69653
+  },
+  {
+    "Store_ID": "80",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 68108.6,
+    "Safety_Stock": 736,
+    "Available_Stock": 952,
+    "Recommended_PO": 67893
+  },
+  {
+    "Store_ID": "81",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 71048.67,
+    "Safety_Stock": 953,
+    "Available_Stock": 1695,
+    "Recommended_PO": 70307
+  },
+  {
+    "Store_ID": "82",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 49678.59,
+    "Safety_Stock": 550,
+    "Available_Stock": 359,
+    "Recommended_PO": 49870
+  },
+  {
+    "Store_ID": "83",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 101491.19,
+    "Safety_Stock": 328,
+    "Available_Stock": 945,
+    "Recommended_PO": 100875
+  },
+  {
+    "Store_ID": "84",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 45329.79,
+    "Safety_Stock": 866,
+    "Available_Stock": 1284,
+    "Recommended_PO": 44912
+  },
+  {
+    "Store_ID": "85",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 33092.79,
+    "Safety_Stock": 704,
+    "Available_Stock": 943,
+    "Recommended_PO": 32854
+  },
+  {
+    "Store_ID": "86",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 93004.21,
+    "Safety_Stock": 760,
+    "Available_Stock": 858,
+    "Recommended_PO": 92907
+  },
+  {
+    "Store_ID": "87",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 27359.66,
+    "Safety_Stock": 277,
+    "Available_Stock": 382,
+    "Recommended_PO": 27255
+  },
+  {
+    "Store_ID": "88",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 89647.5,
+    "Safety_Stock": 450,
+    "Available_Stock": 748,
+    "Recommended_PO": 89350
+  },
+  {
+    "Store_ID": "89",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 65127.96,
+    "Safety_Stock": 815,
+    "Available_Stock": 506,
+    "Recommended_PO": 65437
+  },
+  {
+    "Store_ID": "90",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 122126.99,
+    "Safety_Stock": 866,
+    "Available_Stock": 612,
+    "Recommended_PO": 122381
+  },
+  {
+    "Store_ID": "91",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 88375.01,
+    "Safety_Stock": 548,
+    "Available_Stock": 1262,
+    "Recommended_PO": 87662
+  },
+  {
+    "Store_ID": "92",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 72613.36,
+    "Safety_Stock": 844,
+    "Available_Stock": 1172,
+    "Recommended_PO": 72286
+  },
+  {
+    "Store_ID": "93",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 101859.07,
+    "Safety_Stock": 874,
+    "Available_Stock": 1132,
+    "Recommended_PO": 101602
+  },
+  {
+    "Store_ID": "94",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 80504.22,
+    "Safety_Stock": 510,
+    "Available_Stock": 715,
+    "Recommended_PO": 80300
+  },
+  {
+    "Store_ID": "95",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 80236.41,
+    "Safety_Stock": 919,
+    "Available_Stock": 1732,
+    "Recommended_PO": 79424
+  },
+  {
+    "Store_ID": "96",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 33580.98,
+    "Safety_Stock": 430,
+    "Available_Stock": 249,
+    "Recommended_PO": 33762
+  },
+  {
+    "Store_ID": "97",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 87808.61,
+    "Safety_Stock": 391,
+    "Available_Stock": 682,
+    "Recommended_PO": 87518
+  },
+  {
+    "Store_ID": "98",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 152000.79,
+    "Safety_Stock": 746,
+    "Available_Stock": 300,
+    "Recommended_PO": 152447
+  },
+  {
+    "Store_ID": "99",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 53442.06,
+    "Safety_Stock": 710,
+    "Available_Stock": 676,
+    "Recommended_PO": 53477
+  },
+  {
+    "Store_ID": "100",
+    "Week_Start": "2027-01-01",
+    "Week_End": "2027-01-07",
+    "Forecast_Demand": 91211.65,
+    "Safety_Stock": 311,
+    "Available_Stock": 1736,
+    "Recommended_PO": 89787
+  }
+]

@@ -26,11 +26,17 @@ function DataInput() {
   const holidayInput =
     useRef(null);
 
+  const inventoryInput =
+    useRef(null);
+
 
   const [salesFile, setSalesFile] =
     useState(null);
 
   const [holidayFile, setHolidayFile] =
+    useState(null);
+
+  const [inventoryFile, setInventoryFile] =
     useState(null);
 
   const [loading, setLoading] =
@@ -70,6 +76,16 @@ function DataInput() {
   };
 
 
+  const handleInventoryChange = event => {
+
+    const file =
+      event.target.files?.[0];
+
+    setInventoryFile(file || null);
+    setError("");
+  };
+
+
   /* ==========================================================
      UPLOAD
   ========================================================== */
@@ -78,6 +94,7 @@ function DataInput() {
 
     setMessage("");
     setError("");
+
 
     if (!salesFile) {
 
@@ -99,6 +116,16 @@ function DataInput() {
     }
 
 
+    if (!inventoryFile) {
+
+      setError(
+        "Please select the current inventory status CSV."
+      );
+
+      return;
+    }
+
+
     setLoading(true);
 
     try {
@@ -111,14 +138,22 @@ function DataInput() {
       const formData =
         new FormData();
 
+
       formData.append(
         "sales",
         salesFile
       );
 
+
       formData.append(
         "holidays",
         holidayFile
+      );
+
+
+      formData.append(
+        "inventory",
+        inventoryFile
       );
 
 
@@ -141,13 +176,16 @@ function DataInput() {
         await response.json();
 
 
-      if (!response.ok ||
-          !result.success) {
+      if (
+        !response.ok ||
+        !result.success
+      ) {
 
         throw new Error(
           result.message ||
           "Pipeline failed."
         );
+
       }
 
 
@@ -194,6 +232,7 @@ function DataInput() {
       setLoading(false);
 
     }
+
   };
 
 
@@ -227,9 +266,13 @@ function DataInput() {
       <div className="upload-file-icon">
 
         {file ? (
+
           <CheckCircle size={25} />
+
         ) : (
+
           <Upload size={25} />
+
         )}
 
       </div>
@@ -245,9 +288,11 @@ function DataInput() {
         {file ? (
 
           <p>
+
             <FileText size={14} />
 
             {file.name}
+
           </p>
 
         ) : (
@@ -261,6 +306,7 @@ function DataInput() {
       </div>
 
     </div>
+
   );
 
 
@@ -294,6 +340,7 @@ function DataInput() {
 
       <div className="upload-main-card">
 
+
         <div className="upload-card-header">
 
           <div>
@@ -307,9 +354,11 @@ function DataInput() {
             </h2>
 
             <p>
-              Provide the sales history and
-              holiday data required by the
-              forecasting models.
+              Provide the sales history,
+              holiday data and current
+              inventory status required by
+              the forecasting and procurement
+              system.
             </p>
 
           </div>
@@ -330,6 +379,11 @@ function DataInput() {
 
         <div className="upload-files">
 
+
+          {/* ==================================================
+              SALES
+          ================================================== */}
+
           <FileCard
             title="Sales History"
             file={salesFile}
@@ -338,12 +392,29 @@ function DataInput() {
           />
 
 
+          {/* ==================================================
+              HOLIDAY
+          ================================================== */}
+
           <FileCard
             title="Holiday Data"
             file={holidayFile}
             inputRef={holidayInput}
             onChange={handleHolidayChange}
           />
+
+
+          {/* ==================================================
+              INVENTORY
+          ================================================== */}
+
+          <FileCard
+            title="Current Inventory Status"
+            file={inventoryFile}
+            inputRef={inventoryInput}
+            onChange={handleInventoryChange}
+          />
+
 
         </div>
 
@@ -361,20 +432,24 @@ function DataInput() {
           {loading ? (
 
             <>
+
               <Loader2
                 size={18}
                 className="spin"
               />
 
               Generating...
+
             </>
 
           ) : (
 
             <>
+
               <Zap size={18} />
 
               Upload & Generate
+
             </>
 
           )}
@@ -462,11 +537,13 @@ function DataInput() {
 
 
         <p>
+
           After upload, the system automatically
           runs XGBoost, LSTM, Prophet and
           hierarchical clustering. The dashboard,
           demand forecasting and clustering views
           are then refreshed with the new results.
+
         </p>
 
       </div>
@@ -474,6 +551,7 @@ function DataInput() {
     </div>
 
   );
+
 }
 
 

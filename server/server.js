@@ -7,6 +7,7 @@ import fs from "fs";
 import forecastRoute from "./route/forecastRoute.js";
 import clusteringRoute from "./route/clusteringRoute.js";
 import uploadRoute from "./route/uploadRoute.js";
+import purchaseOrderRoute from "./route/purchaseOrderRoute.js";
 
 dotenv.config();
 
@@ -82,6 +83,13 @@ app.use(
 app.use(
   "/api/clustering",
   clusteringRoute
+);
+
+app.use("/api/upload", uploadRoute);
+
+app.use(
+  "/api/purchase-orders",
+  purchaseOrderRoute
 );
 
 /* ============================================================

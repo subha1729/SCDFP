@@ -58,6 +58,10 @@ router.post(
     {
       name: "holidays",
       maxCount: 1
+    },
+    {
+      name: "inventory",
+      maxCount: 1
     }
   ]),
 
@@ -82,6 +86,9 @@ router.post(
 
       const holidayFile =
         req.files?.holidays?.[0];
+      
+      const inventoryFile =
+        req.files?.inventory?.[0];
 
 
       /* ------------------------------------------------------
@@ -107,6 +114,16 @@ router.post(
         });
       }
 
+      if (!inventoryFile) {
+
+        return res.status(400).json({
+          success: false,
+          message:
+            "Current inventory status CSV is required."
+        });
+
+      }
+
 
       console.log(
         "Sales file:",
@@ -126,7 +143,8 @@ router.post(
       const savedFiles =
         saveUploadedFiles(
           salesFile,
-          holidayFile
+          holidayFile,
+          inventoryFile
         );
 
 
@@ -155,7 +173,10 @@ router.post(
             salesFile.originalname,
 
           holidays:
-            holidayFile.originalname
+            holidayFile.originalname,
+          
+          inventory:
+            inventoryFile.originalname
         },
 
         pipeline:

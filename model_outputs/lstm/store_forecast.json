@@ -2,1751 +2,3501 @@
     {
         "Store":1,
         "Date":"2027-01-01",
-        "ForecastSales":849.33
+        "ForecastSales":6629.37
     },
     {
         "Store":2,
         "Date":"2027-01-01",
-        "ForecastSales":1418.71
+        "ForecastSales":2186.11
     },
     {
         "Store":3,
         "Date":"2027-01-01",
-        "ForecastSales":792.21
+        "ForecastSales":2061.53
     },
     {
         "Store":4,
         "Date":"2027-01-01",
-        "ForecastSales":1487.33
+        "ForecastSales":12902.88
     },
     {
         "Store":5,
         "Date":"2027-01-01",
-        "ForecastSales":905.16
+        "ForecastSales":22559.64
     },
     {
         "Store":6,
         "Date":"2027-01-01",
-        "ForecastSales":955.74
+        "ForecastSales":7535.84
     },
     {
         "Store":7,
         "Date":"2027-01-01",
-        "ForecastSales":989.4
+        "ForecastSales":4102.48
     },
     {
         "Store":8,
         "Date":"2027-01-01",
-        "ForecastSales":956.17
+        "ForecastSales":2340.99
     },
     {
         "Store":9,
         "Date":"2027-01-01",
-        "ForecastSales":1034.72
+        "ForecastSales":4130.07
     },
     {
         "Store":10,
         "Date":"2027-01-01",
-        "ForecastSales":1049.61
+        "ForecastSales":4668.54
     },
     {
         "Store":11,
         "Date":"2027-01-01",
-        "ForecastSales":873.8
+        "ForecastSales":2397.48
     },
     {
         "Store":12,
         "Date":"2027-01-01",
-        "ForecastSales":899.79
+        "ForecastSales":13140.38
     },
     {
         "Store":13,
         "Date":"2027-01-01",
-        "ForecastSales":876.46
+        "ForecastSales":15123.82
     },
     {
         "Store":14,
         "Date":"2027-01-01",
-        "ForecastSales":645.05
+        "ForecastSales":13259.21
     },
     {
         "Store":15,
         "Date":"2027-01-01",
-        "ForecastSales":1278.72
+        "ForecastSales":7756.81
     },
     {
         "Store":16,
         "Date":"2027-01-01",
-        "ForecastSales":1136.32
+        "ForecastSales":2859.52
     },
     {
         "Store":17,
         "Date":"2027-01-01",
-        "ForecastSales":842.92
+        "ForecastSales":22733.2
     },
     {
         "Store":18,
         "Date":"2027-01-01",
-        "ForecastSales":873.08
+        "ForecastSales":24690.16
     },
     {
         "Store":19,
         "Date":"2027-01-01",
-        "ForecastSales":707.78
+        "ForecastSales":15695.69
     },
     {
         "Store":20,
         "Date":"2027-01-01",
-        "ForecastSales":798.71
+        "ForecastSales":32128.54
     },
     {
         "Store":21,
         "Date":"2027-01-01",
-        "ForecastSales":1298.75
+        "ForecastSales":2413.0
     },
     {
         "Store":22,
         "Date":"2027-01-01",
-        "ForecastSales":1035.93
+        "ForecastSales":12340.08
     },
     {
         "Store":23,
         "Date":"2027-01-01",
-        "ForecastSales":670.23
+        "ForecastSales":2760.05
     },
     {
         "Store":24,
         "Date":"2027-01-01",
-        "ForecastSales":795.38
+        "ForecastSales":27443.13
     },
     {
         "Store":25,
         "Date":"2027-01-01",
-        "ForecastSales":809.54
+        "ForecastSales":21930.2
     },
     {
         "Store":26,
         "Date":"2027-01-01",
-        "ForecastSales":1046.93
+        "ForecastSales":9849.83
     },
     {
         "Store":27,
         "Date":"2027-01-01",
-        "ForecastSales":1020.25
+        "ForecastSales":8322.52
     },
     {
         "Store":28,
         "Date":"2027-01-01",
-        "ForecastSales":1236.24
+        "ForecastSales":6485.83
     },
     {
         "Store":29,
         "Date":"2027-01-01",
-        "ForecastSales":2587.4
+        "ForecastSales":8936.88
     },
     {
         "Store":30,
         "Date":"2027-01-01",
-        "ForecastSales":2040.94
+        "ForecastSales":5649.63
     },
     {
         "Store":31,
         "Date":"2027-01-01",
-        "ForecastSales":1273.12
+        "ForecastSales":23789.32
     },
     {
         "Store":32,
         "Date":"2027-01-01",
-        "ForecastSales":1047.16
+        "ForecastSales":8890.08
     },
     {
         "Store":33,
         "Date":"2027-01-01",
-        "ForecastSales":1259.49
+        "ForecastSales":17778.92
     },
     {
         "Store":34,
         "Date":"2027-01-01",
-        "ForecastSales":771.5
+        "ForecastSales":15771.5
     },
     {
         "Store":35,
         "Date":"2027-01-01",
-        "ForecastSales":1205.44
+        "ForecastSales":6587.86
     },
     {
         "Store":36,
         "Date":"2027-01-01",
-        "ForecastSales":1477.48
+        "ForecastSales":5902.1
     },
     {
         "Store":37,
         "Date":"2027-01-01",
-        "ForecastSales":466.54
+        "ForecastSales":7840.12
     },
     {
         "Store":38,
         "Date":"2027-01-01",
-        "ForecastSales":1829.8
+        "ForecastSales":7873.59
     },
     {
         "Store":39,
         "Date":"2027-01-01",
-        "ForecastSales":1010.8
+        "ForecastSales":16393.93
     },
     {
         "Store":40,
         "Date":"2027-01-01",
-        "ForecastSales":1125.28
+        "ForecastSales":3592.28
     },
     {
         "Store":41,
         "Date":"2027-01-01",
-        "ForecastSales":1106.68
+        "ForecastSales":18400.71
     },
     {
         "Store":42,
         "Date":"2027-01-01",
-        "ForecastSales":912.6
+        "ForecastSales":2758.35
     },
     {
         "Store":43,
         "Date":"2027-01-01",
-        "ForecastSales":1895.08
+        "ForecastSales":2684.5
     },
     {
         "Store":44,
         "Date":"2027-01-01",
-        "ForecastSales":1754.82
+        "ForecastSales":13342.47
     },
     {
         "Store":45,
         "Date":"2027-01-01",
-        "ForecastSales":1685.44
+        "ForecastSales":11245.72
     },
     {
         "Store":46,
         "Date":"2027-01-01",
-        "ForecastSales":1299.93
+        "ForecastSales":15734.63
     },
     {
         "Store":47,
         "Date":"2027-01-01",
-        "ForecastSales":1267.64
+        "ForecastSales":14587.43
     },
     {
         "Store":48,
         "Date":"2027-01-01",
-        "ForecastSales":1428.32
+        "ForecastSales":18261.18
     },
     {
         "Store":49,
         "Date":"2027-01-01",
-        "ForecastSales":1064.38
+        "ForecastSales":4872.56
     },
     {
         "Store":50,
         "Date":"2027-01-01",
-        "ForecastSales":1028.44
+        "ForecastSales":3996.13
+    },
+    {
+        "Store":51,
+        "Date":"2027-01-01",
+        "ForecastSales":20671.96
+    },
+    {
+        "Store":52,
+        "Date":"2027-01-01",
+        "ForecastSales":26234.2
+    },
+    {
+        "Store":53,
+        "Date":"2027-01-01",
+        "ForecastSales":8070.37
+    },
+    {
+        "Store":54,
+        "Date":"2027-01-01",
+        "ForecastSales":6269.24
+    },
+    {
+        "Store":55,
+        "Date":"2027-01-01",
+        "ForecastSales":4555.06
+    },
+    {
+        "Store":56,
+        "Date":"2027-01-01",
+        "ForecastSales":4116.49
+    },
+    {
+        "Store":57,
+        "Date":"2027-01-01",
+        "ForecastSales":3151.08
+    },
+    {
+        "Store":58,
+        "Date":"2027-01-01",
+        "ForecastSales":4689.24
+    },
+    {
+        "Store":59,
+        "Date":"2027-01-01",
+        "ForecastSales":4232.64
+    },
+    {
+        "Store":60,
+        "Date":"2027-01-01",
+        "ForecastSales":29139.67
+    },
+    {
+        "Store":61,
+        "Date":"2027-01-01",
+        "ForecastSales":2813.35
+    },
+    {
+        "Store":62,
+        "Date":"2027-01-01",
+        "ForecastSales":4393.11
+    },
+    {
+        "Store":63,
+        "Date":"2027-01-01",
+        "ForecastSales":9957.8
+    },
+    {
+        "Store":64,
+        "Date":"2027-01-01",
+        "ForecastSales":11984.73
+    },
+    {
+        "Store":65,
+        "Date":"2027-01-01",
+        "ForecastSales":6343.26
+    },
+    {
+        "Store":66,
+        "Date":"2027-01-01",
+        "ForecastSales":16282.22
+    },
+    {
+        "Store":67,
+        "Date":"2027-01-01",
+        "ForecastSales":7553.11
+    },
+    {
+        "Store":68,
+        "Date":"2027-01-01",
+        "ForecastSales":4180.96
+    },
+    {
+        "Store":69,
+        "Date":"2027-01-01",
+        "ForecastSales":4113.49
+    },
+    {
+        "Store":70,
+        "Date":"2027-01-01",
+        "ForecastSales":16172.74
+    },
+    {
+        "Store":71,
+        "Date":"2027-01-01",
+        "ForecastSales":8742.38
+    },
+    {
+        "Store":72,
+        "Date":"2027-01-01",
+        "ForecastSales":4765.87
+    },
+    {
+        "Store":73,
+        "Date":"2027-01-01",
+        "ForecastSales":11696.63
+    },
+    {
+        "Store":74,
+        "Date":"2027-01-01",
+        "ForecastSales":22369.37
+    },
+    {
+        "Store":75,
+        "Date":"2027-01-01",
+        "ForecastSales":14147.66
+    },
+    {
+        "Store":76,
+        "Date":"2027-01-01",
+        "ForecastSales":3789.3
+    },
+    {
+        "Store":77,
+        "Date":"2027-01-01",
+        "ForecastSales":26419.12
+    },
+    {
+        "Store":78,
+        "Date":"2027-01-01",
+        "ForecastSales":11962.62
+    },
+    {
+        "Store":79,
+        "Date":"2027-01-01",
+        "ForecastSales":7062.38
+    },
+    {
+        "Store":80,
+        "Date":"2027-01-01",
+        "ForecastSales":5690.9
+    },
+    {
+        "Store":81,
+        "Date":"2027-01-01",
+        "ForecastSales":8192.67
+    },
+    {
+        "Store":82,
+        "Date":"2027-01-01",
+        "ForecastSales":4099.31
+    },
+    {
+        "Store":83,
+        "Date":"2027-01-01",
+        "ForecastSales":5915.96
+    },
+    {
+        "Store":84,
+        "Date":"2027-01-01",
+        "ForecastSales":9568.35
+    },
+    {
+        "Store":85,
+        "Date":"2027-01-01",
+        "ForecastSales":6561.53
+    },
+    {
+        "Store":86,
+        "Date":"2027-01-01",
+        "ForecastSales":7154.89
+    },
+    {
+        "Store":87,
+        "Date":"2027-01-01",
+        "ForecastSales":3592.21
+    },
+    {
+        "Store":88,
+        "Date":"2027-01-01",
+        "ForecastSales":8943.87
+    },
+    {
+        "Store":89,
+        "Date":"2027-01-01",
+        "ForecastSales":10457.3
+    },
+    {
+        "Store":90,
+        "Date":"2027-01-01",
+        "ForecastSales":34018.51
+    },
+    {
+        "Store":91,
+        "Date":"2027-01-01",
+        "ForecastSales":16959.31
+    },
+    {
+        "Store":92,
+        "Date":"2027-01-01",
+        "ForecastSales":10974.58
+    },
+    {
+        "Store":93,
+        "Date":"2027-01-01",
+        "ForecastSales":12569.39
+    },
+    {
+        "Store":94,
+        "Date":"2027-01-01",
+        "ForecastSales":5734.45
+    },
+    {
+        "Store":95,
+        "Date":"2027-01-01",
+        "ForecastSales":9567.06
+    },
+    {
+        "Store":96,
+        "Date":"2027-01-01",
+        "ForecastSales":2862.98
+    },
+    {
+        "Store":97,
+        "Date":"2027-01-01",
+        "ForecastSales":6923.22
+    },
+    {
+        "Store":98,
+        "Date":"2027-01-01",
+        "ForecastSales":23658.04
+    },
+    {
+        "Store":99,
+        "Date":"2027-01-01",
+        "ForecastSales":3099.41
+    },
+    {
+        "Store":100,
+        "Date":"2027-01-01",
+        "ForecastSales":7825.48
     },
     {
         "Store":1,
         "Date":"2027-01-02",
-        "ForecastSales":1298.05
+        "ForecastSales":9308.44
     },
     {
         "Store":2,
         "Date":"2027-01-02",
-        "ForecastSales":1119.26
+        "ForecastSales":3317.15
     },
     {
         "Store":3,
         "Date":"2027-01-02",
-        "ForecastSales":1257.96
+        "ForecastSales":2096.29
     },
     {
         "Store":4,
         "Date":"2027-01-02",
-        "ForecastSales":1570.56
+        "ForecastSales":23939.46
     },
     {
         "Store":5,
         "Date":"2027-01-02",
-        "ForecastSales":1153.89
+        "ForecastSales":14317.13
     },
     {
         "Store":6,
         "Date":"2027-01-02",
-        "ForecastSales":1151.18
+        "ForecastSales":5993.43
     },
     {
         "Store":7,
         "Date":"2027-01-02",
-        "ForecastSales":1254.99
+        "ForecastSales":4114.06
     },
     {
         "Store":8,
         "Date":"2027-01-02",
-        "ForecastSales":1054.15
+        "ForecastSales":2862.24
     },
     {
         "Store":9,
         "Date":"2027-01-02",
-        "ForecastSales":1497.87
+        "ForecastSales":4500.99
     },
     {
         "Store":10,
         "Date":"2027-01-02",
-        "ForecastSales":1309.94
+        "ForecastSales":5411.02
     },
     {
         "Store":11,
         "Date":"2027-01-02",
-        "ForecastSales":1414.75
+        "ForecastSales":3139.77
     },
     {
         "Store":12,
         "Date":"2027-01-02",
-        "ForecastSales":1241.75
+        "ForecastSales":11411.63
     },
     {
         "Store":13,
         "Date":"2027-01-02",
-        "ForecastSales":1415.5
+        "ForecastSales":13918.41
     },
     {
         "Store":14,
         "Date":"2027-01-02",
-        "ForecastSales":1165.26
+        "ForecastSales":11538.57
     },
     {
         "Store":15,
         "Date":"2027-01-02",
-        "ForecastSales":1539.02
+        "ForecastSales":6698.61
     },
     {
         "Store":16,
         "Date":"2027-01-02",
-        "ForecastSales":1944.69
+        "ForecastSales":4229.73
     },
     {
         "Store":17,
         "Date":"2027-01-02",
-        "ForecastSales":1620.79
+        "ForecastSales":19623.21
     },
     {
         "Store":18,
         "Date":"2027-01-02",
-        "ForecastSales":1628.89
+        "ForecastSales":16339.37
     },
     {
         "Store":19,
         "Date":"2027-01-02",
-        "ForecastSales":1354.32
+        "ForecastSales":18858.92
     },
     {
         "Store":20,
         "Date":"2027-01-02",
-        "ForecastSales":1117.75
+        "ForecastSales":36262.94
     },
     {
         "Store":21,
         "Date":"2027-01-02",
-        "ForecastSales":1849.13
+        "ForecastSales":2957.37
     },
     {
         "Store":22,
         "Date":"2027-01-02",
-        "ForecastSales":1510.58
+        "ForecastSales":15102.68
     },
     {
         "Store":23,
         "Date":"2027-01-02",
-        "ForecastSales":1335.56
+        "ForecastSales":3083.42
     },
     {
         "Store":24,
         "Date":"2027-01-02",
-        "ForecastSales":1039.14
+        "ForecastSales":20215.17
     },
     {
         "Store":25,
         "Date":"2027-01-02",
-        "ForecastSales":1592.66
+        "ForecastSales":30893.43
     },
     {
         "Store":26,
         "Date":"2027-01-02",
-        "ForecastSales":1579.94
+        "ForecastSales":7815.57
     },
     {
         "Store":27,
         "Date":"2027-01-02",
-        "ForecastSales":1603.81
+        "ForecastSales":8707.69
     },
     {
         "Store":28,
         "Date":"2027-01-02",
-        "ForecastSales":1814.65
+        "ForecastSales":8469.28
     },
     {
         "Store":29,
         "Date":"2027-01-02",
-        "ForecastSales":2555.62
+        "ForecastSales":14375.72
     },
     {
         "Store":30,
         "Date":"2027-01-02",
-        "ForecastSales":1907.8
+        "ForecastSales":6308.56
     },
     {
         "Store":31,
         "Date":"2027-01-02",
-        "ForecastSales":1184.13
+        "ForecastSales":15317.38
     },
     {
         "Store":32,
         "Date":"2027-01-02",
-        "ForecastSales":1561.14
+        "ForecastSales":10038.81
     },
     {
         "Store":33,
         "Date":"2027-01-02",
-        "ForecastSales":2056.39
+        "ForecastSales":23464.71
     },
     {
         "Store":34,
         "Date":"2027-01-02",
-        "ForecastSales":1234.57
+        "ForecastSales":13814.92
     },
     {
         "Store":35,
         "Date":"2027-01-02",
-        "ForecastSales":1819.57
+        "ForecastSales":8762.84
     },
     {
         "Store":36,
         "Date":"2027-01-02",
-        "ForecastSales":1748.82
+        "ForecastSales":6129.69
     },
     {
         "Store":37,
         "Date":"2027-01-02",
-        "ForecastSales":1257.27
+        "ForecastSales":8903.76
     },
     {
         "Store":38,
         "Date":"2027-01-02",
-        "ForecastSales":2429.96
+        "ForecastSales":8648.1
     },
     {
         "Store":39,
         "Date":"2027-01-02",
-        "ForecastSales":1807.42
+        "ForecastSales":16135.93
     },
     {
         "Store":40,
         "Date":"2027-01-02",
-        "ForecastSales":1622.35
+        "ForecastSales":3515.12
     },
     {
         "Store":41,
         "Date":"2027-01-02",
-        "ForecastSales":1948.99
+        "ForecastSales":18964.47
     },
     {
         "Store":42,
         "Date":"2027-01-02",
-        "ForecastSales":1617.79
+        "ForecastSales":3378.2
     },
     {
         "Store":43,
         "Date":"2027-01-02",
-        "ForecastSales":2295.56
+        "ForecastSales":5554.61
     },
     {
         "Store":44,
         "Date":"2027-01-02",
-        "ForecastSales":2618.48
+        "ForecastSales":10147.73
     },
     {
         "Store":45,
         "Date":"2027-01-02",
-        "ForecastSales":2334.27
+        "ForecastSales":12525.9
     },
     {
         "Store":46,
         "Date":"2027-01-02",
-        "ForecastSales":1792.23
+        "ForecastSales":15097.27
     },
     {
         "Store":47,
         "Date":"2027-01-02",
-        "ForecastSales":1434.02
+        "ForecastSales":26890.41
     },
     {
         "Store":48,
         "Date":"2027-01-02",
-        "ForecastSales":2342.07
+        "ForecastSales":21992.76
     },
     {
         "Store":49,
         "Date":"2027-01-02",
-        "ForecastSales":2218.63
+        "ForecastSales":5913.69
     },
     {
         "Store":50,
         "Date":"2027-01-02",
-        "ForecastSales":1808.78
+        "ForecastSales":4178.64
+    },
+    {
+        "Store":51,
+        "Date":"2027-01-02",
+        "ForecastSales":19976.92
+    },
+    {
+        "Store":52,
+        "Date":"2027-01-02",
+        "ForecastSales":26250.89
+    },
+    {
+        "Store":53,
+        "Date":"2027-01-02",
+        "ForecastSales":10201.09
+    },
+    {
+        "Store":54,
+        "Date":"2027-01-02",
+        "ForecastSales":6444.62
+    },
+    {
+        "Store":55,
+        "Date":"2027-01-02",
+        "ForecastSales":9944.97
+    },
+    {
+        "Store":56,
+        "Date":"2027-01-02",
+        "ForecastSales":6525.75
+    },
+    {
+        "Store":57,
+        "Date":"2027-01-02",
+        "ForecastSales":3972.06
+    },
+    {
+        "Store":58,
+        "Date":"2027-01-02",
+        "ForecastSales":6593.93
+    },
+    {
+        "Store":59,
+        "Date":"2027-01-02",
+        "ForecastSales":5135.52
+    },
+    {
+        "Store":60,
+        "Date":"2027-01-02",
+        "ForecastSales":24873.59
+    },
+    {
+        "Store":61,
+        "Date":"2027-01-02",
+        "ForecastSales":3228.86
+    },
+    {
+        "Store":62,
+        "Date":"2027-01-02",
+        "ForecastSales":4841.11
+    },
+    {
+        "Store":63,
+        "Date":"2027-01-02",
+        "ForecastSales":11381.22
+    },
+    {
+        "Store":64,
+        "Date":"2027-01-02",
+        "ForecastSales":14121.69
+    },
+    {
+        "Store":65,
+        "Date":"2027-01-02",
+        "ForecastSales":8126.12
+    },
+    {
+        "Store":66,
+        "Date":"2027-01-02",
+        "ForecastSales":13689.44
+    },
+    {
+        "Store":67,
+        "Date":"2027-01-02",
+        "ForecastSales":5264.04
+    },
+    {
+        "Store":68,
+        "Date":"2027-01-02",
+        "ForecastSales":5286.21
+    },
+    {
+        "Store":69,
+        "Date":"2027-01-02",
+        "ForecastSales":3585.06
+    },
+    {
+        "Store":70,
+        "Date":"2027-01-02",
+        "ForecastSales":18104.62
+    },
+    {
+        "Store":71,
+        "Date":"2027-01-02",
+        "ForecastSales":15952.64
+    },
+    {
+        "Store":72,
+        "Date":"2027-01-02",
+        "ForecastSales":7063.59
+    },
+    {
+        "Store":73,
+        "Date":"2027-01-02",
+        "ForecastSales":18584.54
+    },
+    {
+        "Store":74,
+        "Date":"2027-01-02",
+        "ForecastSales":16683.2
+    },
+    {
+        "Store":75,
+        "Date":"2027-01-02",
+        "ForecastSales":13778.68
+    },
+    {
+        "Store":76,
+        "Date":"2027-01-02",
+        "ForecastSales":5279.69
+    },
+    {
+        "Store":77,
+        "Date":"2027-01-02",
+        "ForecastSales":25522.02
+    },
+    {
+        "Store":78,
+        "Date":"2027-01-02",
+        "ForecastSales":9815.29
+    },
+    {
+        "Store":79,
+        "Date":"2027-01-02",
+        "ForecastSales":6182.17
+    },
+    {
+        "Store":80,
+        "Date":"2027-01-02",
+        "ForecastSales":5743.91
+    },
+    {
+        "Store":81,
+        "Date":"2027-01-02",
+        "ForecastSales":9721.01
+    },
+    {
+        "Store":82,
+        "Date":"2027-01-02",
+        "ForecastSales":7579.15
+    },
+    {
+        "Store":83,
+        "Date":"2027-01-02",
+        "ForecastSales":8573.43
+    },
+    {
+        "Store":84,
+        "Date":"2027-01-02",
+        "ForecastSales":9289.91
+    },
+    {
+        "Store":85,
+        "Date":"2027-01-02",
+        "ForecastSales":5428.76
+    },
+    {
+        "Store":86,
+        "Date":"2027-01-02",
+        "ForecastSales":8327.31
+    },
+    {
+        "Store":87,
+        "Date":"2027-01-02",
+        "ForecastSales":5274.64
+    },
+    {
+        "Store":88,
+        "Date":"2027-01-02",
+        "ForecastSales":17810.53
+    },
+    {
+        "Store":89,
+        "Date":"2027-01-02",
+        "ForecastSales":13225.29
+    },
+    {
+        "Store":90,
+        "Date":"2027-01-02",
+        "ForecastSales":18387.66
+    },
+    {
+        "Store":91,
+        "Date":"2027-01-02",
+        "ForecastSales":16269.1
+    },
+    {
+        "Store":92,
+        "Date":"2027-01-02",
+        "ForecastSales":14270.33
+    },
+    {
+        "Store":93,
+        "Date":"2027-01-02",
+        "ForecastSales":12419.97
+    },
+    {
+        "Store":94,
+        "Date":"2027-01-02",
+        "ForecastSales":7135.72
+    },
+    {
+        "Store":95,
+        "Date":"2027-01-02",
+        "ForecastSales":10913.61
+    },
+    {
+        "Store":96,
+        "Date":"2027-01-02",
+        "ForecastSales":3912.34
+    },
+    {
+        "Store":97,
+        "Date":"2027-01-02",
+        "ForecastSales":14237.32
+    },
+    {
+        "Store":98,
+        "Date":"2027-01-02",
+        "ForecastSales":16365.13
+    },
+    {
+        "Store":99,
+        "Date":"2027-01-02",
+        "ForecastSales":5338.77
+    },
+    {
+        "Store":100,
+        "Date":"2027-01-02",
+        "ForecastSales":9120.92
     },
     {
         "Store":1,
         "Date":"2027-01-03",
-        "ForecastSales":9.94
+        "ForecastSales":3085.1
     },
     {
         "Store":2,
         "Date":"2027-01-03",
-        "ForecastSales":6.4
+        "ForecastSales":212.04
     },
     {
         "Store":3,
         "Date":"2027-01-03",
-        "ForecastSales":34.74
+        "ForecastSales":2079.92
     },
     {
         "Store":4,
         "Date":"2027-01-03",
-        "ForecastSales":3.06
+        "ForecastSales":513.0
     },
     {
         "Store":5,
         "Date":"2027-01-03",
-        "ForecastSales":3.69
+        "ForecastSales":4702.22
     },
     {
         "Store":6,
         "Date":"2027-01-03",
-        "ForecastSales":10.66
+        "ForecastSales":1578.95
     },
     {
         "Store":7,
         "Date":"2027-01-03",
-        "ForecastSales":1.75
+        "ForecastSales":205.37
     },
     {
         "Store":8,
         "Date":"2027-01-03",
-        "ForecastSales":8.36
+        "ForecastSales":185.55
     },
     {
         "Store":9,
         "Date":"2027-01-03",
-        "ForecastSales":2.5
+        "ForecastSales":3767.41
     },
     {
         "Store":10,
         "Date":"2027-01-03",
-        "ForecastSales":1.81
+        "ForecastSales":864.91
     },
     {
         "Store":11,
         "Date":"2027-01-03",
-        "ForecastSales":12.4
+        "ForecastSales":2838.42
     },
     {
         "Store":12,
         "Date":"2027-01-03",
-        "ForecastSales":7.13
+        "ForecastSales":11357.22
     },
     {
         "Store":13,
         "Date":"2027-01-03",
-        "ForecastSales":13.53
+        "ForecastSales":907.46
     },
     {
         "Store":14,
         "Date":"2027-01-03",
-        "ForecastSales":4.6
+        "ForecastSales":9258.56
     },
     {
         "Store":15,
         "Date":"2027-01-03",
-        "ForecastSales":6.65
+        "ForecastSales":70.94
     },
     {
         "Store":16,
         "Date":"2027-01-03",
-        "ForecastSales":6.77
+        "ForecastSales":129.61
     },
     {
         "Store":17,
         "Date":"2027-01-03",
-        "ForecastSales":10.38
+        "ForecastSales":11326.16
     },
     {
         "Store":18,
         "Date":"2027-01-03",
-        "ForecastSales":14.17
+        "ForecastSales":723.18
     },
     {
         "Store":19,
         "Date":"2027-01-03",
-        "ForecastSales":12.63
+        "ForecastSales":14411.99
     },
     {
         "Store":20,
         "Date":"2027-01-03",
-        "ForecastSales":3.56
+        "ForecastSales":3835.41
     },
     {
         "Store":21,
         "Date":"2027-01-03",
-        "ForecastSales":9.52
+        "ForecastSales":1319.39
     },
     {
         "Store":22,
         "Date":"2027-01-03",
-        "ForecastSales":17.87
+        "ForecastSales":2520.24
     },
     {
         "Store":23,
         "Date":"2027-01-03",
-        "ForecastSales":5.82
+        "ForecastSales":1446.94
     },
     {
         "Store":24,
         "Date":"2027-01-03",
-        "ForecastSales":3.4
+        "ForecastSales":19856.3
     },
     {
         "Store":25,
         "Date":"2027-01-03",
-        "ForecastSales":5.82
+        "ForecastSales":4859.8
     },
     {
         "Store":26,
         "Date":"2027-01-03",
-        "ForecastSales":5.44
+        "ForecastSales":239.12
     },
     {
         "Store":27,
         "Date":"2027-01-03",
-        "ForecastSales":11.08
+        "ForecastSales":492.72
     },
     {
         "Store":28,
         "Date":"2027-01-03",
-        "ForecastSales":2.56
+        "ForecastSales":418.55
     },
     {
         "Store":29,
         "Date":"2027-01-03",
-        "ForecastSales":3.29
+        "ForecastSales":2033.01
     },
     {
         "Store":30,
         "Date":"2027-01-03",
-        "ForecastSales":2.2
+        "ForecastSales":434.28
     },
     {
         "Store":31,
         "Date":"2027-01-03",
-        "ForecastSales":8.04
+        "ForecastSales":16075.59
     },
     {
         "Store":32,
         "Date":"2027-01-03",
-        "ForecastSales":2.84
+        "ForecastSales":85.43
     },
     {
         "Store":33,
         "Date":"2027-01-03",
-        "ForecastSales":7.42
+        "ForecastSales":1758.31
     },
     {
         "Store":34,
         "Date":"2027-01-03",
-        "ForecastSales":7.71
+        "ForecastSales":11212.26
     },
     {
         "Store":35,
         "Date":"2027-01-03",
-        "ForecastSales":14.95
+        "ForecastSales":677.48
     },
     {
         "Store":36,
         "Date":"2027-01-03",
-        "ForecastSales":5.52
+        "ForecastSales":4020.03
     },
     {
         "Store":37,
         "Date":"2027-01-03",
-        "ForecastSales":29.35
+        "ForecastSales":91.28
     },
     {
         "Store":38,
         "Date":"2027-01-03",
-        "ForecastSales":5.33
+        "ForecastSales":3442.76
     },
     {
         "Store":39,
         "Date":"2027-01-03",
-        "ForecastSales":10.83
+        "ForecastSales":10713.37
     },
     {
         "Store":40,
         "Date":"2027-01-03",
-        "ForecastSales":4.64
+        "ForecastSales":38.62
     },
     {
         "Store":41,
         "Date":"2027-01-03",
-        "ForecastSales":7.39
+        "ForecastSales":13572.21
     },
     {
         "Store":42,
         "Date":"2027-01-03",
-        "ForecastSales":7.89
+        "ForecastSales":310.67
     },
     {
         "Store":43,
         "Date":"2027-01-03",
-        "ForecastSales":6.0
+        "ForecastSales":565.49
     },
     {
         "Store":44,
         "Date":"2027-01-03",
-        "ForecastSales":11.5
+        "ForecastSales":11454.62
     },
     {
         "Store":45,
         "Date":"2027-01-03",
-        "ForecastSales":15.33
+        "ForecastSales":7999.88
     },
     {
         "Store":46,
         "Date":"2027-01-03",
-        "ForecastSales":5.61
+        "ForecastSales":9060.0
     },
     {
         "Store":47,
         "Date":"2027-01-03",
-        "ForecastSales":13.54
+        "ForecastSales":838.74
     },
     {
         "Store":48,
         "Date":"2027-01-03",
-        "ForecastSales":15.6
+        "ForecastSales":1791.11
     },
     {
         "Store":49,
         "Date":"2027-01-03",
-        "ForecastSales":7.0
+        "ForecastSales":3753.86
     },
     {
         "Store":50,
         "Date":"2027-01-03",
-        "ForecastSales":16.6
+        "ForecastSales":3333.36
+    },
+    {
+        "Store":51,
+        "Date":"2027-01-03",
+        "ForecastSales":4090.1
+    },
+    {
+        "Store":52,
+        "Date":"2027-01-03",
+        "ForecastSales":18511.55
+    },
+    {
+        "Store":53,
+        "Date":"2027-01-03",
+        "ForecastSales":232.19
+    },
+    {
+        "Store":54,
+        "Date":"2027-01-03",
+        "ForecastSales":2332.52
+    },
+    {
+        "Store":55,
+        "Date":"2027-01-03",
+        "ForecastSales":2093.69
+    },
+    {
+        "Store":56,
+        "Date":"2027-01-03",
+        "ForecastSales":3171.14
+    },
+    {
+        "Store":57,
+        "Date":"2027-01-03",
+        "ForecastSales":108.83
+    },
+    {
+        "Store":58,
+        "Date":"2027-01-03",
+        "ForecastSales":413.06
+    },
+    {
+        "Store":59,
+        "Date":"2027-01-03",
+        "ForecastSales":357.3
+    },
+    {
+        "Store":60,
+        "Date":"2027-01-03",
+        "ForecastSales":25831.57
+    },
+    {
+        "Store":61,
+        "Date":"2027-01-03",
+        "ForecastSales":209.3
+    },
+    {
+        "Store":62,
+        "Date":"2027-01-03",
+        "ForecastSales":1205.29
+    },
+    {
+        "Store":63,
+        "Date":"2027-01-03",
+        "ForecastSales":5586.48
+    },
+    {
+        "Store":64,
+        "Date":"2027-01-03",
+        "ForecastSales":11241.83
+    },
+    {
+        "Store":65,
+        "Date":"2027-01-03",
+        "ForecastSales":212.07
+    },
+    {
+        "Store":66,
+        "Date":"2027-01-03",
+        "ForecastSales":13970.85
+    },
+    {
+        "Store":67,
+        "Date":"2027-01-03",
+        "ForecastSales":2492.68
+    },
+    {
+        "Store":68,
+        "Date":"2027-01-03",
+        "ForecastSales":691.75
+    },
+    {
+        "Store":69,
+        "Date":"2027-01-03",
+        "ForecastSales":3470.04
+    },
+    {
+        "Store":70,
+        "Date":"2027-01-03",
+        "ForecastSales":2059.24
+    },
+    {
+        "Store":71,
+        "Date":"2027-01-03",
+        "ForecastSales":1012.85
+    },
+    {
+        "Store":72,
+        "Date":"2027-01-03",
+        "ForecastSales":2528.17
+    },
+    {
+        "Store":73,
+        "Date":"2027-01-03",
+        "ForecastSales":4095.51
+    },
+    {
+        "Store":74,
+        "Date":"2027-01-03",
+        "ForecastSales":14237.59
+    },
+    {
+        "Store":75,
+        "Date":"2027-01-03",
+        "ForecastSales":7138.43
+    },
+    {
+        "Store":76,
+        "Date":"2027-01-03",
+        "ForecastSales":5122.1
+    },
+    {
+        "Store":77,
+        "Date":"2027-01-03",
+        "ForecastSales":7571.44
+    },
+    {
+        "Store":78,
+        "Date":"2027-01-03",
+        "ForecastSales":8525.9
+    },
+    {
+        "Store":79,
+        "Date":"2027-01-03",
+        "ForecastSales":62.24
+    },
+    {
+        "Store":80,
+        "Date":"2027-01-03",
+        "ForecastSales":410.25
+    },
+    {
+        "Store":81,
+        "Date":"2027-01-03",
+        "ForecastSales":1215.13
+    },
+    {
+        "Store":82,
+        "Date":"2027-01-03",
+        "ForecastSales":2648.41
+    },
+    {
+        "Store":83,
+        "Date":"2027-01-03",
+        "ForecastSales":96.75
+    },
+    {
+        "Store":84,
+        "Date":"2027-01-03",
+        "ForecastSales":6126.88
+    },
+    {
+        "Store":85,
+        "Date":"2027-01-03",
+        "ForecastSales":4936.97
+    },
+    {
+        "Store":86,
+        "Date":"2027-01-03",
+        "ForecastSales":284.68
+    },
+    {
+        "Store":87,
+        "Date":"2027-01-03",
+        "ForecastSales":3601.3
+    },
+    {
+        "Store":88,
+        "Date":"2027-01-03",
+        "ForecastSales":394.13
+    },
+    {
+        "Store":89,
+        "Date":"2027-01-03",
+        "ForecastSales":6915.47
+    },
+    {
+        "Store":90,
+        "Date":"2027-01-03",
+        "ForecastSales":15873.24
+    },
+    {
+        "Store":91,
+        "Date":"2027-01-03",
+        "ForecastSales":1981.89
+    },
+    {
+        "Store":92,
+        "Date":"2027-01-03",
+        "ForecastSales":310.86
+    },
+    {
+        "Store":93,
+        "Date":"2027-01-03",
+        "ForecastSales":1768.08
+    },
+    {
+        "Store":94,
+        "Date":"2027-01-03",
+        "ForecastSales":501.87
+    },
+    {
+        "Store":95,
+        "Date":"2027-01-03",
+        "ForecastSales":9245.37
+    },
+    {
+        "Store":96,
+        "Date":"2027-01-03",
+        "ForecastSales":891.57
+    },
+    {
+        "Store":97,
+        "Date":"2027-01-03",
+        "ForecastSales":1557.23
+    },
+    {
+        "Store":98,
+        "Date":"2027-01-03",
+        "ForecastSales":6809.24
+    },
+    {
+        "Store":99,
+        "Date":"2027-01-03",
+        "ForecastSales":984.84
+    },
+    {
+        "Store":100,
+        "Date":"2027-01-03",
+        "ForecastSales":232.05
     },
     {
         "Store":1,
         "Date":"2027-01-04",
-        "ForecastSales":9867.44
+        "ForecastSales":5525.54
     },
     {
         "Store":2,
         "Date":"2027-01-04",
-        "ForecastSales":245.83
+        "ForecastSales":19624.77
     },
     {
         "Store":3,
         "Date":"2027-01-04",
-        "ForecastSales":1679.68
+        "ForecastSales":1084.58
     },
     {
         "Store":4,
         "Date":"2027-01-04",
-        "ForecastSales":1208.99
+        "ForecastSales":45020.02
     },
     {
         "Store":5,
         "Date":"2027-01-04",
-        "ForecastSales":9145.05
+        "ForecastSales":1893.23
     },
     {
         "Store":6,
         "Date":"2027-01-04",
-        "ForecastSales":874.08
+        "ForecastSales":1602.08
     },
     {
         "Store":7,
         "Date":"2027-01-04",
-        "ForecastSales":14813.12
+        "ForecastSales":2842.24
     },
     {
         "Store":8,
         "Date":"2027-01-04",
-        "ForecastSales":595.2
+        "ForecastSales":9383.6
     },
     {
         "Store":9,
         "Date":"2027-01-04",
-        "ForecastSales":20899.19
+        "ForecastSales":552.14
     },
     {
         "Store":10,
         "Date":"2027-01-04",
-        "ForecastSales":15224.98
+        "ForecastSales":3510.9
     },
     {
         "Store":11,
         "Date":"2027-01-04",
-        "ForecastSales":8756.45
+        "ForecastSales":2262.65
     },
     {
         "Store":12,
         "Date":"2027-01-04",
-        "ForecastSales":4748.37
+        "ForecastSales":2935.38
     },
     {
         "Store":13,
         "Date":"2027-01-04",
-        "ForecastSales":3757.53
+        "ForecastSales":3810.87
     },
     {
         "Store":14,
         "Date":"2027-01-04",
-        "ForecastSales":28977.44
+        "ForecastSales":2217.01
     },
     {
         "Store":15,
         "Date":"2027-01-04",
-        "ForecastSales":6033.5
+        "ForecastSales":2139.34
     },
     {
         "Store":16,
         "Date":"2027-01-04",
-        "ForecastSales":22474.11
+        "ForecastSales":9011.55
     },
     {
         "Store":17,
         "Date":"2027-01-04",
-        "ForecastSales":17992.57
+        "ForecastSales":1743.8
     },
     {
         "Store":18,
         "Date":"2027-01-04",
-        "ForecastSales":9594.98
+        "ForecastSales":5985.78
     },
     {
         "Store":19,
         "Date":"2027-01-04",
-        "ForecastSales":11995.68
+        "ForecastSales":1510.41
     },
     {
         "Store":20,
         "Date":"2027-01-04",
-        "ForecastSales":14531.1
+        "ForecastSales":15381.79
     },
     {
         "Store":21,
         "Date":"2027-01-04",
-        "ForecastSales":3478.67
+        "ForecastSales":684.47
     },
     {
         "Store":22,
         "Date":"2027-01-04",
-        "ForecastSales":5483.73
+        "ForecastSales":9105.71
     },
     {
         "Store":23,
         "Date":"2027-01-04",
-        "ForecastSales":41636.6
+        "ForecastSales":1152.27
     },
     {
         "Store":24,
         "Date":"2027-01-04",
-        "ForecastSales":12285.0
+        "ForecastSales":5506.72
     },
     {
         "Store":25,
         "Date":"2027-01-04",
-        "ForecastSales":42942.22
+        "ForecastSales":31946.74
     },
     {
         "Store":26,
         "Date":"2027-01-04",
-        "ForecastSales":16251.27
+        "ForecastSales":1743.53
     },
     {
         "Store":27,
         "Date":"2027-01-04",
-        "ForecastSales":5587.66
+        "ForecastSales":5930.12
     },
     {
         "Store":28,
         "Date":"2027-01-04",
-        "ForecastSales":29590.04
+        "ForecastSales":68169.97
     },
     {
         "Store":29,
         "Date":"2027-01-04",
-        "ForecastSales":1103.58
+        "ForecastSales":19633.98
     },
     {
         "Store":30,
         "Date":"2027-01-04",
-        "ForecastSales":2298.89
+        "ForecastSales":5530.1
     },
     {
         "Store":31,
         "Date":"2027-01-04",
-        "ForecastSales":553.94
+        "ForecastSales":2422.41
     },
     {
         "Store":32,
         "Date":"2027-01-04",
-        "ForecastSales":29371.22
+        "ForecastSales":65520.13
     },
     {
         "Store":33,
         "Date":"2027-01-04",
-        "ForecastSales":37291.29
+        "ForecastSales":8270.26
     },
     {
         "Store":34,
         "Date":"2027-01-04",
-        "ForecastSales":15487.98
+        "ForecastSales":2166.64
     },
     {
         "Store":35,
         "Date":"2027-01-04",
-        "ForecastSales":3719.12
+        "ForecastSales":8794.1
     },
     {
         "Store":36,
         "Date":"2027-01-04",
-        "ForecastSales":8048.37
+        "ForecastSales":2282.67
     },
     {
         "Store":37,
         "Date":"2027-01-04",
-        "ForecastSales":46658.48
+        "ForecastSales":71641.47
     },
     {
         "Store":38,
         "Date":"2027-01-04",
-        "ForecastSales":6654.48
+        "ForecastSales":1739.53
     },
     {
         "Store":39,
         "Date":"2027-01-04",
-        "ForecastSales":16772.86
+        "ForecastSales":7533.37
     },
     {
         "Store":40,
         "Date":"2027-01-04",
-        "ForecastSales":20965.27
+        "ForecastSales":24995.94
     },
     {
         "Store":41,
         "Date":"2027-01-04",
-        "ForecastSales":27572.52
+        "ForecastSales":5742.15
     },
     {
         "Store":42,
         "Date":"2027-01-04",
-        "ForecastSales":27275.02
+        "ForecastSales":11021.59
     },
     {
         "Store":43,
         "Date":"2027-01-04",
-        "ForecastSales":6531.72
+        "ForecastSales":15209.68
     },
     {
         "Store":44,
         "Date":"2027-01-04",
-        "ForecastSales":7988.07
+        "ForecastSales":3770.11
     },
     {
         "Store":45,
         "Date":"2027-01-04",
-        "ForecastSales":4992.69
+        "ForecastSales":11612.14
     },
     {
         "Store":46,
         "Date":"2027-01-04",
-        "ForecastSales":17549.5
+        "ForecastSales":4600.44
     },
     {
         "Store":47,
         "Date":"2027-01-04",
-        "ForecastSales":1669.27
+        "ForecastSales":50868.95
     },
     {
         "Store":48,
         "Date":"2027-01-04",
-        "ForecastSales":8628.87
+        "ForecastSales":30433.55
     },
     {
         "Store":49,
         "Date":"2027-01-04",
-        "ForecastSales":44469.93
+        "ForecastSales":2682.14
     },
     {
         "Store":50,
         "Date":"2027-01-04",
-        "ForecastSales":16716.7
+        "ForecastSales":566.77
+    },
+    {
+        "Store":51,
+        "Date":"2027-01-04",
+        "ForecastSales":10906.56
+    },
+    {
+        "Store":52,
+        "Date":"2027-01-04",
+        "ForecastSales":2481.19
+    },
+    {
+        "Store":53,
+        "Date":"2027-01-04",
+        "ForecastSales":39448.21
+    },
+    {
+        "Store":54,
+        "Date":"2027-01-04",
+        "ForecastSales":934.35
+    },
+    {
+        "Store":55,
+        "Date":"2027-01-04",
+        "ForecastSales":22459.9
+    },
+    {
+        "Store":56,
+        "Date":"2027-01-04",
+        "ForecastSales":6632.58
+    },
+    {
+        "Store":57,
+        "Date":"2027-01-04",
+        "ForecastSales":15157.07
+    },
+    {
+        "Store":58,
+        "Date":"2027-01-04",
+        "ForecastSales":34352.82
+    },
+    {
+        "Store":59,
+        "Date":"2027-01-04",
+        "ForecastSales":6657.34
+    },
+    {
+        "Store":60,
+        "Date":"2027-01-04",
+        "ForecastSales":8405.99
+    },
+    {
+        "Store":61,
+        "Date":"2027-01-04",
+        "ForecastSales":4317.6
+    },
+    {
+        "Store":62,
+        "Date":"2027-01-04",
+        "ForecastSales":687.22
+    },
+    {
+        "Store":63,
+        "Date":"2027-01-04",
+        "ForecastSales":7311.5
+    },
+    {
+        "Store":64,
+        "Date":"2027-01-04",
+        "ForecastSales":9388.51
+    },
+    {
+        "Store":65,
+        "Date":"2027-01-04",
+        "ForecastSales":58408.57
+    },
+    {
+        "Store":66,
+        "Date":"2027-01-04",
+        "ForecastSales":3897.23
+    },
+    {
+        "Store":67,
+        "Date":"2027-01-04",
+        "ForecastSales":410.64
+    },
+    {
+        "Store":68,
+        "Date":"2027-01-04",
+        "ForecastSales":5427.34
+    },
+    {
+        "Store":69,
+        "Date":"2027-01-04",
+        "ForecastSales":1773.46
+    },
+    {
+        "Store":70,
+        "Date":"2027-01-04",
+        "ForecastSales":19077.25
+    },
+    {
+        "Store":71,
+        "Date":"2027-01-04",
+        "ForecastSales":21023.26
+    },
+    {
+        "Store":72,
+        "Date":"2027-01-04",
+        "ForecastSales":4152.82
+    },
+    {
+        "Store":73,
+        "Date":"2027-01-04",
+        "ForecastSales":52706.74
+    },
+    {
+        "Store":74,
+        "Date":"2027-01-04",
+        "ForecastSales":3133.78
+    },
+    {
+        "Store":75,
+        "Date":"2027-01-04",
+        "ForecastSales":2013.76
+    },
+    {
+        "Store":76,
+        "Date":"2027-01-04",
+        "ForecastSales":1789.17
+    },
+    {
+        "Store":77,
+        "Date":"2027-01-04",
+        "ForecastSales":13922.21
+    },
+    {
+        "Store":78,
+        "Date":"2027-01-04",
+        "ForecastSales":3711.58
+    },
+    {
+        "Store":79,
+        "Date":"2027-01-04",
+        "ForecastSales":13185.92
+    },
+    {
+        "Store":80,
+        "Date":"2027-01-04",
+        "ForecastSales":3683.71
+    },
+    {
+        "Store":81,
+        "Date":"2027-01-04",
+        "ForecastSales":2244.79
+    },
+    {
+        "Store":82,
+        "Date":"2027-01-04",
+        "ForecastSales":11159.8
+    },
+    {
+        "Store":83,
+        "Date":"2027-01-04",
+        "ForecastSales":88710.48
+    },
+    {
+        "Store":84,
+        "Date":"2027-01-04",
+        "ForecastSales":8591.16
+    },
+    {
+        "Store":85,
+        "Date":"2027-01-04",
+        "ForecastSales":1970.29
+    },
+    {
+        "Store":86,
+        "Date":"2027-01-04",
+        "ForecastSales":9688.11
+    },
+    {
+        "Store":87,
+        "Date":"2027-01-04",
+        "ForecastSales":9711.49
+    },
+    {
+        "Store":88,
+        "Date":"2027-01-04",
+        "ForecastSales":45202.65
+    },
+    {
+        "Store":89,
+        "Date":"2027-01-04",
+        "ForecastSales":7225.76
+    },
+    {
+        "Store":90,
+        "Date":"2027-01-04",
+        "ForecastSales":480.29
+    },
+    {
+        "Store":91,
+        "Date":"2027-01-04",
+        "ForecastSales":7855.87
+    },
+    {
+        "Store":92,
+        "Date":"2027-01-04",
+        "ForecastSales":12387.95
+    },
+    {
+        "Store":93,
+        "Date":"2027-01-04",
+        "ForecastSales":5652.4
+    },
+    {
+        "Store":94,
+        "Date":"2027-01-04",
+        "ForecastSales":45703.45
+    },
+    {
+        "Store":95,
+        "Date":"2027-01-04",
+        "ForecastSales":741.92
+    },
+    {
+        "Store":96,
+        "Date":"2027-01-04",
+        "ForecastSales":2918.83
+    },
+    {
+        "Store":97,
+        "Date":"2027-01-04",
+        "ForecastSales":13749.87
+    },
+    {
+        "Store":98,
+        "Date":"2027-01-04",
+        "ForecastSales":2521.17
+    },
+    {
+        "Store":99,
+        "Date":"2027-01-04",
+        "ForecastSales":7538.53
+    },
+    {
+        "Store":100,
+        "Date":"2027-01-04",
+        "ForecastSales":56929.63
     },
     {
         "Store":1,
         "Date":"2027-01-05",
-        "ForecastSales":12947.84
+        "ForecastSales":36647.95
     },
     {
         "Store":2,
         "Date":"2027-01-05",
-        "ForecastSales":1575.98
+        "ForecastSales":14677.77
     },
     {
         "Store":3,
         "Date":"2027-01-05",
-        "ForecastSales":12047.21
+        "ForecastSales":4868.35
     },
     {
         "Store":4,
         "Date":"2027-01-05",
-        "ForecastSales":777.45
+        "ForecastSales":19349.62
     },
     {
         "Store":5,
         "Date":"2027-01-05",
-        "ForecastSales":4200.04
+        "ForecastSales":69937.3
     },
     {
         "Store":6,
         "Date":"2027-01-05",
-        "ForecastSales":2379.16
+        "ForecastSales":5405.79
     },
     {
         "Store":7,
         "Date":"2027-01-05",
-        "ForecastSales":4139.37
+        "ForecastSales":15704.99
     },
     {
         "Store":8,
         "Date":"2027-01-05",
-        "ForecastSales":1855.38
+        "ForecastSales":13889.39
     },
     {
         "Store":9,
         "Date":"2027-01-05",
-        "ForecastSales":5826.72
+        "ForecastSales":16759.3
     },
     {
         "Store":10,
         "Date":"2027-01-05",
-        "ForecastSales":4993.02
+        "ForecastSales":11149.85
     },
     {
         "Store":11,
         "Date":"2027-01-05",
-        "ForecastSales":11372.1
+        "ForecastSales":7401.1
     },
     {
         "Store":12,
         "Date":"2027-01-05",
-        "ForecastSales":4770.43
+        "ForecastSales":22912.97
     },
     {
         "Store":13,
         "Date":"2027-01-05",
-        "ForecastSales":4231.61
+        "ForecastSales":16347.21
     },
     {
         "Store":14,
         "Date":"2027-01-05",
-        "ForecastSales":4823.29
+        "ForecastSales":34213.77
     },
     {
         "Store":15,
         "Date":"2027-01-05",
-        "ForecastSales":10320.53
+        "ForecastSales":5708.68
     },
     {
         "Store":16,
         "Date":"2027-01-05",
-        "ForecastSales":8828.25
+        "ForecastSales":5627.04
     },
     {
         "Store":17,
         "Date":"2027-01-05",
-        "ForecastSales":7317.44
+        "ForecastSales":99407.54
     },
     {
         "Store":18,
         "Date":"2027-01-05",
-        "ForecastSales":5903.08
+        "ForecastSales":11766.54
     },
     {
         "Store":19,
         "Date":"2027-01-05",
-        "ForecastSales":6418.67
+        "ForecastSales":110938.07
     },
     {
         "Store":20,
         "Date":"2027-01-05",
-        "ForecastSales":3267.81
+        "ForecastSales":50995.62
     },
     {
         "Store":21,
         "Date":"2027-01-05",
-        "ForecastSales":1955.76
+        "ForecastSales":20136.66
     },
     {
         "Store":22,
         "Date":"2027-01-05",
-        "ForecastSales":17259.24
+        "ForecastSales":24916.47
     },
     {
         "Store":23,
         "Date":"2027-01-05",
-        "ForecastSales":7028.88
+        "ForecastSales":8683.55
     },
     {
         "Store":24,
         "Date":"2027-01-05",
-        "ForecastSales":7193.31
+        "ForecastSales":60879.91
     },
     {
         "Store":25,
         "Date":"2027-01-05",
-        "ForecastSales":7386.45
+        "ForecastSales":52732.28
     },
     {
         "Store":26,
         "Date":"2027-01-05",
-        "ForecastSales":5675.24
+        "ForecastSales":6185.07
     },
     {
         "Store":27,
         "Date":"2027-01-05",
-        "ForecastSales":7786.21
+        "ForecastSales":18359.29
     },
     {
         "Store":28,
         "Date":"2027-01-05",
-        "ForecastSales":7827.53
+        "ForecastSales":42177.66
     },
     {
         "Store":29,
         "Date":"2027-01-05",
-        "ForecastSales":664.6
+        "ForecastSales":19397.18
     },
     {
         "Store":30,
         "Date":"2027-01-05",
-        "ForecastSales":1099.31
+        "ForecastSales":4077.18
     },
     {
         "Store":31,
         "Date":"2027-01-05",
-        "ForecastSales":1673.64
+        "ForecastSales":24401.69
     },
     {
         "Store":32,
         "Date":"2027-01-05",
-        "ForecastSales":7634.88
+        "ForecastSales":40542.52
     },
     {
         "Store":33,
         "Date":"2027-01-05",
-        "ForecastSales":18450.55
+        "ForecastSales":65804.8
     },
     {
         "Store":34,
         "Date":"2027-01-05",
-        "ForecastSales":4945.74
+        "ForecastSales":29054.95
     },
     {
         "Store":35,
         "Date":"2027-01-05",
-        "ForecastSales":9626.81
+        "ForecastSales":13265.26
     },
     {
         "Store":36,
         "Date":"2027-01-05",
-        "ForecastSales":10269.95
+        "ForecastSales":22935.12
     },
     {
         "Store":37,
         "Date":"2027-01-05",
-        "ForecastSales":17989.2
+        "ForecastSales":33314.54
     },
     {
         "Store":38,
         "Date":"2027-01-05",
-        "ForecastSales":3396.48
+        "ForecastSales":46245.42
     },
     {
         "Store":39,
         "Date":"2027-01-05",
-        "ForecastSales":8377.38
+        "ForecastSales":23249.26
     },
     {
         "Store":40,
         "Date":"2027-01-05",
-        "ForecastSales":7512.9
+        "ForecastSales":10651.35
     },
     {
         "Store":41,
         "Date":"2027-01-05",
-        "ForecastSales":8770.09
+        "ForecastSales":60964.39
     },
     {
         "Store":42,
         "Date":"2027-01-05",
-        "ForecastSales":7876.63
+        "ForecastSales":12547.87
     },
     {
         "Store":43,
         "Date":"2027-01-05",
-        "ForecastSales":9863.25
+        "ForecastSales":7332.45
     },
     {
         "Store":44,
         "Date":"2027-01-05",
-        "ForecastSales":14723.47
+        "ForecastSales":12575.62
     },
     {
         "Store":45,
         "Date":"2027-01-05",
-        "ForecastSales":17550.22
+        "ForecastSales":10240.38
     },
     {
         "Store":46,
         "Date":"2027-01-05",
-        "ForecastSales":14733.9
+        "ForecastSales":41398.67
     },
     {
         "Store":47,
         "Date":"2027-01-05",
-        "ForecastSales":9950.35
+        "ForecastSales":32313.9
     },
     {
         "Store":48,
         "Date":"2027-01-05",
-        "ForecastSales":17426.46
+        "ForecastSales":46199.53
     },
     {
         "Store":49,
         "Date":"2027-01-05",
-        "ForecastSales":7494.25
+        "ForecastSales":12096.39
     },
     {
         "Store":50,
         "Date":"2027-01-05",
-        "ForecastSales":20373.03
+        "ForecastSales":25599.93
+    },
+    {
+        "Store":51,
+        "Date":"2027-01-05",
+        "ForecastSales":66834.15
+    },
+    {
+        "Store":52,
+        "Date":"2027-01-05",
+        "ForecastSales":86860.18
+    },
+    {
+        "Store":53,
+        "Date":"2027-01-05",
+        "ForecastSales":22935.25
+    },
+    {
+        "Store":54,
+        "Date":"2027-01-05",
+        "ForecastSales":37764.14
+    },
+    {
+        "Store":55,
+        "Date":"2027-01-05",
+        "ForecastSales":11006.05
+    },
+    {
+        "Store":56,
+        "Date":"2027-01-05",
+        "ForecastSales":7747.97
+    },
+    {
+        "Store":57,
+        "Date":"2027-01-05",
+        "ForecastSales":8006.79
+    },
+    {
+        "Store":58,
+        "Date":"2027-01-05",
+        "ForecastSales":34518.87
+    },
+    {
+        "Store":59,
+        "Date":"2027-01-05",
+        "ForecastSales":10522.27
+    },
+    {
+        "Store":60,
+        "Date":"2027-01-05",
+        "ForecastSales":47069.25
+    },
+    {
+        "Store":61,
+        "Date":"2027-01-05",
+        "ForecastSales":1534.8
+    },
+    {
+        "Store":62,
+        "Date":"2027-01-05",
+        "ForecastSales":18919.04
+    },
+    {
+        "Store":63,
+        "Date":"2027-01-05",
+        "ForecastSales":13813.8
+    },
+    {
+        "Store":64,
+        "Date":"2027-01-05",
+        "ForecastSales":25241.92
+    },
+    {
+        "Store":65,
+        "Date":"2027-01-05",
+        "ForecastSales":41401.23
+    },
+    {
+        "Store":66,
+        "Date":"2027-01-05",
+        "ForecastSales":24071.4
+    },
+    {
+        "Store":67,
+        "Date":"2027-01-05",
+        "ForecastSales":13827.66
+    },
+    {
+        "Store":68,
+        "Date":"2027-01-05",
+        "ForecastSales":18008.53
+    },
+    {
+        "Store":69,
+        "Date":"2027-01-05",
+        "ForecastSales":6656.28
+    },
+    {
+        "Store":70,
+        "Date":"2027-01-05",
+        "ForecastSales":54046.18
+    },
+    {
+        "Store":71,
+        "Date":"2027-01-05",
+        "ForecastSales":12700.38
+    },
+    {
+        "Store":72,
+        "Date":"2027-01-05",
+        "ForecastSales":10653.9
+    },
+    {
+        "Store":73,
+        "Date":"2027-01-05",
+        "ForecastSales":31258.29
+    },
+    {
+        "Store":74,
+        "Date":"2027-01-05",
+        "ForecastSales":35858.43
+    },
+    {
+        "Store":75,
+        "Date":"2027-01-05",
+        "ForecastSales":83589.0
+    },
+    {
+        "Store":76,
+        "Date":"2027-01-05",
+        "ForecastSales":30836.03
+    },
+    {
+        "Store":77,
+        "Date":"2027-01-05",
+        "ForecastSales":43849.16
+    },
+    {
+        "Store":78,
+        "Date":"2027-01-05",
+        "ForecastSales":36938.52
+    },
+    {
+        "Store":79,
+        "Date":"2027-01-05",
+        "ForecastSales":13647.95
+    },
+    {
+        "Store":80,
+        "Date":"2027-01-05",
+        "ForecastSales":28357.17
+    },
+    {
+        "Store":81,
+        "Date":"2027-01-05",
+        "ForecastSales":51306.46
+    },
+    {
+        "Store":82,
+        "Date":"2027-01-05",
+        "ForecastSales":10721.78
+    },
+    {
+        "Store":83,
+        "Date":"2027-01-05",
+        "ForecastSales":29781.63
+    },
+    {
+        "Store":84,
+        "Date":"2027-01-05",
+        "ForecastSales":20897.42
+    },
+    {
+        "Store":85,
+        "Date":"2027-01-05",
+        "ForecastSales":5459.52
+    },
+    {
+        "Store":86,
+        "Date":"2027-01-05",
+        "ForecastSales":32531.96
+    },
+    {
+        "Store":87,
+        "Date":"2027-01-05",
+        "ForecastSales":5143.65
+    },
+    {
+        "Store":88,
+        "Date":"2027-01-05",
+        "ForecastSales":15455.9
+    },
+    {
+        "Store":89,
+        "Date":"2027-01-05",
+        "ForecastSales":22848.75
+    },
+    {
+        "Store":90,
+        "Date":"2027-01-05",
+        "ForecastSales":15942.74
+    },
+    {
+        "Store":91,
+        "Date":"2027-01-05",
+        "ForecastSales":30319.87
+    },
+    {
+        "Store":92,
+        "Date":"2027-01-05",
+        "ForecastSales":23135.5
+    },
+    {
+        "Store":93,
+        "Date":"2027-01-05",
+        "ForecastSales":13373.29
+    },
+    {
+        "Store":94,
+        "Date":"2027-01-05",
+        "ForecastSales":12682.51
+    },
+    {
+        "Store":95,
+        "Date":"2027-01-05",
+        "ForecastSales":96583.75
+    },
+    {
+        "Store":96,
+        "Date":"2027-01-05",
+        "ForecastSales":9340.61
+    },
+    {
+        "Store":97,
+        "Date":"2027-01-05",
+        "ForecastSales":16335.46
+    },
+    {
+        "Store":98,
+        "Date":"2027-01-05",
+        "ForecastSales":23401.35
+    },
+    {
+        "Store":99,
+        "Date":"2027-01-05",
+        "ForecastSales":23122.77
+    },
+    {
+        "Store":100,
+        "Date":"2027-01-05",
+        "ForecastSales":35411.16
     },
     {
         "Store":1,
         "Date":"2027-01-06",
-        "ForecastSales":3363.97
+        "ForecastSales":21819.67
     },
     {
         "Store":2,
         "Date":"2027-01-06",
-        "ForecastSales":1541.12
+        "ForecastSales":5770.58
     },
     {
         "Store":3,
         "Date":"2027-01-06",
-        "ForecastSales":4105.71
+        "ForecastSales":1923.89
     },
     {
         "Store":4,
         "Date":"2027-01-06",
-        "ForecastSales":685.78
+        "ForecastSales":9189.7
     },
     {
         "Store":5,
         "Date":"2027-01-06",
-        "ForecastSales":1973.24
+        "ForecastSales":16011.77
     },
     {
         "Store":6,
         "Date":"2027-01-06",
-        "ForecastSales":1647.32
+        "ForecastSales":2797.65
     },
     {
         "Store":7,
         "Date":"2027-01-06",
-        "ForecastSales":1891.06
+        "ForecastSales":10095.38
     },
     {
         "Store":8,
         "Date":"2027-01-06",
-        "ForecastSales":1246.05
+        "ForecastSales":6482.3
     },
     {
         "Store":9,
         "Date":"2027-01-06",
-        "ForecastSales":2299.54
+        "ForecastSales":10258.13
     },
     {
         "Store":10,
         "Date":"2027-01-06",
-        "ForecastSales":2033.43
+        "ForecastSales":5429.04
     },
     {
         "Store":11,
         "Date":"2027-01-06",
-        "ForecastSales":3358.39
+        "ForecastSales":2087.03
     },
     {
         "Store":12,
         "Date":"2027-01-06",
-        "ForecastSales":2180.0
+        "ForecastSales":14951.74
     },
     {
         "Store":13,
         "Date":"2027-01-06",
-        "ForecastSales":2092.99
+        "ForecastSales":10653.89
     },
     {
         "Store":14,
         "Date":"2027-01-06",
-        "ForecastSales":2331.02
+        "ForecastSales":22523.24
     },
     {
         "Store":15,
         "Date":"2027-01-06",
-        "ForecastSales":4077.89
+        "ForecastSales":4918.94
     },
     {
         "Store":16,
         "Date":"2027-01-06",
-        "ForecastSales":2647.95
+        "ForecastSales":3890.7
     },
     {
         "Store":17,
         "Date":"2027-01-06",
-        "ForecastSales":2180.3
+        "ForecastSales":25231.88
     },
     {
         "Store":18,
         "Date":"2027-01-06",
-        "ForecastSales":2188.51
+        "ForecastSales":5758.81
     },
     {
         "Store":19,
         "Date":"2027-01-06",
-        "ForecastSales":2123.44
+        "ForecastSales":29369.82
     },
     {
         "Store":20,
         "Date":"2027-01-06",
-        "ForecastSales":1708.42
+        "ForecastSales":20229.94
     },
     {
         "Store":21,
         "Date":"2027-01-06",
-        "ForecastSales":1191.6
+        "ForecastSales":9745.38
     },
     {
         "Store":22,
         "Date":"2027-01-06",
-        "ForecastSales":4936.63
+        "ForecastSales":8510.86
     },
     {
         "Store":23,
         "Date":"2027-01-06",
-        "ForecastSales":2880.18
+        "ForecastSales":6074.87
     },
     {
         "Store":24,
         "Date":"2027-01-06",
-        "ForecastSales":2508.51
+        "ForecastSales":30773.66
     },
     {
         "Store":25,
         "Date":"2027-01-06",
-        "ForecastSales":3077.94
+        "ForecastSales":24874.96
     },
     {
         "Store":26,
         "Date":"2027-01-06",
-        "ForecastSales":2448.0
+        "ForecastSales":5317.91
     },
     {
         "Store":27,
         "Date":"2027-01-06",
-        "ForecastSales":3159.64
+        "ForecastSales":9832.94
     },
     {
         "Store":28,
         "Date":"2027-01-06",
-        "ForecastSales":2975.91
+        "ForecastSales":19154.79
     },
     {
         "Store":29,
         "Date":"2027-01-06",
-        "ForecastSales":556.09
+        "ForecastSales":14355.37
     },
     {
         "Store":30,
         "Date":"2027-01-06",
-        "ForecastSales":803.62
+        "ForecastSales":2127.87
     },
     {
         "Store":31,
         "Date":"2027-01-06",
-        "ForecastSales":1319.63
+        "ForecastSales":15509.64
     },
     {
         "Store":32,
         "Date":"2027-01-06",
-        "ForecastSales":2861.03
+        "ForecastSales":17667.54
     },
     {
         "Store":33,
         "Date":"2027-01-06",
-        "ForecastSales":4239.72
+        "ForecastSales":30107.85
     },
     {
         "Store":34,
         "Date":"2027-01-06",
-        "ForecastSales":2056.96
+        "ForecastSales":22532.57
     },
     {
         "Store":35,
         "Date":"2027-01-06",
-        "ForecastSales":4126.06
+        "ForecastSales":8121.35
     },
     {
         "Store":36,
         "Date":"2027-01-06",
-        "ForecastSales":4233.38
+        "ForecastSales":11104.67
     },
     {
         "Store":37,
         "Date":"2027-01-06",
-        "ForecastSales":3352.84
+        "ForecastSales":15807.24
     },
     {
         "Store":38,
         "Date":"2027-01-06",
-        "ForecastSales":1935.66
+        "ForecastSales":16873.04
     },
     {
         "Store":39,
         "Date":"2027-01-06",
-        "ForecastSales":2706.54
+        "ForecastSales":11953.54
     },
     {
         "Store":40,
         "Date":"2027-01-06",
-        "ForecastSales":2719.45
+        "ForecastSales":6204.9
     },
     {
         "Store":41,
         "Date":"2027-01-06",
-        "ForecastSales":2928.0
+        "ForecastSales":32636.9
     },
     {
         "Store":42,
         "Date":"2027-01-06",
-        "ForecastSales":2813.42
+        "ForecastSales":6168.88
     },
     {
         "Store":43,
         "Date":"2027-01-06",
-        "ForecastSales":4635.68
+        "ForecastSales":4169.67
     },
     {
         "Store":44,
         "Date":"2027-01-06",
-        "ForecastSales":4809.78
+        "ForecastSales":9756.81
     },
     {
         "Store":45,
         "Date":"2027-01-06",
-        "ForecastSales":6263.07
+        "ForecastSales":6174.52
     },
     {
         "Store":46,
         "Date":"2027-01-06",
-        "ForecastSales":4207.49
+        "ForecastSales":23360.1
     },
     {
         "Store":47,
         "Date":"2027-01-06",
-        "ForecastSales":5068.47
+        "ForecastSales":11877.4
     },
     {
         "Store":48,
         "Date":"2027-01-06",
-        "ForecastSales":5245.82
+        "ForecastSales":14169.44
     },
     {
         "Store":49,
         "Date":"2027-01-06",
-        "ForecastSales":3067.14
+        "ForecastSales":5369.81
     },
     {
         "Store":50,
         "Date":"2027-01-06",
-        "ForecastSales":5048.93
+        "ForecastSales":10915.1
+    },
+    {
+        "Store":51,
+        "Date":"2027-01-06",
+        "ForecastSales":26570.5
+    },
+    {
+        "Store":52,
+        "Date":"2027-01-06",
+        "ForecastSales":49266.1
+    },
+    {
+        "Store":53,
+        "Date":"2027-01-06",
+        "ForecastSales":12461.95
+    },
+    {
+        "Store":54,
+        "Date":"2027-01-06",
+        "ForecastSales":12043.92
+    },
+    {
+        "Store":55,
+        "Date":"2027-01-06",
+        "ForecastSales":6516.15
+    },
+    {
+        "Store":56,
+        "Date":"2027-01-06",
+        "ForecastSales":4733.31
+    },
+    {
+        "Store":57,
+        "Date":"2027-01-06",
+        "ForecastSales":4538.55
+    },
+    {
+        "Store":58,
+        "Date":"2027-01-06",
+        "ForecastSales":14446.06
+    },
+    {
+        "Store":59,
+        "Date":"2027-01-06",
+        "ForecastSales":3902.49
+    },
+    {
+        "Store":60,
+        "Date":"2027-01-06",
+        "ForecastSales":22844.68
+    },
+    {
+        "Store":61,
+        "Date":"2027-01-06",
+        "ForecastSales":1136.9
+    },
+    {
+        "Store":62,
+        "Date":"2027-01-06",
+        "ForecastSales":7808.77
+    },
+    {
+        "Store":63,
+        "Date":"2027-01-06",
+        "ForecastSales":8179.02
+    },
+    {
+        "Store":64,
+        "Date":"2027-01-06",
+        "ForecastSales":13396.03
+    },
+    {
+        "Store":65,
+        "Date":"2027-01-06",
+        "ForecastSales":17357.22
+    },
+    {
+        "Store":66,
+        "Date":"2027-01-06",
+        "ForecastSales":17315.51
+    },
+    {
+        "Store":67,
+        "Date":"2027-01-06",
+        "ForecastSales":5450.42
+    },
+    {
+        "Store":68,
+        "Date":"2027-01-06",
+        "ForecastSales":10207.0
+    },
+    {
+        "Store":69,
+        "Date":"2027-01-06",
+        "ForecastSales":3809.82
+    },
+    {
+        "Store":70,
+        "Date":"2027-01-06",
+        "ForecastSales":22242.64
+    },
+    {
+        "Store":71,
+        "Date":"2027-01-06",
+        "ForecastSales":8357.74
+    },
+    {
+        "Store":72,
+        "Date":"2027-01-06",
+        "ForecastSales":5439.32
+    },
+    {
+        "Store":73,
+        "Date":"2027-01-06",
+        "ForecastSales":17114.47
+    },
+    {
+        "Store":74,
+        "Date":"2027-01-06",
+        "ForecastSales":24176.5
+    },
+    {
+        "Store":75,
+        "Date":"2027-01-06",
+        "ForecastSales":19177.01
+    },
+    {
+        "Store":76,
+        "Date":"2027-01-06",
+        "ForecastSales":11780.97
+    },
+    {
+        "Store":77,
+        "Date":"2027-01-06",
+        "ForecastSales":17934.68
+    },
+    {
+        "Store":78,
+        "Date":"2027-01-06",
+        "ForecastSales":9039.85
+    },
+    {
+        "Store":79,
+        "Date":"2027-01-06",
+        "ForecastSales":9429.83
+    },
+    {
+        "Store":80,
+        "Date":"2027-01-06",
+        "ForecastSales":16859.78
+    },
+    {
+        "Store":81,
+        "Date":"2027-01-06",
+        "ForecastSales":17238.07
+    },
+    {
+        "Store":82,
+        "Date":"2027-01-06",
+        "ForecastSales":5293.41
+    },
+    {
+        "Store":83,
+        "Date":"2027-01-06",
+        "ForecastSales":13946.3
+    },
+    {
+        "Store":84,
+        "Date":"2027-01-06",
+        "ForecastSales":10625.53
+    },
+    {
+        "Store":85,
+        "Date":"2027-01-06",
+        "ForecastSales":3116.64
+    },
+    {
+        "Store":86,
+        "Date":"2027-01-06",
+        "ForecastSales":17357.06
+    },
+    {
+        "Store":87,
+        "Date":"2027-01-06",
+        "ForecastSales":3233.13
+    },
+    {
+        "Store":88,
+        "Date":"2027-01-06",
+        "ForecastSales":7619.17
+    },
+    {
+        "Store":89,
+        "Date":"2027-01-06",
+        "ForecastSales":9945.51
+    },
+    {
+        "Store":90,
+        "Date":"2027-01-06",
+        "ForecastSales":14056.79
+    },
+    {
+        "Store":91,
+        "Date":"2027-01-06",
+        "ForecastSales":15541.45
+    },
+    {
+        "Store":92,
+        "Date":"2027-01-06",
+        "ForecastSales":14251.13
+    },
+    {
+        "Store":93,
+        "Date":"2027-01-06",
+        "ForecastSales":5937.96
+    },
+    {
+        "Store":94,
+        "Date":"2027-01-06",
+        "ForecastSales":7823.61
+    },
+    {
+        "Store":95,
+        "Date":"2027-01-06",
+        "ForecastSales":25509.66
+    },
+    {
+        "Store":96,
+        "Date":"2027-01-06",
+        "ForecastSales":5748.14
+    },
+    {
+        "Store":97,
+        "Date":"2027-01-06",
+        "ForecastSales":9215.99
+    },
+    {
+        "Store":98,
+        "Date":"2027-01-06",
+        "ForecastSales":8134.9
+    },
+    {
+        "Store":99,
+        "Date":"2027-01-06",
+        "ForecastSales":11250.16
+    },
+    {
+        "Store":100,
+        "Date":"2027-01-06",
+        "ForecastSales":17195.21
     },
     {
         "Store":1,
         "Date":"2027-01-07",
-        "ForecastSales":4434.44
+        "ForecastSales":14016.4
     },
     {
         "Store":2,
         "Date":"2027-01-07",
-        "ForecastSales":1359.78
+        "ForecastSales":7510.42
     },
     {
         "Store":3,
         "Date":"2027-01-07",
-        "ForecastSales":3920.65
+        "ForecastSales":1181.33
     },
     {
         "Store":4,
         "Date":"2027-01-07",
-        "ForecastSales":918.46
+        "ForecastSales":8337.06
     },
     {
         "Store":5,
         "Date":"2027-01-07",
-        "ForecastSales":2363.02
+        "ForecastSales":9371.36
     },
     {
         "Store":6,
         "Date":"2027-01-07",
-        "ForecastSales":1590.9
+        "ForecastSales":2706.99
     },
     {
         "Store":7,
         "Date":"2027-01-07",
-        "ForecastSales":2396.18
+        "ForecastSales":8717.41
     },
     {
         "Store":8,
         "Date":"2027-01-07",
-        "ForecastSales":1312.48
+        "ForecastSales":7093.75
     },
     {
         "Store":9,
         "Date":"2027-01-07",
-        "ForecastSales":3089.52
+        "ForecastSales":5680.5
     },
     {
         "Store":10,
         "Date":"2027-01-07",
-        "ForecastSales":2709.09
+        "ForecastSales":6043.06
     },
     {
         "Store":11,
         "Date":"2027-01-07",
-        "ForecastSales":4172.49
+        "ForecastSales":2270.13
     },
     {
         "Store":12,
         "Date":"2027-01-07",
-        "ForecastSales":2402.49
+        "ForecastSales":7916.7
     },
     {
         "Store":13,
         "Date":"2027-01-07",
-        "ForecastSales":2223.44
+        "ForecastSales":9749.69
     },
     {
         "Store":14,
         "Date":"2027-01-07",
-        "ForecastSales":2678.84
+        "ForecastSales":12531.16
     },
     {
         "Store":15,
         "Date":"2027-01-07",
-        "ForecastSales":4493.54
+        "ForecastSales":5650.42
     },
     {
         "Store":16,
         "Date":"2027-01-07",
-        "ForecastSales":3997.06
+        "ForecastSales":4120.44
     },
     {
         "Store":17,
         "Date":"2027-01-07",
-        "ForecastSales":3181.14
+        "ForecastSales":13142.6
     },
     {
         "Store":18,
         "Date":"2027-01-07",
-        "ForecastSales":2808.19
+        "ForecastSales":5918.34
     },
     {
         "Store":19,
         "Date":"2027-01-07",
-        "ForecastSales":2764.46
+        "ForecastSales":14203.48
     },
     {
         "Store":20,
         "Date":"2027-01-07",
-        "ForecastSales":1911.21
+        "ForecastSales":12625.08
     },
     {
         "Store":21,
         "Date":"2027-01-07",
-        "ForecastSales":1426.08
+        "ForecastSales":6885.83
     },
     {
         "Store":22,
         "Date":"2027-01-07",
-        "ForecastSales":5602.5
+        "ForecastSales":6791.12
     },
     {
         "Store":23,
         "Date":"2027-01-07",
-        "ForecastSales":3463.1
+        "ForecastSales":4553.95
     },
     {
         "Store":24,
         "Date":"2027-01-07",
-        "ForecastSales":3060.51
+        "ForecastSales":15683.72
     },
     {
         "Store":25,
         "Date":"2027-01-07",
-        "ForecastSales":3759.0
+        "ForecastSales":19382.22
     },
     {
         "Store":26,
         "Date":"2027-01-07",
-        "ForecastSales":3093.02
+        "ForecastSales":5625.84
     },
     {
         "Store":27,
         "Date":"2027-01-07",
-        "ForecastSales":3418.78
+        "ForecastSales":8040.75
     },
     {
         "Store":28,
         "Date":"2027-01-07",
-        "ForecastSales":4023.7
+        "ForecastSales":22971.94
     },
     {
         "Store":29,
         "Date":"2027-01-07",
-        "ForecastSales":833.35
+        "ForecastSales":11902.15
     },
     {
         "Store":30,
         "Date":"2027-01-07",
-        "ForecastSales":1131.87
+        "ForecastSales":2200.33
     },
     {
         "Store":31,
         "Date":"2027-01-07",
-        "ForecastSales":1337.33
+        "ForecastSales":8170.93
     },
     {
         "Store":32,
         "Date":"2027-01-07",
-        "ForecastSales":3772.02
+        "ForecastSales":22340.75
     },
     {
         "Store":33,
         "Date":"2027-01-07",
-        "ForecastSales":6710.33
+        "ForecastSales":21175.95
     },
     {
         "Store":34,
         "Date":"2027-01-07",
-        "ForecastSales":2539.26
+        "ForecastSales":14072.09
     },
     {
         "Store":35,
         "Date":"2027-01-07",
-        "ForecastSales":4078.05
+        "ForecastSales":7585.36
     },
     {
         "Store":36,
         "Date":"2027-01-07",
-        "ForecastSales":4747.96
+        "ForecastSales":6605.55
     },
     {
         "Store":37,
         "Date":"2027-01-07",
-        "ForecastSales":5032.26
+        "ForecastSales":19741.87
     },
     {
         "Store":38,
         "Date":"2027-01-07",
-        "ForecastSales":2443.16
+        "ForecastSales":7211.38
     },
     {
         "Store":39,
         "Date":"2027-01-07",
-        "ForecastSales":3703.08
+        "ForecastSales":7971.76
     },
     {
         "Store":40,
         "Date":"2027-01-07",
-        "ForecastSales":3681.02
+        "ForecastSales":6935.43
     },
     {
         "Store":41,
         "Date":"2027-01-07",
-        "ForecastSales":4113.38
+        "ForecastSales":15942.85
     },
     {
         "Store":42,
         "Date":"2027-01-07",
-        "ForecastSales":3725.06
+        "ForecastSales":7060.75
     },
     {
         "Store":43,
         "Date":"2027-01-07",
-        "ForecastSales":4976.91
+        "ForecastSales":3920.77
     },
     {
         "Store":44,
         "Date":"2027-01-07",
-        "ForecastSales":5937.5
+        "ForecastSales":5817.7
     },
     {
         "Store":45,
         "Date":"2027-01-07",
-        "ForecastSales":6658.88
+        "ForecastSales":6151.38
     },
     {
         "Store":46,
         "Date":"2027-01-07",
-        "ForecastSales":5620.25
+        "ForecastSales":11855.68
     },
     {
         "Store":47,
         "Date":"2027-01-07",
-        "ForecastSales":4188.65
+        "ForecastSales":13364.91
     },
     {
         "Store":48,
         "Date":"2027-01-07",
-        "ForecastSales":6270.85
+        "ForecastSales":13228.97
     },
     {
         "Store":49,
         "Date":"2027-01-07",
-        "ForecastSales":3855.77
+        "ForecastSales":3250.57
     },
     {
         "Store":50,
         "Date":"2027-01-07",
-        "ForecastSales":6530.45
+        "ForecastSales":6164.11
+    },
+    {
+        "Store":51,
+        "Date":"2027-01-07",
+        "ForecastSales":20488.55
+    },
+    {
+        "Store":52,
+        "Date":"2027-01-07",
+        "ForecastSales":20113.24
+    },
+    {
+        "Store":53,
+        "Date":"2027-01-07",
+        "ForecastSales":15682.82
+    },
+    {
+        "Store":54,
+        "Date":"2027-01-07",
+        "ForecastSales":8930.27
+    },
+    {
+        "Store":55,
+        "Date":"2027-01-07",
+        "ForecastSales":5756.54
+    },
+    {
+        "Store":56,
+        "Date":"2027-01-07",
+        "ForecastSales":3783.67
+    },
+    {
+        "Store":57,
+        "Date":"2027-01-07",
+        "ForecastSales":5425.36
+    },
+    {
+        "Store":58,
+        "Date":"2027-01-07",
+        "ForecastSales":17344.27
+    },
+    {
+        "Store":59,
+        "Date":"2027-01-07",
+        "ForecastSales":4266.27
+    },
+    {
+        "Store":60,
+        "Date":"2027-01-07",
+        "ForecastSales":12625.37
+    },
+    {
+        "Store":61,
+        "Date":"2027-01-07",
+        "ForecastSales":1546.34
+    },
+    {
+        "Store":62,
+        "Date":"2027-01-07",
+        "ForecastSales":4575.99
+    },
+    {
+        "Store":63,
+        "Date":"2027-01-07",
+        "ForecastSales":5910.79
+    },
+    {
+        "Store":64,
+        "Date":"2027-01-07",
+        "ForecastSales":8092.02
+    },
+    {
+        "Store":65,
+        "Date":"2027-01-07",
+        "ForecastSales":21188.25
+    },
+    {
+        "Store":66,
+        "Date":"2027-01-07",
+        "ForecastSales":8553.15
+    },
+    {
+        "Store":67,
+        "Date":"2027-01-07",
+        "ForecastSales":4202.98
+    },
+    {
+        "Store":68,
+        "Date":"2027-01-07",
+        "ForecastSales":9811.91
+    },
+    {
+        "Store":69,
+        "Date":"2027-01-07",
+        "ForecastSales":2370.76
+    },
+    {
+        "Store":70,
+        "Date":"2027-01-07",
+        "ForecastSales":18826.86
+    },
+    {
+        "Store":71,
+        "Date":"2027-01-07",
+        "ForecastSales":6748.49
+    },
+    {
+        "Store":72,
+        "Date":"2027-01-07",
+        "ForecastSales":3533.04
+    },
+    {
+        "Store":73,
+        "Date":"2027-01-07",
+        "ForecastSales":17545.57
+    },
+    {
+        "Store":74,
+        "Date":"2027-01-07",
+        "ForecastSales":12984.22
+    },
+    {
+        "Store":75,
+        "Date":"2027-01-07",
+        "ForecastSales":12125.9
+    },
+    {
+        "Store":76,
+        "Date":"2027-01-07",
+        "ForecastSales":6446.24
+    },
+    {
+        "Store":77,
+        "Date":"2027-01-07",
+        "ForecastSales":9018.98
+    },
+    {
+        "Store":78,
+        "Date":"2027-01-07",
+        "ForecastSales":5661.38
+    },
+    {
+        "Store":79,
+        "Date":"2027-01-07",
+        "ForecastSales":10195.05
+    },
+    {
+        "Store":80,
+        "Date":"2027-01-07",
+        "ForecastSales":14263.63
+    },
+    {
+        "Store":81,
+        "Date":"2027-01-07",
+        "ForecastSales":12548.12
+    },
+    {
+        "Store":82,
+        "Date":"2027-01-07",
+        "ForecastSales":4215.95
+    },
+    {
+        "Store":83,
+        "Date":"2027-01-07",
+        "ForecastSales":17335.22
+    },
+    {
+        "Store":84,
+        "Date":"2027-01-07",
+        "ForecastSales":7683.18
+    },
+    {
+        "Store":85,
+        "Date":"2027-01-07",
+        "ForecastSales":2224.15
+    },
+    {
+        "Store":86,
+        "Date":"2027-01-07",
+        "ForecastSales":16686.04
+    },
+    {
+        "Store":87,
+        "Date":"2027-01-07",
+        "ForecastSales":3036.63
+    },
+    {
+        "Store":88,
+        "Date":"2027-01-07",
+        "ForecastSales":8753.52
+    },
+    {
+        "Store":89,
+        "Date":"2027-01-07",
+        "ForecastSales":6174.69
+    },
+    {
+        "Store":90,
+        "Date":"2027-01-07",
+        "ForecastSales":10761.93
+    },
+    {
+        "Store":91,
+        "Date":"2027-01-07",
+        "ForecastSales":11054.6
+    },
+    {
+        "Store":92,
+        "Date":"2027-01-07",
+        "ForecastSales":14045.55
+    },
+    {
+        "Store":93,
+        "Date":"2027-01-07",
+        "ForecastSales":4838.71
+    },
+    {
+        "Store":94,
+        "Date":"2027-01-07",
+        "ForecastSales":7683.21
+    },
+    {
+        "Store":95,
+        "Date":"2027-01-07",
+        "ForecastSales":16061.22
+    },
+    {
+        "Store":96,
+        "Date":"2027-01-07",
+        "ForecastSales":5406.0
+    },
+    {
+        "Store":97,
+        "Date":"2027-01-07",
+        "ForecastSales":7709.27
+    },
+    {
+        "Store":98,
+        "Date":"2027-01-07",
+        "ForecastSales":5181.24
+    },
+    {
+        "Store":99,
+        "Date":"2027-01-07",
+        "ForecastSales":8029.79
+    },
+    {
+        "Store":100,
+        "Date":"2027-01-07",
+        "ForecastSales":21083.94
     }
 ]

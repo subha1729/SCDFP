@@ -2,7 +2,9 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { spawn } from "child_process";
-
+import {
+  generatePurchaseOrders
+} from "./poService.js";
 
 /* ============================================================
    PATH SETUP
@@ -174,7 +176,8 @@ ensureDirectory(MODEL_OUTPUT_DIR);
 
 export function saveUploadedFiles(
   salesFile,
-  holidayFile
+  holidayFile,
+  inventoryFile
 ) {
 
   if (!salesFile) {
@@ -188,6 +191,14 @@ export function saveUploadedFiles(
       "Holiday file is missing."
     );
   }
+
+  if (!inventoryFile) {
+
+  throw new Error(
+    "Current inventory status file is missing."
+  );
+
+}
 
 
   console.log("");
@@ -251,6 +262,17 @@ export function saveUploadedFiles(
       "holiday_dummy_new.csv"
     );
 
+  const inventoryPath =
+    path.join(
+      UPLOAD_DIR,
+      "current_inventory_status.csv"
+    );
+
+  fs.writeFileSync(
+    inventoryPath,
+    inventoryFile.buffer
+    );
+
 
   /* ----------------------------------------------------------
      WRITE SALES FILE
@@ -290,6 +312,14 @@ export function saveUploadedFiles(
     );
   }
 
+  if (!fs.existsSync(inventoryPath)) {
+
+    throw new Error(
+      "Inventory file was not saved."
+    );
+
+  }
+
 
   console.log("");
   console.log("======================================");
@@ -307,6 +337,11 @@ export function saveUploadedFiles(
   );
 
   console.log(
+    "Inventory:",
+    inventoryPath
+  );
+
+  console.log(
     "======================================");
 
 
@@ -314,8 +349,9 @@ export function saveUploadedFiles(
 
     sales: salesPath,
 
-    holidays: holidayPath
-
+    holidays: holidayPath,
+    
+    inventory: inventoryPath
   };
 }
 
@@ -841,7 +877,19 @@ export async function runForecastPipeline() {
     results.hierarchical =
       await runHierarchical();
 
+    
 
+    /* ========================================================
+        5. PURCHASE ORDER GENERATION
+      ======================================================== */
+
+      console.log("");
+      console.log(
+        "========== 5/5 PURCHASE ORDERS =========="
+      );
+
+      results.purchaseOrders =
+        generatePurchaseOrders();
     /* ========================================================
        OUTPUT SUMMARY
     ======================================================== */
